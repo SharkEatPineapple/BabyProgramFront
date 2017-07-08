@@ -1,0 +1,1425 @@
+=================================================================================================================================================================
+=================================================================      server four      =========================================================================
+=================================================================================================================================================================
+
+1/oracle/domains/oraclecommerce/servers/PageServerFour/tmp/_WL_user/storefront/4iorxr/atglib/_ACS.ENIntegrationService_slib_sclasses.jar!/com/entel/integration/processor/templates/RequestHeader-local-to-remote.ftl"
+**** debug      Tue Jun 27 12:18:37 UTC 2017    1498565917941   /entel/integration/logging/Logger       [GetContract]:The request sent to the real service: ^M
+**** debug      Tue Jun 27 12:18:37 UTC 2017    1498565917941   /entel/integration/logging/Logger       {^M
+**** debug      Tue Jun 27 12:18:37 UTC 2017    1498565917941   /entel/integration/logging/Logger          "RequestHeader":{^M
+/\[GetContract\]
+  782 2017-06-27 12:18:37,938 [[ACTIVE] ExecuteThread: '2' for queue: 'weblogic.kernel.Default (self-tuning)'] DEBUG freemarker.cache - TemplateLoader.findTemplateSource("RequestHeader-local-to-remote.ftl"): Found
+  783 2017-06-27 12:18:37,938 [[ACTIVE] ExecuteThread: '2' for queue: 'weblogic.kernel.Default (self-tuning)'] DEBUG freemarker.cache - Loading template for "RequestHeader-local-to-remote.ftl"("en_US", UTF-8, parsed) from "z      ip:/u01/oracle/domains/oraclecommerce/servers/PageServerFour/tmp/_WL_user/storefront/4iorxr/atglib/_ACS.ENIntegrationService_slib_sclasses.jar!/com/entel/integration/processor/templates/RequestHeader-local-to-remote.ft      l"
+  784 **** debug      Tue Jun 27 12:18:37 UTC 2017    1498565917941   /entel/integration/logging/Logger       [GetContract]:The request sent to the real service: ^M
+  785 **** debug      Tue Jun 27 12:18:37 UTC 2017    1498565917941   /entel/integration/logging/Logger       {^M
+  786 **** debug      Tue Jun 27 12:18:37 UTC 2017    1498565917941   /entel/integration/logging/Logger          "RequestHeader":{^M
+  787 **** debug      Tue Jun 27 12:18:37 UTC 2017    1498565917941   /entel/integration/logging/Logger           "Consumer":{^M
+  788 **** debug      Tue Jun 27 12:18:37 UTC 2017    1498565917941   /entel/integration/logging/Logger             "countryCode":"CHL",^M
+  789 **** debug      Tue Jun 27 12:18:37 UTC 2017    1498565917941   /entel/integration/logging/Logger             "enterpriseCode":"ENTEL-CHL",^M
+  790 **** debug      Tue Jun 27 12:18:37 UTC 2017    1498565917941   /entel/integration/logging/Logger             "sysCode":"CHL-ATG"^M
+  791 **** debug      Tue Jun 27 12:18:37 UTC 2017    1498565917941   /entel/integration/logging/Logger           },^M
+  792 **** debug      Tue Jun 27 12:18:37 UTC 2017    1498565917941   /entel/integration/logging/Logger           "Trace":{^M
+  793 **** debug      Tue Jun 27 12:18:37 UTC 2017    1498565917941   /entel/integration/logging/Logger             "clientReqTimestamp":"2017-06-27T12:18:37.925Z",^M
+  794 **** debug      Tue Jun 27 12:18:37 UTC 2017    1498565917941   /entel/integration/logging/Logger             "eventID":"0008string20170627121837941a70a72bde797363b000",^M
+  795 **** debug      Tue Jun 27 12:18:37 UTC 2017    1498565917941   /entel/integration/logging/Logger             "processID":"949e3a0c-49e2-407c-be20-b84f0d9a698c",^M
+  796 **** debug      Tue Jun 27 12:18:37 UTC 2017    1498565917941   /entel/integration/logging/Logger             "sourceID":"UNK",^M
+  797 **** debug      Tue Jun 27 12:18:37 UTC 2017    1498565917941   /entel/integration/logging/Logger             "Service":{^M
+  798 **** debug      Tue Jun 27 12:18:37 UTC 2017    1498565917941   /entel/integration/logging/Logger               "code":"CSM_0013",^M
+  799 **** debug      Tue Jun 27 12:18:37 UTC 2017    1498565917941   /entel/integration/logging/Logger               "name":"Contract",^M
+  800 **** debug      Tue Jun 27 12:18:37 UTC 2017    1498565917941   /entel/integration/logging/Logger               "operation":"Get"^M
+  801 **** debug      Tue Jun 27 12:18:37 UTC 2017    1498565917941   /entel/integration/logging/Logger             }^M
+  802 **** debug      Tue Jun 27 12:18:37 UTC 2017    1498565917941   /entel/integration/logging/Logger           },^M
+  803 **** debug      Tue Jun 27 12:18:37 UTC 2017    1498565917941   /entel/integration/logging/Logger           "Channel":{^M
+  804 **** debug      Tue Jun 27 12:18:37 UTC 2017    1498565917941   /entel/integration/logging/Logger             "mode":"NO PRESENCIAL",^M
+  805 **** debug      Tue Jun 27 12:18:37 UTC 2017    1498565917941   /entel/integration/logging/Logger             "name":"WEB"^M
+  806 **** debug      Tue Jun 27 12:18:37 UTC 2017    1498565917941   /entel/integration/logging/Logger           }^M
+  807 **** debug      Tue Jun 27 12:18:37 UTC 2017    1498565917941   /entel/integration/logging/Logger         },^M
+  808 **** debug      Tue Jun 27 12:18:37 UTC 2017    1498565917941   /entel/integration/logging/Logger          "Body":{^M
+  809 **** debug      Tue Jun 27 12:18:37 UTC 2017    1498565917941   /entel/integration/logging/Logger             "MSISDN":{^M
+  810 **** debug      Tue Jun 27 12:18:37 UTC 2017    1498565917941   /entel/integration/logging/Logger                "SN":"",^M
+  811 **** debug      Tue Jun 27 12:18:37 UTC 2017    1498565917941   /entel/integration/logging/Logger                "SIMCard":{^M
+  812 **** debug      Tue Jun 27 12:18:37 UTC 2017    1498565917941   /entel/integration/logging/Logger                   "ICCID":"89560100000806131468"^M
+  813 **** debug      Tue Jun 27 12:18:37 UTC 2017    1498565917941   /entel/integration/logging/Logger                },^M
+  814 **** debug      Tue Jun 27 12:18:37 UTC 2017    1498565917941   /entel/integration/logging/Logger                "Session":{^M
+  815 **** debug      Tue Jun 27 12:18:37 UTC 2017    1498565917941   /entel/integration/logging/Logger                   "key":"BU_ID",^M
+  816 **** debug      Tue Jun 27 12:18:37 UTC 2017    1498565917941   /entel/integration/logging/Logger                   "value":2^M
+  817 **** debug      Tue Jun 27 12:18:37 UTC 2017    1498565917941   /entel/integration/logging/Logger                }^M
+  818 **** debug      Tue Jun 27 12:18:37 UTC 2017    1498565917941   /entel/integration/logging/Logger             }^M
+  819 **** debug      Tue Jun 27 12:18:37 UTC 2017    1498565917941   /entel/integration/logging/Logger          }^M
+  820 **** debug      Tue Jun 27 12:18:37 UTC 2017    1498565917941   /entel/integration/logging/Logger       }
+  821 **** debug      Tue Jun 27 12:18:37 UTC 2017    1498565917948   /entel/integration/logging/Logger       [GetContract]:Invoke rest call:[url=http://10.51.12.28:7010/ES/SIF/Contract/v1/Get,method=POST
+  822 **** debug      Tue Jun 27 12:18:42 UTC 2017    1498565922205   /entel/integration/logging/Logger       [GetContract]:The response from the real service: {
+  823 **** debug      Tue Jun 27 12:18:42 UTC 2017    1498565922205   /entel/integration/logging/Logger         "ResponseHeader" : {
+  824 **** debug      Tue Jun 27 12:18:42 UTC 2017    1498565922205   /entel/integration/logging/Logger           "Consumer" : {
+  825 **** debug      Tue Jun 27 12:18:42 UTC 2017    1498565922205   /entel/integration/logging/Logger             "sysCode" : "CHL-ATG",
+  826 **** debug      Tue Jun 27 12:18:42 UTC 2017    1498565922205   /entel/integration/logging/Logger             "enterpriseCode" : "ENTEL-CHL",
+  827 **** debug      Tue Jun 27 12:18:42 UTC 2017    1498565922205   /entel/integration/logging/Logger             "countryCode" : "CHL"
+  828 **** debug      Tue Jun 27 12:18:42 UTC 2017    1498565922205   /entel/integration/logging/Logger           },
+  829 **** debug      Tue Jun 27 12:18:42 UTC 2017    1498565922205   /entel/integration/logging/Logger           "Trace" : {
+  830 **** debug      Tue Jun 27 12:18:42 UTC 2017    1498565922205   /entel/integration/logging/Logger             "clientReqTimestamp" : "2017-06-27T12:18:37.925Z",
+  831 **** debug      Tue Jun 27 12:18:42 UTC 2017    1498565922205   /entel/integration/logging/Logger             "reqTimestamp" : "2017-06-27T12:18:39.673-04:00",
+  832 **** debug      Tue Jun 27 12:18:42 UTC 2017    1498565922205   /entel/integration/logging/Logger             "rspTimestamp" : "2017-06-27T12:18:41.222-04:00",
+  833 **** debug      Tue Jun 27 12:18:42 UTC 2017    1498565922205   /entel/integration/logging/Logger             "processID" : "949e3a0c-49e2-407c-be20-b84f0d9a698c",
+  834 **** debug      Tue Jun 27 12:18:42 UTC 2017    1498565922205   /entel/integration/logging/Logger             "eventID" : "0008string20170627121837941a70a72bde797363b000",
+  835 **** debug      Tue Jun 27 12:18:42 UTC 2017    1498565922205   /entel/integration/logging/Logger             "sourceID" : "UNK",
+  836 **** debug      Tue Jun 27 12:18:42 UTC 2017    1498565922205   /entel/integration/logging/Logger             "correlationEventID" : null,
+  837 **** debug      Tue Jun 27 12:18:42 UTC 2017    1498565922205   /entel/integration/logging/Logger             "conversationID" : "7e228d28-50c4-4950-adc3-38b80ba55133",
+  838 **** debug      Tue Jun 27 12:18:42 UTC 2017    1498565922205   /entel/integration/logging/Logger             "correlationID" : null,
+  839 **** debug      Tue Jun 27 12:18:42 UTC 2017    1498565922205   /entel/integration/logging/Logger             "Service" : {
+  840 **** debug      Tue Jun 27 12:18:42 UTC 2017    1498565922205   /entel/integration/logging/Logger               "code" : "CM025",
+  841 **** debug      Tue Jun 27 12:18:42 UTC 2017    1498565922205   /entel/integration/logging/Logger               "name" : "Contract",
+  842 **** debug      Tue Jun 27 12:18:42 UTC 2017    1498565922205   /entel/integration/logging/Logger               "operation" : "Get"
+  843 **** debug      Tue Jun 27 12:18:42 UTC 2017    1498565922205   /entel/integration/logging/Logger             }
+  844 **** debug      Tue Jun 27 12:18:42 UTC 2017    1498565922205   /entel/integration/logging/Logger           },
+  845 **** debug      Tue Jun 27 12:18:42 UTC 2017    1498565922205   /entel/integration/logging/Logger           "Channel" : {
+  846 **** debug      Tue Jun 27 12:18:42 UTC 2017    1498565922205   /entel/integration/logging/Logger             "name" : "WEB",
+  847 **** debug      Tue Jun 27 12:18:42 UTC 2017    1498565922205   /entel/integration/logging/Logger             "mode" : "NO PRESENCIAL"
+  848 **** debug      Tue Jun 27 12:18:42 UTC 2017    1498565922205   /entel/integration/logging/Logger           },
+  849 **** debug      Tue Jun 27 12:18:42 UTC 2017    1498565922205   /entel/integration/logging/Logger           "Result" : {
+  850 **** debug      Tue Jun 27 12:18:42 UTC 2017    1498565922205   /entel/integration/logging/Logger             "status" : "WARNING",
+  851 **** debug      Tue Jun 27 12:18:42 UTC 2017    1498565922205   /entel/integration/logging/Logger             "description" : "Transaccion que finaliza con advertencias",
+  852 **** debug      Tue Jun 27 12:18:42 UTC 2017    1498565922205   /entel/integration/logging/Logger             "CanonicalError" : {
+  853 **** debug      Tue Jun 27 12:18:42 UTC 2017    1498565922205   /entel/integration/logging/Logger               "type" : "NEG",
+  854 **** debug      Tue Jun 27 12:18:42 UTC 2017    1498565922205   /entel/integration/logging/Logger               "code" : "10009",
+  855 **** debug      Tue Jun 27 12:18:42 UTC 2017    1498565922205   /entel/integration/logging/Logger               "description" : "Validacion rechazada por tipo de cuenta asociado al movil bloqueada"
+  856 **** debug      Tue Jun 27 12:18:42 UTC 2017    1498565922205   /entel/integration/logging/Logger             },
+  857 **** debug      Tue Jun 27 12:18:42 UTC 2017    1498565922205   /entel/integration/logging/Logger             "SourceError" : {
+  858 **** debug      Tue Jun 27 12:18:42 UTC 2017    1498565922205   /entel/integration/logging/Logger               "code" : "CM025E001",
+  859 **** debug      Tue Jun 27 12:18:42 UTC 2017    1498565922205   /entel/integration/logging/Logger               "description" : "Sin contratos para los parametros ingresados",
+  860 **** debug      Tue Jun 27 12:18:42 UTC 2017    1498565922205   /entel/integration/logging/Logger               "ErrorSourceDetails" : {
+  861 **** debug      Tue Jun 27 12:18:42 UTC 2017    1498565922205   /entel/integration/logging/Logger                 "source" : "FRW",
+  862 **** debug      Tue Jun 27 12:18:42 UTC 2017    1498565922205   /entel/integration/logging/Logger                 "details" : null
+  863 **** debug      Tue Jun 27 12:18:42 UTC 2017    1498565922205   /entel/integration/logging/Logger               },
+  864 **** debug      Tue Jun 27 12:18:42 UTC 2017    1498565922205   /entel/integration/logging/Logger               "SourceFault" : "<ns3:SourceFault xmlns:ns12=\"http://www.entel.cl/SC/ErrorManager/handle/v1\" xmlns:ns2=\      "http://www.entel.cl/ESO/Tracer/v1\" xmlns:ns3=\"http://www.entel.cl/ESO/Error/v1\" xmlns:ns1=\"http://www.entel.cl/SC/CacheManager/put/v1\" xmlns=\"http://schemas.xmlsoap.org/soap/envelope/\"><ns1:Result xmlns:ns2=\"h      ttp://www.entel.cl/CSM/LegacyWrapper/v1\" xmlns:ns1=\"http://www.entel.cl/ESO/Result/v2\" xmlns:ns3=\"http://www.entel.cl/CSM/RA/CHL-BSC-BSC/contractsSearch/v1\" status=\"OK\" description=\"Ejecuci?n Exitosa\"/></ns3:S      ourceFault>"
+  865 **** debug      Tue Jun 27 12:18:42 UTC 2017    1498565922205   /entel/integration/logging/Logger             }
+  866 **** debug      Tue Jun 27 12:18:42 UTC 2017    1498565922205   /entel/integration/logging/Logger           }
+  867 **** debug      Tue Jun 27 12:18:42 UTC 2017    1498565922205   /entel/integration/logging/Logger         },
+  868 **** debug      Tue Jun 27 12:18:42 UTC 2017    1498565922205   /entel/integration/logging/Logger         "Body" : null
+  869 **** debug      Tue Jun 27 12:18:42 UTC 2017    1498565922205   /entel/integration/logging/Logger       }
+  870 **** info       Tue Jun 27 12:18:42 UTC 2017    1498565922214   /entel/integration/simactivation/GetContractResponseFormatter   current dynamic template folder: /project/modules/ENIntegrationService/resources/com/entel      /integration/processor/templates
+  871 2017-06-27 12:18:42,214 [[ACTIVE] ExecuteThread: '2' for queue: 'weblogic.kernel.Default
+
+=================================================================================================================================================================
+=================================================================      server four      =========================================================================
+=================================================================================================================================================================
+
+/oracle/domains/oraclecommerce/servers/PageServerFour/tmp/_WL_user/storefront/4iorxr/atglib/_ACS.ENIntegrationService_slib_sclasses.jar!/com/entel/integration/processor/templates/RequestHeader-local-to-remote.ftl hasn'      t changed.
+  887 **** debug      Tue Jun 27 12:20:13 UTC 2017    1498566013172   /entel/integration/logging/Logger       [GetContract]:The request sent to the real service: ^M
+  888 **** debug      Tue Jun 27 12:20:13 UTC 2017    1498566013172   /entel/integration/logging/Logger       {^M
+  889 **** debug      Tue Jun 27 12:20:13 UTC 2017    1498566013172   /entel/integration/logging/Logger          "RequestHeader":{^M
+  890 **** debug      Tue Jun 27 12:20:13 UTC 2017    1498566013172   /entel/integration/logging/Logger           "Consumer":{^M
+  891 **** debug      Tue Jun 27 12:20:13 UTC 2017    1498566013172   /entel/integration/logging/Logger             "countryCode":"CHL",^M
+  892 **** debug      Tue Jun 27 12:20:13 UTC 2017    1498566013172   /entel/integration/logging/Logger             "enterpriseCode":"ENTEL-CHL",^M
+  893 **** debug      Tue Jun 27 12:20:13 UTC 2017    1498566013172   /entel/integration/logging/Logger             "sysCode":"CHL-ATG"^M
+  894 **** debug      Tue Jun 27 12:20:13 UTC 2017    1498566013172   /entel/integration/logging/Logger           },^M
+  895 **** debug      Tue Jun 27 12:20:13 UTC 2017    1498566013172   /entel/integration/logging/Logger           "Trace":{^M
+  896 **** debug      Tue Jun 27 12:20:13 UTC 2017    1498566013172   /entel/integration/logging/Logger             "clientReqTimestamp":"2017-06-27T12:20:13.156Z",^M
+  897 **** debug      Tue Jun 27 12:20:13 UTC 2017    1498566013172   /entel/integration/logging/Logger             "eventID":"0008string201706271220131719d0c73e75597efcf000",^M
+  898 **** debug      Tue Jun 27 12:20:13 UTC 2017    1498566013172   /entel/integration/logging/Logger             "processID":"d8904df3-2ffd-46e9-8360-492524919266",^M
+  899 **** debug      Tue Jun 27 12:20:13 UTC 2017    1498566013172   /entel/integration/logging/Logger             "sourceID":"UNK",^M
+  900 **** debug      Tue Jun 27 12:20:13 UTC 2017    1498566013172   /entel/integration/logging/Logger             "Service":{^M
+  901 **** debug      Tue Jun 27 12:20:13 UTC 2017    1498566013172   /entel/integration/logging/Logger               "code":"CSM_0013",^M
+  902 **** debug      Tue Jun 27 12:20:13 UTC 2017    1498566013172   /entel/integration/logging/Logger               "name":"Contract",^M
+  903 **** debug      Tue Jun 27 12:20:13 UTC 2017    1498566013172   /entel/integration/logging/Logger               "operation":"Get"^M
+  904 **** debug      Tue Jun 27 12:20:13 UTC 2017    1498566013172   /entel/integration/logging/Logger             }^M
+  905 **** debug      Tue Jun 27 12:20:13 UTC 2017    1498566013172   /entel/integration/logging/Logger           },^M
+  906 **** debug      Tue Jun 27 12:20:13 UTC 2017    1498566013172   /entel/integration/logging/Logger           "Channel":{^M
+  907 **** debug      Tue Jun 27 12:20:13 UTC 2017    1498566013172   /entel/integration/logging/Logger             "mode":"NO PRESENCIAL",^M
+  908 **** debug      Tue Jun 27 12:20:13 UTC 2017    1498566013172   /entel/integration/logging/Logger             "name":"WEB"^M
+  909 **** debug      Tue Jun 27 12:20:13 UTC 2017    1498566013172   /entel/integration/logging/Logger           }^M
+  910 **** debug      Tue Jun 27 12:20:13 UTC 2017    1498566013172   /entel/integration/logging/Logger         },^M
+  911 **** debug      Tue Jun 27 12:20:13 UTC 2017    1498566013172   /entel/integration/logging/Logger          "Body":{^M
+  912 **** debug      Tue Jun 27 12:20:13 UTC 2017    1498566013172   /entel/integration/logging/Logger             "MSISDN":{^M
+  913 **** debug      Tue Jun 27 12:20:13 UTC 2017    1498566013172   /entel/integration/logging/Logger                "SN":"",^M
+  914 **** debug      Tue Jun 27 12:20:13 UTC 2017    1498566013172   /entel/integration/logging/Logger                "SIMCard":{^M
+  915 **** debug      Tue Jun 27 12:20:13 UTC 2017    1498566013172   /entel/integration/logging/Logger                   "ICCID":"89560100000806131468"^M
+  916 **** debug      Tue Jun 27 12:20:13 UTC 2017    1498566013172   /entel/integration/logging/Logger                },^M
+  917 **** debug      Tue Jun 27 12:20:13 UTC 2017    1498566013172   /entel/integration/logging/Logger                "Session":{^M
+  918 **** debug      Tue Jun 27 12:20:13 UTC 2017    1498566013172   /entel/integration/logging/Logger                   "key":"BU_ID",^M
+  919 **** debug      Tue Jun 27 12:20:13 UTC 2017    1498566013172   /entel/integration/logging/Logger                   "value":2^M
+  920 **** debug      Tue Jun 27 12:20:13 UTC 2017    1498566013172   /entel/integration/logging/Logger                }^M
+  921 **** debug      Tue Jun 27 12:20:13 UTC 2017    1498566013172   /entel/integration/logging/Logger             }^M
+  922 **** debug      Tue Jun 27 12:20:13 UTC 2017    1498566013172   /entel/integration/logging/Logger          }^M
+  923 **** debug      Tue Jun 27 12:20:13 UTC 2017    1498566013172   /entel/integration/logging/Logger       }
+  924 **** debug      Tue Jun 27 12:20:13 UTC 2017    1498566013181   /entel/integration/logging/Logger       [GetContract]:Invoke rest call:[url=http://10.51.12.28:7010/ES/SIF/Contract/v1/Get,method=POST
+  925 **** debug      Tue Jun 27 12:20:13 UTC 2017    1498566013686   /entel/integration/logging/Logger       [GetContract]:The response from the real service: {
+  926 **** debug      Tue Jun 27 12:20:13 UTC 2017    1498566013686   /entel/integration/logging/Logger         "ResponseHeader" : {
+  927 **** debug      Tue Jun 27 12:20:13 UTC 2017    1498566013686   /entel/integration/logging/Logger           "Consumer" : {
+  928 **** debug      Tue Jun 27 12:20:13 UTC 2017    1498566013686   /entel/integration/logging/Logger             "sysCode" : "CHL-ATG",
+  929 **** debug      Tue Jun 27 12:20:13 UTC 2017    1498566013686   /entel/integration/logging/Logger             "enterpriseCode" : "ENTEL-CHL",
+  930 **** debug      Tue Jun 27 12:20:13 UTC 2017    1498566013686   /entel/integration/logging/Logger             "countryCode" : "CHL"
+  931 **** debug      Tue Jun 27 12:20:13 UTC 2017    1498566013686   /entel/integration/logging/Logger           },
+  932 **** debug      Tue Jun 27 12:20:13 UTC 2017    1498566013686   /entel/integration/logging/Logger           "Trace" : {
+  933 **** debug      Tue Jun 27 12:20:13 UTC 2017    1498566013686   /entel/integration/logging/Logger             "clientReqTimestamp" : "2017-06-27T12:20:13.156Z",
+  934 **** debug      Tue Jun 27 12:20:13 UTC 2017    1498566013686   /entel/integration/logging/Logger             "reqTimestamp" : "2017-06-27T12:20:12.459-04:00",
+  935 **** debug      Tue Jun 27 12:20:13 UTC 2017    1498566013686   /entel/integration/logging/Logger             "rspTimestamp" : "2017-06-27T12:20:12.739-04:00",
+  936 **** debug      Tue Jun 27 12:20:13 UTC 2017    1498566013686   /entel/integration/logging/Logger             "processID" : "d8904df3-2ffd-46e9-8360-492524919266",
+  937 **** debug      Tue Jun 27 12:20:13 UTC 2017    1498566013686   /entel/integration/logging/Logger             "eventID" : "0008string201706271220131719d0c73e75597efcf000",
+  938 **** debug      Tue Jun 27 12:20:13 UTC 2017    1498566013686   /entel/integration/logging/Logger             "sourceID" : "UNK",
+  939 **** debug      Tue Jun 27 12:20:13 UTC 2017    1498566013686   /entel/integration/logging/Logger             "correlationEventID" : null,
+  940 **** debug      Tue Jun 27 12:20:13 UTC 2017    1498566013686   /entel/integration/logging/Logger             "conversationID" : "7785e19b-d551-4bee-8a1f-55e42c9ad41a",
+  941 **** debug      Tue Jun 27 12:20:13 UTC 2017    1498566013686   /entel/integration/logging/Logger             "correlationID" : null,
+  942 **** debug      Tue Jun 27 12:20:13 UTC 2017    1498566013686   /entel/integration/logging/Logger             "Service" : {
+  943 **** debug      Tue Jun 27 12:20:13 UTC 2017    1498566013686   /entel/integration/logging/Logger               "code" : "CM025",
+  944 **** debug      Tue Jun 27 12:20:13 UTC 2017    1498566013686   /entel/integration/logging/Logger               "name" : "Contract",
+  945 **** debug      Tue Jun 27 12:20:13 UTC 2017    1498566013686   /entel/integration/logging/Logger               "operation" : "Get"
+  946 **** debug      Tue Jun 27 12:20:13 UTC 2017    1498566013686   /entel/integration/logging/Logger             }
+  947 **** debug      Tue Jun 27 12:20:13 UTC 2017    1498566013686   /entel/integration/logging/Logger           },
+  948 **** debug      Tue Jun 27 12:20:13 UTC 2017    1498566013686   /entel/integration/logging/Logger           "Channel" : {
+  949 **** debug      Tue Jun 27 12:20:13 UTC 2017    1498566013686   /entel/integration/logging/Logger             "name" : "WEB",
+  950 **** debug      Tue Jun 27 12:20:13 UTC 2017    1498566013686   /entel/integration/logging/Logger             "mode" : "NO PRESENCIAL"
+  951 **** debug      Tue Jun 27 12:20:13 UTC 2017    1498566013686   /entel/integration/logging/Logger           },
+  952 **** debug      Tue Jun 27 12:20:13 UTC 2017    1498566013686   /entel/integration/logging/Logger           "Result" : {
+  953 **** debug      Tue Jun 27 12:20:13 UTC 2017    1498566013686   /entel/integration/logging/Logger             "status" : "WARNING",
+  954 **** debug      Tue Jun 27 12:20:13 UTC 2017    1498566013686   /entel/integration/logging/Logger             "description" : "Transaccion que finaliza con advertencias",
+  955 **** debug      Tue Jun 27 12:20:13 UTC 2017    1498566013686   /entel/integration/logging/Logger             "CanonicalError" : {
+  956 **** debug      Tue Jun 27 12:20:13 UTC 2017    1498566013686   /entel/integration/logging/Logger               "type" : "NEG",
+  957 **** debug      Tue Jun 27 12:20:13 UTC 2017    1498566013686   /entel/integration/logging/Logger               "code" : "10009",
+  958 **** debug      Tue Jun 27 12:20:13 UTC 2017    1498566013686   /entel/integration/logging/Logger               "description" : "Validacion rechazada por tipo de cuenta asociado al movil bloqueada"
+  959 **** debug      Tue Jun 27 12:20:13 UTC 2017    1498566013686   /entel/integration/logging/Logger             },
+  960 **** debug      Tue Jun 27 12:20:13 UTC 2017    1498566013686   /entel/integration/logging/Logger             "SourceError" : {
+  961 **** debug      Tue Jun 27 12:20:13 UTC 2017    1498566013686   /entel/integration/logging/Logger               "code" : "CM025E001",
+  962 **** debug      Tue Jun 27 12:20:13 UTC 2017    1498566013686   /entel/integration/logging/Logger               "description" : "Sin contratos para los parametros ingresados",
+  963 **** debug      Tue Jun 27 12:20:13 UTC 2017    1498566013686   /entel/integration/logging/Logger               "ErrorSourceDetails" : {
+  964 **** debug      Tue Jun 27 12:20:13 UTC 2017    1498566013686   /entel/integration/logging/Logger                 "source" : "FRW",
+  965 **** debug      Tue Jun 27 12:20:13 UTC 2017    1498566013686   /entel/integration/logging/Logger                 "details" : null
+  966 **** debug      Tue Jun 27 12:20:13 UTC 2017    1498566013686   /entel/integration/logging/Logger               },
+  967 **** debug      Tue Jun 27 12:20:13 UTC 2017    1498566013686   /entel/integration/logging/Logger               "SourceFault" : "<ns3:SourceFault xmlns:ns12=\"http://www.entel.cl/SC/ErrorManager/handle/v1\" xmlns:ns2=\      "http://www.entel.cl/ESO/Tracer/v1\" xmlns:ns3=\"http://www.entel.cl/ESO/Error/v1\" xmlns:ns1=\"http://www.entel.cl/SC/CacheManager/put/v1\" xmlns=\"http://schemas.xmlsoap.org/soap/envelope/\"><ns1:Result xmlns:ns2=\"h      ttp://www.entel.cl/CSM/LegacyWrapper/v1\" xmlns:ns1=\"http://www.entel.cl/ESO/Result/v2\" xmlns:ns3=\"http://www.entel.cl/CSM/RA/CHL-BSC-BSC/contractsSearch/v1\" status=\"OK\" description=\"Ejecuci?n Exitosa\"/></ns3:S      ourceFault>"
+  968 **** debug      Tue Jun 27 12:20:13 UTC 2017    1498566013686   /entel/integration/logging/Logger             }
+  969 **** debug      Tue Jun 27 12:20:13 UTC 2017    1498566013686   /entel/integration/logging/Logger           }
+  970 **** debug      Tue Jun 27 12:20:13 UTC 2017    1498566013686   /entel/integration/logging/Logger         },
+  971 **** debug      Tue Jun 27 12:20:13 UTC 2017    1498566013686   /entel/integration/logging/Logger         "Body" : null
+  972 **** debug      Tue Jun 27 12:20:13 UTC 2017    1498566013686   /entel/integration/logging/Logger       }
+  973 **** info       Tue Jun 27 12:20:13 UTC 2017    1498566013697   /entel/integration/simactivation/GetContractResponseFormatter   current dynamic template folder: /project/modules/ENIntegrationService/resources/com/entel      /integration/processor/templates
+
+=================================================================================================================================================================
+=================================================================      server four      =========================================================================
+=================================================================================================================================================================
+
+988 2017-06-27 12:20:22,296 [[ACTIVE] ExecuteThread: '1' for queue: 'weblogic.kernel.Default (self-tuning)'] DEBUG freemarker.cache - "RequestHeader-local-to-remote.ftl"("en_US", UTF-8, parsed): using cached since zip:/u01      /oracle/domains/oraclecommerce/servers/PageServerFour/tmp/_WL_user/storefront/4iorxr/atglib/_ACS.ENIntegrationService_slib_sclasses.jar!/com/entel/integration/processor/templates/RequestHeader-local-to-remote.ftl hasn'      t changed.
+  989 **** debug      Tue Jun 27 12:20:22 UTC 2017    1498566022300   /entel/integration/logging/Logger       [GetContract]:The request sent to the real service: ^M
+  990 **** debug      Tue Jun 27 12:20:22 UTC 2017    1498566022300   /entel/integration/logging/Logger       {^M
+  991 **** debug      Tue Jun 27 12:20:22 UTC 2017    1498566022300   /entel/integration/logging/Logger          "RequestHeader":{^M
+  992 **** debug      Tue Jun 27 12:20:22 UTC 2017    1498566022300   /entel/integration/logging/Logger           "Consumer":{^M
+  993 **** debug      Tue Jun 27 12:20:22 UTC 2017    1498566022300   /entel/integration/logging/Logger             "countryCode":"CHL",^M
+  994 **** debug      Tue Jun 27 12:20:22 UTC 2017    1498566022300   /entel/integration/logging/Logger             "enterpriseCode":"ENTEL-CHL",^M
+  995 **** debug      Tue Jun 27 12:20:22 UTC 2017    1498566022300   /entel/integration/logging/Logger             "sysCode":"CHL-ATG"^M
+  996 **** debug      Tue Jun 27 12:20:22 UTC 2017    1498566022300   /entel/integration/logging/Logger           },^M
+  997 **** debug      Tue Jun 27 12:20:22 UTC 2017    1498566022300   /entel/integration/logging/Logger           "Trace":{^M
+  998 **** debug      Tue Jun 27 12:20:22 UTC 2017    1498566022300   /entel/integration/logging/Logger             "clientReqTimestamp":"2017-06-27T12:20:22.279Z",^M
+  999 **** debug      Tue Jun 27 12:20:22 UTC 2017    1498566022300   /entel/integration/logging/Logger             "eventID":"0008string20170627122022296a548652434d09a22000",^M
+ 1000 **** debug      Tue Jun 27 12:20:22 UTC 2017    1498566022300   /entel/integration/logging/Logger             "processID":"de54ea6c-5ac4-438b-857d-4be9ffaf9b4c",^M
+ 1001 **** debug      Tue Jun 27 12:20:22 UTC 2017    1498566022300   /entel/integration/logging/Logger             "sourceID":"UNK",^M
+ 1002 **** debug      Tue Jun 27 12:20:22 UTC 2017    1498566022300   /entel/integration/logging/Logger             "Service":{^M
+ 1003 **** debug      Tue Jun 27 12:20:22 UTC 2017    1498566022300   /entel/integration/logging/Logger               "code":"CSM_0013",^M
+ 1004 **** debug      Tue Jun 27 12:20:22 UTC 2017    1498566022300   /entel/integration/logging/Logger               "name":"Contract",^M
+ 1005 **** debug      Tue Jun 27 12:20:22 UTC 2017    1498566022300   /entel/integration/logging/Logger               "operation":"Get"^M
+ 1006 **** debug      Tue Jun 27 12:20:22 UTC 2017    1498566022300   /entel/integration/logging/Logger             }^M
+ 1007 **** debug      Tue Jun 27 12:20:22 UTC 2017    1498566022300   /entel/integration/logging/Logger           },^M
+ 1008 **** debug      Tue Jun 27 12:20:22 UTC 2017    1498566022300   /entel/integration/logging/Logger           "Channel":{^M
+ 1009 **** debug      Tue Jun 27 12:20:22 UTC 2017    1498566022300   /entel/integration/logging/Logger             "mode":"NO PRESENCIAL",^M
+ 1010 **** debug      Tue Jun 27 12:20:22 UTC 2017    1498566022300   /entel/integration/logging/Logger             "name":"WEB"^M
+ 1011 **** debug      Tue Jun 27 12:20:22 UTC 2017    1498566022300   /entel/integration/logging/Logger           }^M
+ 1012 **** debug      Tue Jun 27 12:20:22 UTC 2017    1498566022300   /entel/integration/logging/Logger         },^M
+ 1013 **** debug      Tue Jun 27 12:20:22 UTC 2017    1498566022300   /entel/integration/logging/Logger          "Body":{^M
+ 1014 **** debug      Tue Jun 27 12:20:22 UTC 2017    1498566022300   /entel/integration/logging/Logger             "MSISDN":{^M
+ 1015 **** debug      Tue Jun 27 12:20:22 UTC 2017    1498566022300   /entel/integration/logging/Logger                "SN":"",^M
+ 1016 **** debug      Tue Jun 27 12:20:22 UTC 2017    1498566022300   /entel/integration/logging/Logger                "SIMCard":{^M
+ 1017 **** debug      Tue Jun 27 12:20:22 UTC 2017    1498566022300   /entel/integration/logging/Logger                   "ICCID":"89560100000806131468"^M
+ 1018 **** debug      Tue Jun 27 12:20:22 UTC 2017    1498566022300   /entel/integration/logging/Logger                },^M
+ 1019 **** debug      Tue Jun 27 12:20:22 UTC 2017    1498566022300   /entel/integration/logging/Logger                "Session":{^M
+ 1020 **** debug      Tue Jun 27 12:20:22 UTC 2017    1498566022300   /entel/integration/logging/Logger                   "key":"BU_ID",^M
+ 1021 **** debug      Tue Jun 27 12:20:22 UTC 2017    1498566022300   /entel/integration/logging/Logger                   "value":2^M
+ 1022 **** debug      Tue Jun 27 12:20:22 UTC 2017    1498566022300   /entel/integration/logging/Logger                }^M
+ 1023 **** debug      Tue Jun 27 12:20:22 UTC 2017    1498566022300   /entel/integration/logging/Logger             }^M
+ 1024 **** debug      Tue Jun 27 12:20:22 UTC 2017    1498566022300   /entel/integration/logging/Logger          }^M
+ 1025 **** debug      Tue Jun 27 12:20:22 UTC 2017    1498566022300   /entel/integration/logging/Logger       }
+ 1026 **** debug      Tue Jun 27 12:20:22 UTC 2017    1498566022306   /entel/integration/logging/Logger       [GetContract]:Invoke rest call:[url=http://10.51.12.28:7010/ES/SIF/Contract/v1/Get,method=POST
+ 1027 **** debug      Tue Jun 27 12:20:22 UTC 2017    1498566022776   /entel/integration/logging/Logger       [GetContract]:The response from the real service: {
+ 1028 **** debug      Tue Jun 27 12:20:22 UTC 2017    1498566022776   /entel/integration/logging/Logger         "ResponseHeader" : {
+ 1029 **** debug      Tue Jun 27 12:20:22 UTC 2017    1498566022776   /entel/integration/logging/Logger           "Consumer" : {
+ 1030 **** debug      Tue Jun 27 12:20:22 UTC 2017    1498566022776   /entel/integration/logging/Logger             "sysCode" : "CHL-ATG",
+ 1031 **** debug      Tue Jun 27 12:20:22 UTC 2017    1498566022776   /entel/integration/logging/Logger             "enterpriseCode" : "ENTEL-CHL",
+ 1032 **** debug      Tue Jun 27 12:20:22 UTC 2017    1498566022776   /entel/integration/logging/Logger             "countryCode" : "CHL"
+ 1033 **** debug      Tue Jun 27 12:20:22 UTC 2017    1498566022776   /entel/integration/logging/Logger           },
+ 1034 **** debug      Tue Jun 27 12:20:22 UTC 2017    1498566022776   /entel/integration/logging/Logger           "Trace" : {
+ 1035 **** debug      Tue Jun 27 12:20:22 UTC 2017    1498566022776   /entel/integration/logging/Logger             "clientReqTimestamp" : "2017-06-27T12:20:22.279Z",
+ 1036 **** debug      Tue Jun 27 12:20:22 UTC 2017    1498566022776   /entel/integration/logging/Logger             "reqTimestamp" : "2017-06-27T12:20:21.52-04:00",
+ 1037 **** debug      Tue Jun 27 12:20:22 UTC 2017    1498566022776   /entel/integration/logging/Logger             "rspTimestamp" : "2017-06-27T12:20:21.833-04:00",
+ 1038 **** debug      Tue Jun 27 12:20:22 UTC 2017    1498566022776   /entel/integration/logging/Logger             "processID" : "de54ea6c-5ac4-438b-857d-4be9ffaf9b4c",
+ 1039 **** debug      Tue Jun 27 12:20:22 UTC 2017    1498566022776   /entel/integration/logging/Logger             "eventID" : "0008string20170627122022296a548652434d09a22000",
+ 1040 **** debug      Tue Jun 27 12:20:22 UTC 2017    1498566022776   /entel/integration/logging/Logger             "sourceID" : "UNK",
+ 1041 **** debug      Tue Jun 27 12:20:22 UTC 2017    1498566022776   /entel/integration/logging/Logger             "correlationEventID" : null,
+ 1042 **** debug      Tue Jun 27 12:20:22 UTC 2017    1498566022776   /entel/integration/logging/Logger             "conversationID" : "5cc5a3a7-45e8-41fd-a443-f59531eb8e81",
+ 1043 **** debug      Tue Jun 27 12:20:22 UTC 2017    1498566022776   /entel/integration/logging/Logger             "correlationID" : null,
+ 1044 **** debug      Tue Jun 27 12:20:22 UTC 2017    1498566022776   /entel/integration/logging/Logger             "Service" : {
+ 1045 **** debug      Tue Jun 27 12:20:22 UTC 2017    1498566022776   /entel/integration/logging/Logger               "code" : "CM025",
+ 1046 **** debug      Tue Jun 27 12:20:22 UTC 2017    1498566022776   /entel/integration/logging/Logger               "name" : "Contract",
+ 1047 **** debug      Tue Jun 27 12:20:22 UTC 2017    1498566022776   /entel/integration/logging/Logger               "operation" : "Get"
+ 1048 **** debug      Tue Jun 27 12:20:22 UTC 2017    1498566022776   /entel/integration/logging/Logger             }
+ 1049 **** debug      Tue Jun 27 12:20:22 UTC 2017    1498566022776   /entel/integration/logging/Logger           },
+ 1050 **** debug      Tue Jun 27 12:20:22 UTC 2017    1498566022776   /entel/integration/logging/Logger           "Channel" : {
+ 1051 **** debug      Tue Jun 27 12:20:22 UTC 2017    1498566022776   /entel/integration/logging/Logger             "name" : "WEB",
+ 1052 **** debug      Tue Jun 27 12:20:22 UTC 2017    1498566022776   /entel/integration/logging/Logger             "mode" : "NO PRESENCIAL"
+ 1053 **** debug      Tue Jun 27 12:20:22 UTC 2017    1498566022776   /entel/integration/logging/Logger           },
+ 1054 **** debug      Tue Jun 27 12:20:22 UTC 2017    1498566022776   /entel/integration/logging/Logger           "Result" : {
+ 1055 **** debug      Tue Jun 27 12:20:22 UTC 2017    1498566022776   /entel/integration/logging/Logger             "status" : "WARNING",
+ 1056 **** debug      Tue Jun 27 12:20:22 UTC 2017    1498566022776   /entel/integration/logging/Logger             "description" : "Transaccion que finaliza con advertencias",
+ 1057 **** debug      Tue Jun 27 12:20:22 UTC 2017    1498566022776   /entel/integration/logging/Logger             "CanonicalError" : {
+ 1058 **** debug      Tue Jun 27 12:20:22 UTC 2017    1498566022776   /entel/integration/logging/Logger               "type" : "NEG",
+ 1059 **** debug      Tue Jun 27 12:20:22 UTC 2017    1498566022776   /entel/integration/logging/Logger               "code" : "10009",
+ 1060 **** debug      Tue Jun 27 12:20:22 UTC 2017    1498566022776   /entel/integration/logging/Logger               "description" : "Validacion rechazada por tipo de cuenta asociado al movil bloqueada"
+ 1061 **** debug      Tue Jun 27 12:20:22 UTC 2017    1498566022776   /entel/integration/logging/Logger             },
+ 1062 **** debug      Tue Jun 27 12:20:22 UTC 2017    1498566022776   /entel/integration/logging/Logger             "SourceError" : {
+ 1063 **** debug      Tue Jun 27 12:20:22 UTC 2017    1498566022776   /entel/integration/logging/Logger               "code" : "CM025E001",
+ 1064 **** debug      Tue Jun 27 12:20:22 UTC 2017    1498566022776   /entel/integration/logging/Logger               "description" : "Sin contratos para los parametros ingresados",
+ 1065 **** debug      Tue Jun 27 12:20:22 UTC 2017    1498566022776   /entel/integration/logging/Logger               "ErrorSourceDetails" : {
+ 1066 **** debug      Tue Jun 27 12:20:22 UTC 2017    1498566022776   /entel/integration/logging/Logger                 "source" : "FRW",
+ 1067 **** debug      Tue Jun 27 12:20:22 UTC 2017    1498566022776   /entel/integration/logging/Logger                 "details" : null
+ 1068 **** debug      Tue Jun 27 12:20:22 UTC 2017    1498566022776   /entel/integration/logging/Logger               },
+ 1069 **** debug      Tue Jun 27 12:20:22 UTC 2017    1498566022776   /entel/integration/logging/Logger               "SourceFault" : "<ns3:SourceFault xmlns:ns12=\"http://www.entel.cl/SC/ErrorManager/handle/v1\" xmlns:ns2=\      "http://www.entel.cl/ESO/Tracer/v1\" xmlns:ns3=\"http://www.entel.cl/ESO/Error/v1\" xmlns:ns1=\"http://www.entel.cl/SC/CacheManager/put/v1\" xmlns=\"http://schemas.xmlsoap.org/soap/envelope/\"><ns1:Result xmlns:ns2=\"h      ttp://www.entel.cl/CSM/LegacyWrapper/v1\" xmlns:ns1=\"http://www.entel.cl/ESO/Result/v2\" xmlns:ns3=\"http://www.entel.cl/CSM/RA/CHL-BSC-BSC/contractsSearch/v1\" status=\"OK\" description=\"Ejecuci?n Exitosa\"/></ns3:S      ourceFault>"
+ 1070 **** debug      Tue Jun 27 12:20:22 UTC 2017    1498566022776   /entel/integration/logging/Logger             }
+ 1071 **** debug      Tue Jun 27 12:20:22 UTC 2017    1498566022776   /entel/integration/logging/Logger           }
+ 1072 **** debug      Tue Jun 27 12:20:22 UTC 2017    1498566022776   /entel/integration/logging/Logger         },
+ 1073 **** debug      Tue Jun 27 12:20:22 UTC 2017    1498566022776   /entel/integration/logging/Logger         "Body" : null
+ 1074 **** debug      Tue Jun 27 12:20:22 UTC 2017    1498566022776   /entel/integration/logging/Logger       }
+ 1075 **** info       Tue Jun 27 12:20:22 UTC 2017    1498566022785   /entel/integration/simactivation/GetContractResponseFormatter   current dynamic template folder: /project/modules/ENIntegrationService/resources/com/entel      /integration/processor/templates
+
+
+=================================================================================================================================================================
+=================================================================      server four      =========================================================================
+=================================================================================================================================================================
+
+1090 2017-06-27 12:21:28,228 [[ACTIVE] ExecuteThread: '7' for queue: 'weblogic.kernel.Default (self-tuning)'] DEBUG freemarker.cache - "RequestHeader-local-to-remote.ftl"("en_US", UTF-8, parsed): using cached since zip:/u01      /oracle/domains/oraclecommerce/servers/PageServerFour/tmp/_WL_user/storefront/4iorxr/atglib/_ACS.ENIntegrationService_slib_sclasses.jar!/com/entel/integration/processor/templates/RequestHeader-local-to-remote.ftl hasn'      t changed.
+ 1091 **** debug      Tue Jun 27 12:21:28 UTC 2017    1498566088229   /entel/integration/logging/Logger       [GetContract]:The request sent to the real service: ^M
+ 1092 **** debug      Tue Jun 27 12:21:28 UTC 2017    1498566088229   /entel/integration/logging/Logger       {^M
+ 1093 **** debug      Tue Jun 27 12:21:28 UTC 2017    1498566088229   /entel/integration/logging/Logger          "RequestHeader":{^M
+ 1094 **** debug      Tue Jun 27 12:21:28 UTC 2017    1498566088229   /entel/integration/logging/Logger           "Consumer":{^M
+ 1095 **** debug      Tue Jun 27 12:21:28 UTC 2017    1498566088229   /entel/integration/logging/Logger             "countryCode":"CHL",^M
+ 1096 **** debug      Tue Jun 27 12:21:28 UTC 2017    1498566088229   /entel/integration/logging/Logger             "enterpriseCode":"ENTEL-CHL",^M
+ 1097 **** debug      Tue Jun 27 12:21:28 UTC 2017    1498566088229   /entel/integration/logging/Logger             "sysCode":"CHL-ATG"^M
+ 1098 **** debug      Tue Jun 27 12:21:28 UTC 2017    1498566088229   /entel/integration/logging/Logger           },^M
+ 1099 **** debug      Tue Jun 27 12:21:28 UTC 2017    1498566088229   /entel/integration/logging/Logger           "Trace":{^M
+ 1100 **** debug      Tue Jun 27 12:21:28 UTC 2017    1498566088229   /entel/integration/logging/Logger             "clientReqTimestamp":"2017-06-27T12:21:28.218Z",^M
+ 1101 **** debug      Tue Jun 27 12:21:28 UTC 2017    1498566088229   /entel/integration/logging/Logger             "eventID":"0008string201706271221282289f0c343023101aa7000",^M
+ 1102 **** debug      Tue Jun 27 12:21:28 UTC 2017    1498566088229   /entel/integration/logging/Logger             "processID":"3ce08d91-0e69-4f7a-8554-3cb1fff6de1a",^M
+ 1103 **** debug      Tue Jun 27 12:21:28 UTC 2017    1498566088229   /entel/integration/logging/Logger             "sourceID":"UNK",^M
+ 1104 **** debug      Tue Jun 27 12:21:28 UTC 2017    1498566088229   /entel/integration/logging/Logger             "Service":{^M
+ 1105 **** debug      Tue Jun 27 12:21:28 UTC 2017    1498566088229   /entel/integration/logging/Logger               "code":"CSM_0013",^M
+ 1106 **** debug      Tue Jun 27 12:21:28 UTC 2017    1498566088229   /entel/integration/logging/Logger               "name":"Contract",^M
+ 1107 **** debug      Tue Jun 27 12:21:28 UTC 2017    1498566088229   /entel/integration/logging/Logger               "operation":"Get"^M
+ 1108 **** debug      Tue Jun 27 12:21:28 UTC 2017    1498566088229   /entel/integration/logging/Logger             }^M
+ 1109 **** debug      Tue Jun 27 12:21:28 UTC 2017    1498566088229   /entel/integration/logging/Logger           },^M
+ 1110 **** debug      Tue Jun 27 12:21:28 UTC 2017    1498566088229   /entel/integration/logging/Logger           "Channel":{^M
+ 1111 **** debug      Tue Jun 27 12:21:28 UTC 2017    1498566088229   /entel/integration/logging/Logger             "mode":"NO PRESENCIAL",^M
+ 1112 **** debug      Tue Jun 27 12:21:28 UTC 2017    1498566088229   /entel/integration/logging/Logger             "name":"WEB"^M
+ 1113 **** debug      Tue Jun 27 12:21:28 UTC 2017    1498566088229   /entel/integration/logging/Logger           }^M
+ 1114 **** debug      Tue Jun 27 12:21:28 UTC 2017    1498566088229   /entel/integration/logging/Logger         },^M
+ 1115 **** debug      Tue Jun 27 12:21:28 UTC 2017    1498566088229   /entel/integration/logging/Logger          "Body":{^M
+ 1116 **** debug      Tue Jun 27 12:21:28 UTC 2017    1498566088229   /entel/integration/logging/Logger             "MSISDN":{^M
+ 1117 **** debug      Tue Jun 27 12:21:28 UTC 2017    1498566088229   /entel/integration/logging/Logger                "SN":"",^M
+ 1118 **** debug      Tue Jun 27 12:21:28 UTC 2017    1498566088229   /entel/integration/logging/Logger                "SIMCard":{^M
+ 1119 **** debug      Tue Jun 27 12:21:28 UTC 2017    1498566088229   /entel/integration/logging/Logger                   "ICCID":"89560100000806131468"^M
+ 1120 **** debug      Tue Jun 27 12:21:28 UTC 2017    1498566088229   /entel/integration/logging/Logger                },^M
+ 1121 **** debug      Tue Jun 27 12:21:28 UTC 2017    1498566088229   /entel/integration/logging/Logger                "Session":{^M
+ 1122 **** debug      Tue Jun 27 12:21:28 UTC 2017    1498566088229   /entel/integration/logging/Logger                   "key":"BU_ID",^M
+ 1123 **** debug      Tue Jun 27 12:21:28 UTC 2017    1498566088229   /entel/integration/logging/Logger                   "value":2^M
+ 1124 **** debug      Tue Jun 27 12:21:28 UTC 2017    1498566088229   /entel/integration/logging/Logger                }^M
+ 1125 **** debug      Tue Jun 27 12:21:28 UTC 2017    1498566088229   /entel/integration/logging/Logger             }^M
+ 1126 **** debug      Tue Jun 27 12:21:28 UTC 2017    1498566088229   /entel/integration/logging/Logger          }^M
+ 1127 **** debug      Tue Jun 27 12:21:28 UTC 2017    1498566088229   /entel/integration/logging/Logger       }
+ 1128 **** debug      Tue Jun 27 12:21:28 UTC 2017    1498566088235   /entel/integration/logging/Logger       [GetContract]:Invoke rest call:[url=http://10.51.12.28:7010/ES/SIF/Contract/v1/Get,method=POST
+ 1129 **** debug      Tue Jun 27 12:21:34 UTC 2017    1498566094278   /entel/integration/logging/Logger       [GetContract]:The response from the real service: {
+ 1130 **** debug      Tue Jun 27 12:21:34 UTC 2017    1498566094278   /entel/integration/logging/Logger         "ResponseHeader" : {
+ 1131 **** debug      Tue Jun 27 12:21:34 UTC 2017    1498566094278   /entel/integration/logging/Logger           "Consumer" : {
+ 1132 **** debug      Tue Jun 27 12:21:34 UTC 2017    1498566094278   /entel/integration/logging/Logger             "sysCode" : "CHL-ATG",
+ 1133 **** debug      Tue Jun 27 12:21:34 UTC 2017    1498566094278   /entel/integration/logging/Logger             "enterpriseCode" : "ENTEL-CHL",
+ 1134 **** debug      Tue Jun 27 12:21:34 UTC 2017    1498566094278   /entel/integration/logging/Logger             "countryCode" : "CHL"
+ 1135 **** debug      Tue Jun 27 12:21:34 UTC 2017    1498566094278   /entel/integration/logging/Logger           },
+ 1136 **** debug      Tue Jun 27 12:21:34 UTC 2017    1498566094278   /entel/integration/logging/Logger           "Trace" : {
+ 1137 **** debug      Tue Jun 27 12:21:34 UTC 2017    1498566094278   /entel/integration/logging/Logger             "clientReqTimestamp" : "2017-06-27T12:21:28.218Z",
+ 1138 **** debug      Tue Jun 27 12:21:34 UTC 2017    1498566094278   /entel/integration/logging/Logger             "reqTimestamp" : "2017-06-27T12:21:31.37-04:00",
+ 1139 **** debug      Tue Jun 27 12:21:34 UTC 2017    1498566094278   /entel/integration/logging/Logger             "rspTimestamp" : "2017-06-27T12:21:33.316-04:00",
+ 1140 **** debug      Tue Jun 27 12:21:34 UTC 2017    1498566094278   /entel/integration/logging/Logger             "processID" : "3ce08d91-0e69-4f7a-8554-3cb1fff6de1a",
+ 1141 **** debug      Tue Jun 27 12:21:34 UTC 2017    1498566094278   /entel/integration/logging/Logger             "eventID" : "0008string201706271221282289f0c343023101aa7000",
+ 1142 **** debug      Tue Jun 27 12:21:34 UTC 2017    1498566094278   /entel/integration/logging/Logger             "sourceID" : "UNK",
+ 1143 **** debug      Tue Jun 27 12:21:34 UTC 2017    1498566094278   /entel/integration/logging/Logger             "correlationEventID" : null,
+ 1144 **** debug      Tue Jun 27 12:21:34 UTC 2017    1498566094278   /entel/integration/logging/Logger             "conversationID" : "9e034338-ab31-4bf8-868b-9532e692e8da",
+ 1145 **** debug      Tue Jun 27 12:21:34 UTC 2017    1498566094278   /entel/integration/logging/Logger             "correlationID" : null,
+ 1146 **** debug      Tue Jun 27 12:21:34 UTC 2017    1498566094278   /entel/integration/logging/Logger             "Service" : {
+ 1147 **** debug      Tue Jun 27 12:21:34 UTC 2017    1498566094278   /entel/integration/logging/Logger               "code" : "CM025",
+ 1148 **** debug      Tue Jun 27 12:21:34 UTC 2017    1498566094278   /entel/integration/logging/Logger               "name" : "Contract",
+ 1149 **** debug      Tue Jun 27 12:21:34 UTC 2017    1498566094278   /entel/integration/logging/Logger               "operation" : "Get"
+ 1150 **** debug      Tue Jun 27 12:21:34 UTC 2017    1498566094278   /entel/integration/logging/Logger             }
+ 1151 **** debug      Tue Jun 27 12:21:34 UTC 2017    1498566094278   /entel/integration/logging/Logger           },
+ 1152 **** debug      Tue Jun 27 12:21:34 UTC 2017    1498566094278   /entel/integration/logging/Logger           "Channel" : {
+ 1153 **** debug      Tue Jun 27 12:21:34 UTC 2017    1498566094278   /entel/integration/logging/Logger             "name" : "WEB",
+ 1154 **** debug      Tue Jun 27 12:21:34 UTC 2017    1498566094278   /entel/integration/logging/Logger             "mode" : "NO PRESENCIAL"
+ 1155 **** debug      Tue Jun 27 12:21:34 UTC 2017    1498566094278   /entel/integration/logging/Logger           },
+ 1156 **** debug      Tue Jun 27 12:21:34 UTC 2017    1498566094278   /entel/integration/logging/Logger           "Result" : {
+ 1157 **** debug      Tue Jun 27 12:21:34 UTC 2017    1498566094278   /entel/integration/logging/Logger             "status" : "WARNING",
+ 1158 **** debug      Tue Jun 27 12:21:34 UTC 2017    1498566094278   /entel/integration/logging/Logger             "description" : "Transaccion que finaliza con advertencias",
+ 1159 **** debug      Tue Jun 27 12:21:34 UTC 2017    1498566094278   /entel/integration/logging/Logger             "CanonicalError" : {
+ 1160 **** debug      Tue Jun 27 12:21:34 UTC 2017    1498566094278   /entel/integration/logging/Logger               "type" : "NEG",
+ 1161 **** debug      Tue Jun 27 12:21:34 UTC 2017    1498566094278   /entel/integration/logging/Logger               "code" : "10009",
+ 1162 **** debug      Tue Jun 27 12:21:34 UTC 2017    1498566094278   /entel/integration/logging/Logger               "description" : "Validacion rechazada por tipo de cuenta asociado al movil bloqueada"
+ 1163 **** debug      Tue Jun 27 12:21:34 UTC 2017    1498566094278   /entel/integration/logging/Logger             },
+ 1164 **** debug      Tue Jun 27 12:21:34 UTC 2017    1498566094278   /entel/integration/logging/Logger             "SourceError" : {
+ 1165 **** debug      Tue Jun 27 12:21:34 UTC 2017    1498566094278   /entel/integration/logging/Logger               "code" : "CM025E001",
+ 1166 **** debug      Tue Jun 27 12:21:34 UTC 2017    1498566094278   /entel/integration/logging/Logger               "description" : "Sin contratos para los parametros ingresados",
+ 1167 **** debug      Tue Jun 27 12:21:34 UTC 2017    1498566094278   /entel/integration/logging/Logger               "ErrorSourceDetails" : {
+ 1168 **** debug      Tue Jun 27 12:21:34 UTC 2017    1498566094278   /entel/integration/logging/Logger                 "source" : "FRW",
+ 1169 **** debug      Tue Jun 27 12:21:34 UTC 2017    1498566094278   /entel/integration/logging/Logger                 "details" : null
+ 1170 **** debug      Tue Jun 27 12:21:34 UTC 2017    1498566094278   /entel/integration/logging/Logger               },
+ 1171 **** debug      Tue Jun 27 12:21:34 UTC 2017    1498566094278   /entel/integration/logging/Logger               "SourceFault" : "<ns3:SourceFault xmlns:ns12=\"http://www.entel.cl/SC/ErrorManager/handle/v1\" xmlns:ns2=\      "http://www.entel.cl/ESO/Tracer/v1\" xmlns:ns3=\"http://www.entel.cl/ESO/Error/v1\" xmlns:ns1=\"http://www.entel.cl/SC/CacheManager/put/v1\" xmlns=\"http://schemas.xmlsoap.org/soap/envelope/\"><ns1:Result xmlns:ns2=\"h      ttp://www.entel.cl/CSM/LegacyWrapper/v1\" xmlns:ns1=\"http://www.entel.cl/ESO/Result/v2\" xmlns:ns3=\"http://www.entel.cl/CSM/RA/CHL-BSC-BSC/contractsSearch/v1\" status=\"OK\" description=\"Ejecuci?n Exitosa\"/></ns3:S      ourceFault>"
+ 1172 **** debug      Tue Jun 27 12:21:34 UTC 2017    1498566094278   /entel/integration/logging/Logger             }
+ 1173 **** debug      Tue Jun 27 12:21:34 UTC 2017    1498566094278   /entel/integration/logging/Logger           }
+ 1174 **** debug      Tue Jun 27 12:21:34 UTC 2017    1498566094278   /entel/integration/logging/Logger         },
+ 1175 **** debug      Tue Jun 27 12:21:34 UTC 2017    1498566094278   /entel/integration/logging/Logger         "Body" : null
+ 1176 **** debug      Tue Jun 27 12:21:34 UTC 2017    1498566094278   /entel/integration/logging/Logger       }
+ 1177 **** info       Tue Jun 27 12:21:34 UTC 2017    1498566094287   /entel/integration/simactivation/GetContractResponseFormatter   current dynamic template folder: /project/modules/ENIntegrationService/resources/com/entel      /integration/processor/templates
+ 1178 2017-06-27 12:21:34,290 [[ACTIVE] ExecuteThread: '7' for queue: 'weblogic.kernel.Default (self-tuning)'] DEBUG
+=================================================================================================================================================================
+=================================================================      server four      =========================================================================
+=================================================================================================================================================================
+1215 2017-06-27 12:40:43,877 [[ACTIVE] ExecuteThread: '7' for queue: 'weblogic.kernel.Default (self-tuning)'] DEBUG freemarker.cache - TemplateLoader.findTemplateSource("RequestHeader-local-to-remote_en.ftl"): Not found
+ 1216 2017-06-27 12:40:43,878 [[ACTIVE] ExecuteThread: '7' for queue: 'weblogic.kernel.Default (self-tuning)'] DEBUG freemarker.cache - TemplateLoader.findTemplateSource("RequestHeader-local-to-remote.ftl"): Found
+ 1217 2017-06-27 12:40:43,878 [[ACTIVE] ExecuteThread: '7' for queue: 'weblogic.kernel.Default (self-tuning)'] DEBUG freemarker.cache - "RequestHeader-local-to-remote.ftl"("en_US", UTF-8, parsed): using cached since zip:/u01      /oracle/domains/oraclecommerce/servers/PageServerFour/tmp/_WL_user/storefront/4iorxr/atglib/_ACS.ENIntegrationService_slib_sclasses.jar!/com/entel/integration/processor/templates/RequestHeader-local-to-remote.ftl hasn'      t changed.
+ 1218 **** debug      Tue Jun 27 12:40:43 UTC 2017    1498567243879   /entel/integration/logging/Logger       [GetContract]:The request sent to the real service: ^M
+ 1219 **** debug      Tue Jun 27 12:40:43 UTC 2017    1498567243879   /entel/integration/logging/Logger       {^M
+ 1220 **** debug      Tue Jun 27 12:40:43 UTC 2017    1498567243879   /entel/integration/logging/Logger          "RequestHeader":{^M
+ 1221 **** debug      Tue Jun 27 12:40:43 UTC 2017    1498567243879   /entel/integration/logging/Logger           "Consumer":{^M
+ 1222 **** debug      Tue Jun 27 12:40:43 UTC 2017    1498567243879   /entel/integration/logging/Logger             "countryCode":"CHL",^M
+ 1223 **** debug      Tue Jun 27 12:40:43 UTC 2017    1498567243879   /entel/integration/logging/Logger             "enterpriseCode":"ENTEL-CHL",^M
+ 1224 **** debug      Tue Jun 27 12:40:43 UTC 2017    1498567243879   /entel/integration/logging/Logger             "sysCode":"CHL-ATG"^M
+ 1225 **** debug      Tue Jun 27 12:40:43 UTC 2017    1498567243879   /entel/integration/logging/Logger           },^M
+ 1226 **** debug      Tue Jun 27 12:40:43 UTC 2017    1498567243879   /entel/integration/logging/Logger           "Trace":{^M
+ 1227 **** debug      Tue Jun 27 12:40:43 UTC 2017    1498567243879   /entel/integration/logging/Logger             "clientReqTimestamp":"2017-06-27T12:40:43.868Z",^M
+ 1228 **** debug      Tue Jun 27 12:40:43 UTC 2017    1498567243879   /entel/integration/logging/Logger             "eventID":"0008string2017062712404387882769f0345a5ee99000",^M
+ 1229 **** debug      Tue Jun 27 12:40:43 UTC 2017    1498567243879   /entel/integration/logging/Logger             "processID":"6a253ec6-08ae-44f2-9c49-ad46c1780eaa",^M
+ 1230 **** debug      Tue Jun 27 12:40:43 UTC 2017    1498567243879   /entel/integration/logging/Logger             "sourceID":"UNK",^M
+ 1231 **** debug      Tue Jun 27 12:40:43 UTC 2017    1498567243879   /entel/integration/logging/Logger             "Service":{^M
+ 1232 **** debug      Tue Jun 27 12:40:43 UTC 2017    1498567243879   /entel/integration/logging/Logger               "code":"CSM_0013",^M
+ 1233 **** debug      Tue Jun 27 12:40:43 UTC 2017    1498567243879   /entel/integration/logging/Logger               "name":"Contract",^M
+ 1234 **** debug      Tue Jun 27 12:40:43 UTC 2017    1498567243879   /entel/integration/logging/Logger               "operation":"Get"^M
+ 1235 **** debug      Tue Jun 27 12:40:43 UTC 2017    1498567243879   /entel/integration/logging/Logger             }^M
+ 1236 **** debug      Tue Jun 27 12:40:43 UTC 2017    1498567243879   /entel/integration/logging/Logger           },^M
+ 1237 **** debug      Tue Jun 27 12:40:43 UTC 2017    1498567243879   /entel/integration/logging/Logger           "Channel":{^M
+ 1238 **** debug      Tue Jun 27 12:40:43 UTC 2017    1498567243879   /entel/integration/logging/Logger             "mode":"NO PRESENCIAL",^M
+ 1239 **** debug      Tue Jun 27 12:40:43 UTC 2017    1498567243879   /entel/integration/logging/Logger             "name":"WEB"^M
+ 1240 **** debug      Tue Jun 27 12:40:43 UTC 2017    1498567243879   /entel/integration/logging/Logger           }^M
+ 1241 **** debug      Tue Jun 27 12:40:43 UTC 2017    1498567243879   /entel/integration/logging/Logger         },^M
+ 1242 **** debug      Tue Jun 27 12:40:43 UTC 2017    1498567243879   /entel/integration/logging/Logger          "Body":{^M
+ 1243 **** debug      Tue Jun 27 12:40:43 UTC 2017    1498567243879   /entel/integration/logging/Logger             "MSISDN":{^M
+ 1244 **** debug      Tue Jun 27 12:40:43 UTC 2017    1498567243879   /entel/integration/logging/Logger                "SN":"",^M
+ 1245 **** debug      Tue Jun 27 12:40:43 UTC 2017    1498567243879   /entel/integration/logging/Logger                "SIMCard":{^M
+ 1246 **** debug      Tue Jun 27 12:40:43 UTC 2017    1498567243879   /entel/integration/logging/Logger                   "ICCID":"89560100000773613993"^M
+ 1247 **** debug      Tue Jun 27 12:40:43 UTC 2017    1498567243879   /entel/integration/logging/Logger                },^M
+ 1248 **** debug      Tue Jun 27 12:40:43 UTC 2017    1498567243879   /entel/integration/logging/Logger                "Session":{^M
+ 1249 **** debug      Tue Jun 27 12:40:43 UTC 2017    1498567243879   /entel/integration/logging/Logger                   "key":"BU_ID",^M
+ 1250 **** debug      Tue Jun 27 12:40:43 UTC 2017    1498567243879   /entel/integration/logging/Logger                   "value":2^M
+ 1251 **** debug      Tue Jun 27 12:40:43 UTC 2017    1498567243879   /entel/integration/logging/Logger                }^M
+ 1252 **** debug      Tue Jun 27 12:40:43 UTC 2017    1498567243879   /entel/integration/logging/Logger             }^M
+ 1253 **** debug      Tue Jun 27 12:40:43 UTC 2017    1498567243879   /entel/integration/logging/Logger          }^M
+ 1254 **** debug      Tue Jun 27 12:40:43 UTC 2017    1498567243879   /entel/integration/logging/Logger       }
+ 1255 **** debug      Tue Jun 27 12:40:43 UTC 2017    1498567243886   /entel/integration/logging/Logger       [GetContract]:Invoke rest call:[url=http://10.51.12.28:7010/ES/SIF/Contract/v1/Get,method=POST
+ 1256 **** debug      Tue Jun 27 12:40:45 UTC 2017    1498567245451   /entel/integration/logging/Logger       [GetContract]:The response from the real service: {
+ 1257 **** debug      Tue Jun 27 12:40:45 UTC 2017    1498567245451   /entel/integration/logging/Logger         "ResponseHeader" : {
+ 1258 **** debug      Tue Jun 27 12:40:45 UTC 2017    1498567245451   /entel/integration/logging/Logger           "Consumer" : {
+ 1259 **** debug      Tue Jun 27 12:40:45 UTC 2017    1498567245451   /entel/integration/logging/Logger             "sysCode" : "CHL-ATG",
+ 1260 **** debug      Tue Jun 27 12:40:45 UTC 2017    1498567245451   /entel/integration/logging/Logger             "enterpriseCode" : "ENTEL-CHL",
+ 1261 **** debug      Tue Jun 27 12:40:45 UTC 2017    1498567245451   /entel/integration/logging/Logger             "countryCode" : "CHL"
+ 1262 **** debug      Tue Jun 27 12:40:45 UTC 2017    1498567245451   /entel/integration/logging/Logger           },
+ 1263 **** debug      Tue Jun 27 12:40:45 UTC 2017    1498567245451   /entel/integration/logging/Logger           "Trace" : {
+ 1264 **** debug      Tue Jun 27 12:40:45 UTC 2017    1498567245451   /entel/integration/logging/Logger             "clientReqTimestamp" : "2017-06-27T12:40:43.868Z",
+ 1265 **** debug      Tue Jun 27 12:40:45 UTC 2017    1498567245451   /entel/integration/logging/Logger             "reqTimestamp" : "2017-06-27T12:40:43.968-04:00",
+ 1266 **** debug      Tue Jun 27 12:40:45 UTC 2017    1498567245451   /entel/integration/logging/Logger             "rspTimestamp" : "2017-06-27T12:40:44.507-04:00",
+ 1267 **** debug      Tue Jun 27 12:40:45 UTC 2017    1498567245451   /entel/integration/logging/Logger             "processID" : "6a253ec6-08ae-44f2-9c49-ad46c1780eaa",
+ 1268 **** debug      Tue Jun 27 12:40:45 UTC 2017    1498567245451   /entel/integration/logging/Logger             "eventID" : "0008string2017062712404387882769f0345a5ee99000",
+ 1269 **** debug      Tue Jun 27 12:40:45 UTC 2017    1498567245451   /entel/integration/logging/Logger             "sourceID" : "UNK",
+ 1270 **** debug      Tue Jun 27 12:40:45 UTC 2017    1498567245451   /entel/integration/logging/Logger             "correlationEventID" : null,
+ 1271 **** debug      Tue Jun 27 12:40:45 UTC 2017    1498567245451   /entel/integration/logging/Logger             "conversationID" : "5ae759f7-396f-44a1-b1a8-beda7ed29259",
+ 1272 **** debug      Tue Jun 27 12:40:45 UTC 2017    1498567245451   /entel/integration/logging/Logger             "correlationID" : null,
+ 1273 **** debug      Tue Jun 27 12:40:45 UTC 2017    1498567245451   /entel/integration/logging/Logger             "Service" : {
+ 1274 **** debug      Tue Jun 27 12:40:45 UTC 2017    1498567245451   /entel/integration/logging/Logger               "code" : "CM025",
+ 1275 **** debug      Tue Jun 27 12:40:45 UTC 2017    1498567245451   /entel/integration/logging/Logger               "name" : "Contract",
+ 1276 **** debug      Tue Jun 27 12:40:45 UTC 2017    1498567245451   /entel/integration/logging/Logger               "operation" : "Get"
+ 1277 **** debug      Tue Jun 27 12:40:45 UTC 2017    1498567245451   /entel/integration/logging/Logger             }
+ 1278 **** debug      Tue Jun 27 12:40:45 UTC 2017    1498567245451   /entel/integration/logging/Logger           },
+ 1279 **** debug      Tue Jun 27 12:40:45 UTC 2017    1498567245451   /entel/integration/logging/Logger           "Channel" : {
+ 1280 **** debug      Tue Jun 27 12:40:45 UTC 2017    1498567245451   /entel/integration/logging/Logger             "name" : "WEB",
+ 1281 **** debug      Tue Jun 27 12:40:45 UTC 2017    1498567245451   /entel/integration/logging/Logger             "mode" : "NO PRESENCIAL"
+ 1282 **** debug      Tue Jun 27 12:40:45 UTC 2017    1498567245451   /entel/integration/logging/Logger           },
+ 1283 **** debug      Tue Jun 27 12:40:45 UTC 2017    1498567245451   /entel/integration/logging/Logger           "Result" : {
+ 1284 **** debug      Tue Jun 27 12:40:45 UTC 2017    1498567245451   /entel/integration/logging/Logger             "status" : "OK",
+ 1285 **** debug      Tue Jun 27 12:40:45 UTC 2017    1498567245451   /entel/integration/logging/Logger             "description" : "Ejecuci?n Exitosa"
+ 1286 **** debug      Tue Jun 27 12:40:45 UTC 2017    1498567245451   /entel/integration/logging/Logger           }
+ 1287 **** debug      Tue Jun 27 12:40:45 UTC 2017    1498567245451   /entel/integration/logging/Logger         },
+ 1288 **** debug      Tue Jun 27 12:40:45 UTC 2017    1498567245451   /entel/integration/logging/Logger         "Body" : {
+ 1289 **** debug      Tue Jun 27 12:40:45 UTC 2017    1498567245451   /entel/integration/logging/Logger           "Contract" : {
+ 1290 **** debug      Tue Jun 27 12:40:45 UTC 2017    1498567245451   /entel/integration/logging/Logger             "ID" : "10471708",
+ 1291 **** debug      Tue Jun 27 12:40:45 UTC 2017    1498567245451   /entel/integration/logging/Logger             "status" : "2",
+ 1292 **** debug      Tue Jun 27 12:40:45 UTC 2017    1498567245451   /entel/integration/logging/Logger             "BillingAccount" : {
+ 1293 **** debug      Tue Jun 27 12:40:45 UTC 2017    1498567245451   /entel/integration/logging/Logger               "externalID" : "10136854"
+ 1294 **** debug      Tue Jun 27 12:40:45 UTC 2017    1498567245451   /entel/integration/logging/Logger             },
+ 1295 **** debug      Tue Jun 27 12:40:45 UTC 2017    1498567245451   /entel/integration/logging/Logger             "MSISDN" : {
+ 1296 **** debug      Tue Jun 27 12:40:45 UTC 2017    1498567245451   /entel/integration/logging/Logger               "SN" : null,
+ 1297 **** debug      Tue Jun 27 12:40:45 UTC 2017    1498567245451   /entel/integration/logging/Logger               "IMSI" : {
+ 1298 **** debug      Tue Jun 27 12:40:45 UTC 2017    1498567245451   /entel/integration/logging/Logger                 "SN" : "730011545139899"
+ 1299 **** debug      Tue Jun 27 12:40:45 UTC 2017    1498567245451   /entel/integration/logging/Logger               },
+ 1300 **** debug      Tue Jun 27 12:40:45 UTC 2017    1498567245451   /entel/integration/logging/Logger               "INRoutingDevice" : {
+ 1301 **** debug      Tue Jun 27 12:40:45 UTC 2017    1498567245451   /entel/integration/logging/Logger                 "ID" : "100",
+ 1302 **** debug      Tue Jun 27 12:40:45 UTC 2017    1498567245451   /entel/integration/logging/Logger                 "Operator" : {
+ 1303 **** debug      Tue Jun 27 12:40:45 UTC 2017    1498567245451   /entel/integration/logging/Logger                   "plmnCode" : "1032",
+ 1304 **** debug      Tue Jun 27 12:40:45 UTC 2017    1498567245451   /entel/integration/logging/Logger                   "submarketID" : "25"
+ 1305 **** debug      Tue Jun 27 12:40:45 UTC 2017    1498567245451   /entel/integration/logging/Logger                 }
+ 1306 **** debug      Tue Jun 27 12:40:45 UTC 2017    1498567245451   /entel/integration/logging/Logger               },
+ 1307 **** debug      Tue Jun 27 12:40:45 UTC 2017    1498567245451   /entel/integration/logging/Logger               "SIMCard" : {
+ 1308 **** debug      Tue Jun 27 12:40:45 UTC 2017    1498567245451   /entel/integration/logging/Logger                 "ICCID" : "89560100000773613993"
+ 1309 **** debug      Tue Jun 27 12:40:45 UTC 2017    1498567245451   /entel/integration/logging/Logger               }
+ 1310 **** debug      Tue Jun 27 12:40:45 UTC 2017    1498567245451   /entel/integration/logging/Logger             }
+ 1311 **** debug      Tue Jun 27 12:40:45 UTC 2017    1498567245451   /entel/integration/logging/Logger           }
+ 1312 **** debug      Tue Jun 27 12:40:45 UTC 2017    1498567245451   /entel/integration/logging/Logger         }
+ 1313 **** debug      Tue Jun 27 12:40:45 UTC 2017    1498567245451   /entel/integration/logging/Logger       }
+ 1314 **** info       Tue Jun 27 12:40:45 UTC 2017    1498567245462   /entel/integration/simactivation/GetContractResponseFormatter   current dynamic template folder: /project/modules/ENIntegrationService/resources/com/entel      /integration/processor/templates
+
+
+=================================================================================================================================================================
+=================================================================      server four      =========================================================================
+=================================================================================================================================================================
+1637 2017-06-27 12:41:18,532 [[ACTIVE] ExecuteThread: '7' for queue: 'weblogic.kernel.Default (self-tuning)'] DEBUG freemarker.cache - TemplateLoader.findTemplateSource("RequestHeader-local-to-remote_en_US.ftl"): Not found
+ 1638 2017-06-27 12:41:18,534 [[ACTIVE] ExecuteThread: '7' for queue: 'weblogic.kernel.Default (self-tuning)'] DEBUG freemarker.cache - TemplateLoader.findTemplateSource("RequestHeader-local-to-remote_en.ftl"): Not found
+ 1639 2017-06-27 12:41:18,534 [[ACTIVE] ExecuteThread: '7' for queue: 'weblogic.kernel.Default (self-tuning)'] DEBUG freemarker.cache - TemplateLoader.findTemplateSource("RequestHeader-local-to-remote.ftl"): Found
+ 1640 2017-06-27 12:41:18,534 [[ACTIVE] ExecuteThread: '7' for queue: 'weblogic.kernel.Default (self-tuning)'] DEBUG freemarker.cache - "RequestHeader-local-to-remote.ftl"("en_US", UTF-8, parsed): using cached since zip:/u01      /oracle/domains/oraclecommerce/servers/PageServerFour/tmp/_WL_user/storefront/4iorxr/atglib/_ACS.ENIntegrationService_slib_sclasses.jar!/com/entel/integration/processor/templates/RequestHeader-local-to-remote.ftl hasn'      t changed.
+ 1641 **** debug      Tue Jun 27 12:41:18 UTC 2017    1498567278535   /entel/integration/logging/Logger       [GetContract]:The request sent to the real service: ^M
+ 1642 **** debug      Tue Jun 27 12:41:18 UTC 2017    1498567278535   /entel/integration/logging/Logger       {^M
+ 1643 **** debug      Tue Jun 27 12:41:18 UTC 2017    1498567278535   /entel/integration/logging/Logger          "RequestHeader":{^M
+ 1644 **** debug      Tue Jun 27 12:41:18 UTC 2017    1498567278535   /entel/integration/logging/Logger           "Consumer":{^M
+ 1645 **** debug      Tue Jun 27 12:41:18 UTC 2017    1498567278535   /entel/integration/logging/Logger             "countryCode":"CHL",^M
+ 1646 **** debug      Tue Jun 27 12:41:18 UTC 2017    1498567278535   /entel/integration/logging/Logger             "enterpriseCode":"ENTEL-CHL",^M
+ 1647 **** debug      Tue Jun 27 12:41:18 UTC 2017    1498567278535   /entel/integration/logging/Logger             "sysCode":"CHL-ATG"^M
+ 1648 **** debug      Tue Jun 27 12:41:18 UTC 2017    1498567278535   /entel/integration/logging/Logger           },^M
+ 1649 **** debug      Tue Jun 27 12:41:18 UTC 2017    1498567278535   /entel/integration/logging/Logger           "Trace":{^M
+ 1650 **** debug      Tue Jun 27 12:41:18 UTC 2017    1498567278535   /entel/integration/logging/Logger             "clientReqTimestamp":"2017-06-27T12:41:18.526Z",^M
+ 1651 **** debug      Tue Jun 27 12:41:18 UTC 2017    1498567278535   /entel/integration/logging/Logger             "eventID":"0008string20170627124118534849c3f0a0a8f6420000",^M
+ 1652 **** debug      Tue Jun 27 12:41:18 UTC 2017    1498567278535   /entel/integration/logging/Logger             "processID":"8791cdbd-fc1c-4858-8e7a-d15decc203f9",^M
+ 1653 **** debug      Tue Jun 27 12:41:18 UTC 2017    1498567278535   /entel/integration/logging/Logger             "sourceID":"UNK",^M
+ 1654 **** debug      Tue Jun 27 12:41:18 UTC 2017    1498567278535   /entel/integration/logging/Logger             "Service":{^M
+ 1655 **** debug      Tue Jun 27 12:41:18 UTC 2017    1498567278535   /entel/integration/logging/Logger               "code":"CSM_0013",^M
+ 1656 **** debug      Tue Jun 27 12:41:18 UTC 2017    1498567278535   /entel/integration/logging/Logger               "name":"Contract",^M
+ 1657 **** debug      Tue Jun 27 12:41:18 UTC 2017    1498567278535   /entel/integration/logging/Logger               "operation":"Get"^M
+ 1658 **** debug      Tue Jun 27 12:41:18 UTC 2017    1498567278535   /entel/integration/logging/Logger             }^M
+ 1659 **** debug      Tue Jun 27 12:41:18 UTC 2017    1498567278535   /entel/integration/logging/Logger           },^M
+ 1660 **** debug      Tue Jun 27 12:41:18 UTC 2017    1498567278535   /entel/integration/logging/Logger           "Channel":{^M
+ 1661 **** debug      Tue Jun 27 12:41:18 UTC 2017    1498567278535   /entel/integration/logging/Logger             "mode":"NO PRESENCIAL",^M
+ 1662 **** debug      Tue Jun 27 12:41:18 UTC 2017    1498567278535   /entel/integration/logging/Logger             "name":"WEB"^M
+ 1663 **** debug      Tue Jun 27 12:41:18 UTC 2017    1498567278535   /entel/integration/logging/Logger           }^M
+ 1664 **** debug      Tue Jun 27 12:41:18 UTC 2017    1498567278535   /entel/integration/logging/Logger         },^M
+ 1665 **** debug      Tue Jun 27 12:41:18 UTC 2017    1498567278535   /entel/integration/logging/Logger          "Body":{^M
+ 1666 **** debug      Tue Jun 27 12:41:18 UTC 2017    1498567278535   /entel/integration/logging/Logger             "MSISDN":{^M
+ 1667 **** debug      Tue Jun 27 12:41:18 UTC 2017    1498567278535   /entel/integration/logging/Logger                "SN":"",^M
+ 1668 **** debug      Tue Jun 27 12:41:18 UTC 2017    1498567278535   /entel/integration/logging/Logger                "SIMCard":{^M
+ 1669 **** debug      Tue Jun 27 12:41:18 UTC 2017    1498567278535   /entel/integration/logging/Logger                   "ICCID":"89560100000773613993"^M
+ 1670 **** debug      Tue Jun 27 12:41:18 UTC 2017    1498567278535   /entel/integration/logging/Logger                },^M
+ 1671 **** debug      Tue Jun 27 12:41:18 UTC 2017    1498567278535   /entel/integration/logging/Logger                "Session":{^M
+ 1672 **** debug      Tue Jun 27 12:41:18 UTC 2017    1498567278535   /entel/integration/logging/Logger                   "key":"BU_ID",^M
+ 1673 **** debug      Tue Jun 27 12:41:18 UTC 2017    1498567278535   /entel/integration/logging/Logger                   "value":2^M
+ 1674 **** debug      Tue Jun 27 12:41:18 UTC 2017    1498567278535   /entel/integration/logging/Logger                }^M
+ 1675 **** debug      Tue Jun 27 12:41:18 UTC 2017    1498567278535   /entel/integration/logging/Logger             }^M
+ 1676 **** debug      Tue Jun 27 12:41:18 UTC 2017    1498567278535   /entel/integration/logging/Logger          }^M
+ 1677 **** debug      Tue Jun 27 12:41:18 UTC 2017    1498567278535   /entel/integration/logging/Logger       }
+ 1678 **** debug      Tue Jun 27 12:41:18 UTC 2017    1498567278542   /entel/integration/logging/Logger       [GetContract]:Invoke rest call:[url=http://10.51.12.28:7010/ES/SIF/Contract/v1/Get,method=POST
+ 1679 **** debug      Tue Jun 27 12:41:19 UTC 2017    1498567279465   /entel/integration/logging/Logger       [GetContract]:The response from the real service: {
+ 1680 **** debug      Tue Jun 27 12:41:19 UTC 2017    1498567279465   /entel/integration/logging/Logger         "ResponseHeader" : {
+ 1681 **** debug      Tue Jun 27 12:41:19 UTC 2017    1498567279465   /entel/integration/logging/Logger           "Consumer" : {
+ 1682 **** debug      Tue Jun 27 12:41:19 UTC 2017    1498567279465   /entel/integration/logging/Logger             "sysCode" : "CHL-ATG",
+ 1683 **** debug      Tue Jun 27 12:41:19 UTC 2017    1498567279465   /entel/integration/logging/Logger             "enterpriseCode" : "ENTEL-CHL",
+ 1684 **** debug      Tue Jun 27 12:41:19 UTC 2017    1498567279465   /entel/integration/logging/Logger             "countryCode" : "CHL"
+ 1685 **** debug      Tue Jun 27 12:41:19 UTC 2017    1498567279465   /entel/integration/logging/Logger           },
+ 1686 **** debug      Tue Jun 27 12:41:19 UTC 2017    1498567279465   /entel/integration/logging/Logger           "Trace" : {
+ 1687 **** debug      Tue Jun 27 12:41:19 UTC 2017    1498567279465   /entel/integration/logging/Logger             "clientReqTimestamp" : "2017-06-27T12:41:18.526Z",
+ 1688 **** debug      Tue Jun 27 12:41:19 UTC 2017    1498567279465   /entel/integration/logging/Logger             "reqTimestamp" : "2017-06-27T12:41:17.889-04:00",
+ 1689 **** debug      Tue Jun 27 12:41:19 UTC 2017    1498567279465   /entel/integration/logging/Logger             "rspTimestamp" : "2017-06-27T12:41:18.527-04:00",
+ 1690 **** debug      Tue Jun 27 12:41:19 UTC 2017    1498567279465   /entel/integration/logging/Logger             "processID" : "8791cdbd-fc1c-4858-8e7a-d15decc203f9",
+ 1691 **** debug      Tue Jun 27 12:41:19 UTC 2017    1498567279465   /entel/integration/logging/Logger             "eventID" : "0008string20170627124118534849c3f0a0a8f6420000",
+ 1692 **** debug      Tue Jun 27 12:41:19 UTC 2017    1498567279465   /entel/integration/logging/Logger             "sourceID" : "UNK",
+ 1693 **** debug      Tue Jun 27 12:41:19 UTC 2017    1498567279465   /entel/integration/logging/Logger             "correlationEventID" : null,
+ 1694 **** debug      Tue Jun 27 12:41:19 UTC 2017    1498567279465   /entel/integration/logging/Logger             "conversationID" : "80278756-945a-4862-bc10-45d71787790f",
+ 1695 **** debug      Tue Jun 27 12:41:19 UTC 2017    1498567279465   /entel/integration/logging/Logger             "correlationID" : null,
+ 1696 **** debug      Tue Jun 27 12:41:19 UTC 2017    1498567279465   /entel/integration/logging/Logger             "Service" : {
+ 1697 **** debug      Tue Jun 27 12:41:19 UTC 2017    1498567279465   /entel/integration/logging/Logger               "code" : "CM025",
+ 1698 **** debug      Tue Jun 27 12:41:19 UTC 2017    1498567279465   /entel/integration/logging/Logger               "name" : "Contract",
+ 1699 **** debug      Tue Jun 27 12:41:19 UTC 2017    1498567279465   /entel/integration/logging/Logger               "operation" : "Get"
+ 1700 **** debug      Tue Jun 27 12:41:19 UTC 2017    1498567279465   /entel/integration/logging/Logger             }
+ 1701 **** debug      Tue Jun 27 12:41:19 UTC 2017    1498567279465   /entel/integration/logging/Logger           },
+ 1702 **** debug      Tue Jun 27 12:41:19 UTC 2017    1498567279465   /entel/integration/logging/Logger           "Channel" : {
+ 1703 **** debug      Tue Jun 27 12:41:19 UTC 2017    1498567279465   /entel/integration/logging/Logger             "name" : "WEB",
+ 1704 **** debug      Tue Jun 27 12:41:19 UTC 2017    1498567279465   /entel/integration/logging/Logger             "mode" : "NO PRESENCIAL"
+ 1705 **** debug      Tue Jun 27 12:41:19 UTC 2017    1498567279465   /entel/integration/logging/Logger           },
+ 1706 **** debug      Tue Jun 27 12:41:19 UTC 2017    1498567279465   /entel/integration/logging/Logger           "Result" : {
+ 1707 **** debug      Tue Jun 27 12:41:19 UTC 2017    1498567279465   /entel/integration/logging/Logger             "status" : "OK",
+ 1708 **** debug      Tue Jun 27 12:41:19 UTC 2017    1498567279465   /entel/integration/logging/Logger             "description" : "Ejecuci?n Exitosa"
+ 1709 **** debug      Tue Jun 27 12:41:19 UTC 2017    1498567279465   /entel/integration/logging/Logger           }
+ 1710 **** debug      Tue Jun 27 12:41:19 UTC 2017    1498567279465   /entel/integration/logging/Logger         },
+ 1711 **** debug      Tue Jun 27 12:41:19 UTC 2017    1498567279465   /entel/integration/logging/Logger         "Body" : {
+ 1712 **** debug      Tue Jun 27 12:41:19 UTC 2017    1498567279465   /entel/integration/logging/Logger           "Contract" : {
+ 1713 **** debug      Tue Jun 27 12:41:19 UTC 2017    1498567279465   /entel/integration/logging/Logger             "ID" : "10471708",
+ 1714 **** debug      Tue Jun 27 12:41:19 UTC 2017    1498567279465   /entel/integration/logging/Logger             "status" : "2",
+ 1715 **** debug      Tue Jun 27 12:41:19 UTC 2017    1498567279465   /entel/integration/logging/Logger             "BillingAccount" : {
+ 1716 **** debug      Tue Jun 27 12:41:19 UTC 2017    1498567279465   /entel/integration/logging/Logger               "externalID" : "10136854"
+ 1717 **** debug      Tue Jun 27 12:41:19 UTC 2017    1498567279465   /entel/integration/logging/Logger             },
+ 1718 **** debug      Tue Jun 27 12:41:19 UTC 2017    1498567279465   /entel/integration/logging/Logger             "MSISDN" : {
+ 1719 **** debug      Tue Jun 27 12:41:19 UTC 2017    1498567279465   /entel/integration/logging/Logger               "SN" : null,
+ 1720 **** debug      Tue Jun 27 12:41:19 UTC 2017    1498567279465   /entel/integration/logging/Logger               "IMSI" : {
+ 1721 **** debug      Tue Jun 27 12:41:19 UTC 2017    1498567279465   /entel/integration/logging/Logger                 "SN" : "730011545139899"
+ 1722 **** debug      Tue Jun 27 12:41:19 UTC 2017    1498567279465   /entel/integration/logging/Logger               },
+ 1723 **** debug      Tue Jun 27 12:41:19 UTC 2017    1498567279465   /entel/integration/logging/Logger               "INRoutingDevice" : {
+ 1724 **** debug      Tue Jun 27 12:41:19 UTC 2017    1498567279465   /entel/integration/logging/Logger                 "ID" : "100",
+ 1725 **** debug      Tue Jun 27 12:41:19 UTC 2017    1498567279465   /entel/integration/logging/Logger                 "Operator" : {
+ 1726 **** debug      Tue Jun 27 12:41:19 UTC 2017    1498567279465   /entel/integration/logging/Logger                   "plmnCode" : "1032",
+ 1727 **** debug      Tue Jun 27 12:41:19 UTC 2017    1498567279465   /entel/integration/logging/Logger                   "submarketID" : "25"
+ 1728 **** debug      Tue Jun 27 12:41:19 UTC 2017    1498567279465   /entel/integration/logging/Logger                 }
+ 1729 **** debug      Tue Jun 27 12:41:19 UTC 2017    1498567279465   /entel/integration/logging/Logger               },
+ 1730 **** debug      Tue Jun 27 12:41:19 UTC 2017    1498567279465   /entel/integration/logging/Logger               "SIMCard" : {
+ 1731 **** debug      Tue Jun 27 12:41:19 UTC 2017    1498567279465   /entel/integration/logging/Logger                 "ICCID" : "89560100000773613993"
+ 1732 **** debug      Tue Jun 27 12:41:19 UTC 2017    1498567279465   /entel/integration/logging/Logger               }
+ 1733 **** debug      Tue Jun 27 12:41:19 UTC 2017    1498567279465   /entel/integration/logging/Logger             }
+ 1734 **** debug      Tue Jun 27 12:41:19 UTC 2017    1498567279465   /entel/integration/logging/Logger           }
+ 1735 **** debug      Tue Jun 27 12:41:19 UTC 2017    1498567279465   /entel/integration/logging/Logger         }
+ 1736 **** debug      Tue Jun 27 12:41:19 UTC 2017    1498567279465   /entel/integration/logging/Logger       }
+ 1737 **** info       Tue Jun 27 12:41:19 UTC 2017    1498567279477   /entel/integration/simactivation/GetContractResponseFormatter   current dynamic template folder: /project/modules/ENIntegrationService/resources/com/entel      /integration/processor/templates
+
+
+=================================================================================================================================================================
+=================================================================      server four      =========================================================================
+=================================================================================================================================================================
+
+1863 2017-06-27 12:41:48,334 [[ACTIVE] ExecuteThread: '1' for queue: 'weblogic.kernel.Default (self-tuning)'] DEBUG freemarker.cache - "RequestHeader-local-to-remote.ftl"("en_US", UTF-8, parsed): using cached since zip:/u01      /oracle/domains/oraclecommerce/servers/PageServerFour/tmp/_WL_user/storefront/4iorxr/atglib/_ACS.ENIntegrationService_slib_sclasses.jar!/com/entel/integration/processor/templates/RequestHeader-local-to-remote.ftl hasn'      t changed.
+ 1864 **** debug      Tue Jun 27 12:41:48 UTC 2017    1498567308335   /entel/integration/logging/Logger       [GetContract]:The request sent to the real service: ^M
+ 1865 **** debug      Tue Jun 27 12:41:48 UTC 2017    1498567308335   /entel/integration/logging/Logger       {^M
+ 1866 **** debug      Tue Jun 27 12:41:48 UTC 2017    1498567308335   /entel/integration/logging/Logger          "RequestHeader":{^M
+ 1867 **** debug      Tue Jun 27 12:41:48 UTC 2017    1498567308335   /entel/integration/logging/Logger           "Consumer":{^M
+ 1868 **** debug      Tue Jun 27 12:41:48 UTC 2017    1498567308335   /entel/integration/logging/Logger             "countryCode":"CHL",^M
+ 1869 **** debug      Tue Jun 27 12:41:48 UTC 2017    1498567308335   /entel/integration/logging/Logger             "enterpriseCode":"ENTEL-CHL",^M
+ 1870 **** debug      Tue Jun 27 12:41:48 UTC 2017    1498567308335   /entel/integration/logging/Logger             "sysCode":"CHL-ATG"^M
+ 1871 **** debug      Tue Jun 27 12:41:48 UTC 2017    1498567308335   /entel/integration/logging/Logger           },^M
+ 1872 **** debug      Tue Jun 27 12:41:48 UTC 2017    1498567308335   /entel/integration/logging/Logger           "Trace":{^M
+ 1873 **** debug      Tue Jun 27 12:41:48 UTC 2017    1498567308335   /entel/integration/logging/Logger             "clientReqTimestamp":"2017-06-27T12:41:48.325Z",^M
+ 1874 **** debug      Tue Jun 27 12:41:48 UTC 2017    1498567308335   /entel/integration/logging/Logger             "eventID":"0008string20170627124148334bd3db1b373cdad3d000",^M
+ 1875 **** debug      Tue Jun 27 12:41:48 UTC 2017    1498567308335   /entel/integration/logging/Logger             "processID":"9a33662f-a9bd-42f3-91b0-cb93eb034661",^M
+ 1876 **** debug      Tue Jun 27 12:41:48 UTC 2017    1498567308335   /entel/integration/logging/Logger             "sourceID":"UNK",^M
+ 1877 **** debug      Tue Jun 27 12:41:48 UTC 2017    1498567308335   /entel/integration/logging/Logger             "Service":{^M
+ 1878 **** debug      Tue Jun 27 12:41:48 UTC 2017    1498567308335   /entel/integration/logging/Logger               "code":"CSM_0013",^M
+ 1879 **** debug      Tue Jun 27 12:41:48 UTC 2017    1498567308335   /entel/integration/logging/Logger               "name":"Contract",^M
+ 1880 **** debug      Tue Jun 27 12:41:48 UTC 2017    1498567308335   /entel/integration/logging/Logger               "operation":"Get"^M
+ 1881 **** debug      Tue Jun 27 12:41:48 UTC 2017    1498567308335   /entel/integration/logging/Logger             }^M
+ 1882 **** debug      Tue Jun 27 12:41:48 UTC 2017    1498567308335   /entel/integration/logging/Logger           },^M
+ 1883 **** debug      Tue Jun 27 12:41:48 UTC 2017    1498567308335   /entel/integration/logging/Logger           "Channel":{^M
+ 1884 **** debug      Tue Jun 27 12:41:48 UTC 2017    1498567308335   /entel/integration/logging/Logger             "mode":"NO PRESENCIAL",^M
+ 1885 **** debug      Tue Jun 27 12:41:48 UTC 2017    1498567308335   /entel/integration/logging/Logger             "name":"WEB"^M
+ 1886 **** debug      Tue Jun 27 12:41:48 UTC 2017    1498567308335   /entel/integration/logging/Logger           }^M
+ 1887 **** debug      Tue Jun 27 12:41:48 UTC 2017    1498567308335   /entel/integration/logging/Logger         },^M
+ 1888 **** debug      Tue Jun 27 12:41:48 UTC 2017    1498567308335   /entel/integration/logging/Logger          "Body":{^M
+ 1889 **** debug      Tue Jun 27 12:41:48 UTC 2017    1498567308335   /entel/integration/logging/Logger             "MSISDN":{^M
+ 1890 **** debug      Tue Jun 27 12:41:48 UTC 2017    1498567308335   /entel/integration/logging/Logger                "SN":"",^M
+ 1891 **** debug      Tue Jun 27 12:41:48 UTC 2017    1498567308335   /entel/integration/logging/Logger                "SIMCard":{^M
+ 1892 **** debug      Tue Jun 27 12:41:48 UTC 2017    1498567308335   /entel/integration/logging/Logger                   "ICCID":"89560100000773613993"^M
+ 1893 **** debug      Tue Jun 27 12:41:48 UTC 2017    1498567308335   /entel/integration/logging/Logger                },^M
+ 1894 **** debug      Tue Jun 27 12:41:48 UTC 2017    1498567308335   /entel/integration/logging/Logger                "Session":{^M
+ 1895 **** debug      Tue Jun 27 12:41:48 UTC 2017    1498567308335   /entel/integration/logging/Logger                   "key":"BU_ID",^M
+ 1896 **** debug      Tue Jun 27 12:41:48 UTC 2017    1498567308335   /entel/integration/logging/Logger                   "value":2^M
+ 1897 **** debug      Tue Jun 27 12:41:48 UTC 2017    1498567308335   /entel/integration/logging/Logger                }^M
+ 1898 **** debug      Tue Jun 27 12:41:48 UTC 2017    1498567308335   /entel/integration/logging/Logger             }^M
+ 1899 **** debug      Tue Jun 27 12:41:48 UTC 2017    1498567308335   /entel/integration/logging/Logger          }^M
+ 1900 **** debug      Tue Jun 27 12:41:48 UTC 2017    1498567308335   /entel/integration/logging/Logger       }
+ 1901 **** debug      Tue Jun 27 12:41:48 UTC 2017    1498567308342   /entel/integration/logging/Logger       [GetContract]:Invoke rest call:[url=http://10.51.12.28:7010/ES/SIF/Contract/v1/Get,method=POST
+ 1902 **** debug      Tue Jun 27 12:41:51 UTC 2017    1498567311774   /entel/integration/logging/Logger       [GetContract]:The response from the real service: {
+ 1903 **** debug      Tue Jun 27 12:41:51 UTC 2017    1498567311774   /entel/integration/logging/Logger         "ResponseHeader" : {
+ 1904 **** debug      Tue Jun 27 12:41:51 UTC 2017    1498567311774   /entel/integration/logging/Logger           "Consumer" : {
+ 1905 **** debug      Tue Jun 27 12:41:51 UTC 2017    1498567311774   /entel/integration/logging/Logger             "sysCode" : "CHL-ATG",
+ 1906 **** debug      Tue Jun 27 12:41:51 UTC 2017    1498567311774   /entel/integration/logging/Logger             "enterpriseCode" : "ENTEL-CHL",
+ 1907 **** debug      Tue Jun 27 12:41:51 UTC 2017    1498567311774   /entel/integration/logging/Logger             "countryCode" : "CHL"
+ 1908 **** debug      Tue Jun 27 12:41:51 UTC 2017    1498567311774   /entel/integration/logging/Logger           },
+ 1909 **** debug      Tue Jun 27 12:41:51 UTC 2017    1498567311774   /entel/integration/logging/Logger           "Trace" : {
+ 1910 **** debug      Tue Jun 27 12:41:51 UTC 2017    1498567311774   /entel/integration/logging/Logger             "clientReqTimestamp" : "2017-06-27T12:41:48.325Z",
+ 1911 **** debug      Tue Jun 27 12:41:51 UTC 2017    1498567311774   /entel/integration/logging/Logger             "reqTimestamp" : "2017-06-27T12:41:49.309-04:00",
+ 1912 **** debug      Tue Jun 27 12:41:51 UTC 2017    1498567311774   /entel/integration/logging/Logger             "rspTimestamp" : "2017-06-27T12:41:50.83-04:00",
+ 1913 **** debug      Tue Jun 27 12:41:51 UTC 2017    1498567311774   /entel/integration/logging/Logger             "processID" : "9a33662f-a9bd-42f3-91b0-cb93eb034661",
+ 1914 **** debug      Tue Jun 27 12:41:51 UTC 2017    1498567311774   /entel/integration/logging/Logger             "eventID" : "0008string20170627124148334bd3db1b373cdad3d000",
+ 1915 **** debug      Tue Jun 27 12:41:51 UTC 2017    1498567311774   /entel/integration/logging/Logger             "sourceID" : "UNK",
+ 1916 **** debug      Tue Jun 27 12:41:51 UTC 2017    1498567311774   /entel/integration/logging/Logger             "correlationEventID" : null,
+ 1917 **** debug      Tue Jun 27 12:41:51 UTC 2017    1498567311774   /entel/integration/logging/Logger             "conversationID" : "5964e6e4-6dd9-4900-b8c4-4ac92111be7b",
+ 1918 **** debug      Tue Jun 27 12:41:51 UTC 2017    1498567311774   /entel/integration/logging/Logger             "correlationID" : null,
+ 1919 **** debug      Tue Jun 27 12:41:51 UTC 2017    1498567311774   /entel/integration/logging/Logger             "Service" : {
+ 1920 **** debug      Tue Jun 27 12:41:51 UTC 2017    1498567311774   /entel/integration/logging/Logger               "code" : "CM025",
+ 1921 **** debug      Tue Jun 27 12:41:51 UTC 2017    1498567311774   /entel/integration/logging/Logger               "name" : "Contract",
+ 1922 **** debug      Tue Jun 27 12:41:51 UTC 2017    1498567311774   /entel/integration/logging/Logger               "operation" : "Get"
+ 1923 **** debug      Tue Jun 27 12:41:51 UTC 2017    1498567311774   /entel/integration/logging/Logger             }
+ 1924 **** debug      Tue Jun 27 12:41:51 UTC 2017    1498567311774   /entel/integration/logging/Logger           },
+ 1925 **** debug      Tue Jun 27 12:41:51 UTC 2017    1498567311774   /entel/integration/logging/Logger           "Channel" : {
+ 1926 **** debug      Tue Jun 27 12:41:51 UTC 2017    1498567311774   /entel/integration/logging/Logger             "name" : "WEB",
+ 1927 **** debug      Tue Jun 27 12:41:51 UTC 2017    1498567311774   /entel/integration/logging/Logger             "mode" : "NO PRESENCIAL"
+ 1928 **** debug      Tue Jun 27 12:41:51 UTC 2017    1498567311774   /entel/integration/logging/Logger           },
+ 1929 **** debug      Tue Jun 27 12:41:51 UTC 2017    1498567311774   /entel/integration/logging/Logger           "Result" : {
+ 1930 **** debug      Tue Jun 27 12:41:51 UTC 2017    1498567311774   /entel/integration/logging/Logger             "status" : "OK",
+ 1931 **** debug      Tue Jun 27 12:41:51 UTC 2017    1498567311774   /entel/integration/logging/Logger             "description" : "Ejecuci?n Exitosa"
+ 1932 **** debug      Tue Jun 27 12:41:51 UTC 2017    1498567311774   /entel/integration/logging/Logger           }
+ 1933 **** debug      Tue Jun 27 12:41:51 UTC 2017    1498567311774   /entel/integration/logging/Logger         },
+ 1934 **** debug      Tue Jun 27 12:41:51 UTC 2017    1498567311774   /entel/integration/logging/Logger         "Body" : {
+ 1935 **** debug      Tue Jun 27 12:41:51 UTC 2017    1498567311774   /entel/integration/logging/Logger           "Contract" : {
+ 1936 **** debug      Tue Jun 27 12:41:51 UTC 2017    1498567311774   /entel/integration/logging/Logger             "ID" : "10471708",
+ 1937 **** debug      Tue Jun 27 12:41:51 UTC 2017    1498567311774   /entel/integration/logging/Logger             "status" : "2",
+ 1938 **** debug      Tue Jun 27 12:41:51 UTC 2017    1498567311774   /entel/integration/logging/Logger             "BillingAccount" : {
+ 1939 **** debug      Tue Jun 27 12:41:51 UTC 2017    1498567311774   /entel/integration/logging/Logger               "externalID" : "10136854"
+ 1940 **** debug      Tue Jun 27 12:41:51 UTC 2017    1498567311774   /entel/integration/logging/Logger             },
+ 1941 **** debug      Tue Jun 27 12:41:51 UTC 2017    1498567311774   /entel/integration/logging/Logger             "MSISDN" : {
+ 1942 **** debug      Tue Jun 27 12:41:51 UTC 2017    1498567311774   /entel/integration/logging/Logger               "SN" : null,
+ 1943 **** debug      Tue Jun 27 12:41:51 UTC 2017    1498567311774   /entel/integration/logging/Logger               "IMSI" : {
+ 1944 **** debug      Tue Jun 27 12:41:51 UTC 2017    1498567311774   /entel/integration/logging/Logger                 "SN" : "730011545139899"
+ 1945 **** debug      Tue Jun 27 12:41:51 UTC 2017    1498567311774   /entel/integration/logging/Logger               },
+ 1946 **** debug      Tue Jun 27 12:41:51 UTC 2017    1498567311774   /entel/integration/logging/Logger               "INRoutingDevice" : {
+ 1947 **** debug      Tue Jun 27 12:41:51 UTC 2017    1498567311774   /entel/integration/logging/Logger                 "ID" : "100",
+ 1948 **** debug      Tue Jun 27 12:41:51 UTC 2017    1498567311774   /entel/integration/logging/Logger                 "Operator" : {
+ 1949 **** debug      Tue Jun 27 12:41:51 UTC 2017    1498567311774   /entel/integration/logging/Logger                   "plmnCode" : "1032",
+ 1950 **** debug      Tue Jun 27 12:41:51 UTC 2017    1498567311774   /entel/integration/logging/Logger                   "submarketID" : "25"
+ 1951 **** debug      Tue Jun 27 12:41:51 UTC 2017    1498567311774   /entel/integration/logging/Logger                 }
+ 1952 **** debug      Tue Jun 27 12:41:51 UTC 2017    1498567311774   /entel/integration/logging/Logger               },
+ 1953 **** debug      Tue Jun 27 12:41:51 UTC 2017    1498567311774   /entel/integration/logging/Logger               "SIMCard" : {
+ 1954 **** debug      Tue Jun 27 12:41:51 UTC 2017    1498567311774   /entel/integration/logging/Logger                 "ICCID" : "89560100000773613993"
+ 1955 **** debug      Tue Jun 27 12:41:51 UTC 2017    1498567311774   /entel/integration/logging/Logger               }
+ 1956 **** debug      Tue Jun 27 12:41:51 UTC 2017    1498567311774   /entel/integration/logging/Logger             }
+ 1957 **** debug      Tue Jun 27 12:41:51 UTC 2017    1498567311774   /entel/integration/logging/Logger           }
+ 1958 **** debug      Tue Jun 27 12:41:51 UTC 2017    1498567311774   /entel/integration/logging/Logger         }
+ 1959 **** debug      Tue Jun 27 12:41:51 UTC 2017    1498567311774   /entel/integration/logging/Logger       }
+ 1960 **** info       Tue Jun 27 12:41:51 UTC 2017    1498567311785   /entel/integration/simactivation/GetContractResponseFormatter   current dynamic template folder: /project/modules/ENIntegrationService/resources/com/entel      /integration/processor/templates
+
+=================================================================================================================================================================
+=================================================================      server four      =========================================================================
+=================================================================================================================================================================
+
+/oracle/domains/oraclecommerce/servers/PageServerFour/tmp/_WL_user/storefront/4iorxr/atglib/_ACS.ENIntegrationService_slib_sclasses.jar!/com/entel/integration/processor/templates/RequestHeader-local-to-remote.ftl hasn'      t changed.
+ 2083 **** debug      Tue Jun 27 12:43:25 UTC 2017    1498567405205   /entel/integration/logging/Logger       [GetContract]:The request sent to the real service: ^M
+ 2084 **** debug      Tue Jun 27 12:43:25 UTC 2017    1498567405205   /entel/integration/logging/Logger       {^M
+ 2085 **** debug      Tue Jun 27 12:43:25 UTC 2017    1498567405205   /entel/integration/logging/Logger          "RequestHeader":{^M
+ 2086 **** debug      Tue Jun 27 12:43:25 UTC 2017    1498567405205   /entel/integration/logging/Logger           "Consumer":{^M
+ 2087 **** debug      Tue Jun 27 12:43:25 UTC 2017    1498567405205   /entel/integration/logging/Logger             "countryCode":"CHL",^M
+ 2088 **** debug      Tue Jun 27 12:43:25 UTC 2017    1498567405205   /entel/integration/logging/Logger             "enterpriseCode":"ENTEL-CHL",^M
+ 2089 **** debug      Tue Jun 27 12:43:25 UTC 2017    1498567405205   /entel/integration/logging/Logger             "sysCode":"CHL-ATG"^M
+ 2090 **** debug      Tue Jun 27 12:43:25 UTC 2017    1498567405205   /entel/integration/logging/Logger           },^M
+ 2091 **** debug      Tue Jun 27 12:43:25 UTC 2017    1498567405205   /entel/integration/logging/Logger           "Trace":{^M
+ 2092 **** debug      Tue Jun 27 12:43:25 UTC 2017    1498567405205   /entel/integration/logging/Logger             "clientReqTimestamp":"2017-06-27T12:43:25.194Z",^M
+ 2093 **** debug      Tue Jun 27 12:43:25 UTC 2017    1498567405205   /entel/integration/logging/Logger             "eventID":"0008string20170627124325204b70e950e54297b8e000",^M
+ 2094 **** debug      Tue Jun 27 12:43:25 UTC 2017    1498567405205   /entel/integration/logging/Logger             "processID":"ec464fa6-126f-421a-834c-cfe34281f79f",^M
+ 2095 **** debug      Tue Jun 27 12:43:25 UTC 2017    1498567405205   /entel/integration/logging/Logger             "sourceID":"UNK",^M
+ 2096 **** debug      Tue Jun 27 12:43:25 UTC 2017    1498567405205   /entel/integration/logging/Logger             "Service":{^M
+ 2097 **** debug      Tue Jun 27 12:43:25 UTC 2017    1498567405205   /entel/integration/logging/Logger               "code":"CSM_0013",^M
+ 2098 **** debug      Tue Jun 27 12:43:25 UTC 2017    1498567405205   /entel/integration/logging/Logger               "name":"Contract",^M
+ 2099 **** debug      Tue Jun 27 12:43:25 UTC 2017    1498567405205   /entel/integration/logging/Logger               "operation":"Get"^M
+ 2100 **** debug      Tue Jun 27 12:43:25 UTC 2017    1498567405205   /entel/integration/logging/Logger             }^M
+ 2101 **** debug      Tue Jun 27 12:43:25 UTC 2017    1498567405205   /entel/integration/logging/Logger           },^M
+ 2102 **** debug      Tue Jun 27 12:43:25 UTC 2017    1498567405205   /entel/integration/logging/Logger           "Channel":{^M
+ 2103 **** debug      Tue Jun 27 12:43:25 UTC 2017    1498567405205   /entel/integration/logging/Logger             "mode":"NO PRESENCIAL",^M
+ 2104 **** debug      Tue Jun 27 12:43:25 UTC 2017    1498567405205   /entel/integration/logging/Logger             "name":"WEB"^M
+ 2105 **** debug      Tue Jun 27 12:43:25 UTC 2017    1498567405205   /entel/integration/logging/Logger           }^M
+ 2106 **** debug      Tue Jun 27 12:43:25 UTC 2017    1498567405205   /entel/integration/logging/Logger         },^M
+ 2107 **** debug      Tue Jun 27 12:43:25 UTC 2017    1498567405205   /entel/integration/logging/Logger          "Body":{^M
+ 2108 **** debug      Tue Jun 27 12:43:25 UTC 2017    1498567405205   /entel/integration/logging/Logger             "MSISDN":{^M
+ 2109 **** debug      Tue Jun 27 12:43:25 UTC 2017    1498567405205   /entel/integration/logging/Logger                "SN":"",^M
+ 2110 **** debug      Tue Jun 27 12:43:25 UTC 2017    1498567405205   /entel/integration/logging/Logger                "SIMCard":{^M
+ 2111 **** debug      Tue Jun 27 12:43:25 UTC 2017    1498567405205   /entel/integration/logging/Logger                   "ICCID":"89560100000773613993"^M
+ 2112 **** debug      Tue Jun 27 12:43:25 UTC 2017    1498567405205   /entel/integration/logging/Logger                },^M
+ 2113 **** debug      Tue Jun 27 12:43:25 UTC 2017    1498567405205   /entel/integration/logging/Logger                "Session":{^M
+ 2114 **** debug      Tue Jun 27 12:43:25 UTC 2017    1498567405205   /entel/integration/logging/Logger                   "key":"BU_ID",^M
+ 2115 **** debug      Tue Jun 27 12:43:25 UTC 2017    1498567405205   /entel/integration/logging/Logger                   "value":2^M
+ 2116 **** debug      Tue Jun 27 12:43:25 UTC 2017    1498567405205   /entel/integration/logging/Logger                }^M
+ 2117 **** debug      Tue Jun 27 12:43:25 UTC 2017    1498567405205   /entel/integration/logging/Logger             }^M
+ 2118 **** debug      Tue Jun 27 12:43:25 UTC 2017    1498567405205   /entel/integration/logging/Logger          }^M
+ 2119 **** debug      Tue Jun 27 12:43:25 UTC 2017    1498567405205   /entel/integration/logging/Logger       }
+ 2120 **** debug      Tue Jun 27 12:43:25 UTC 2017    1498567405212   /entel/integration/logging/Logger       [GetContract]:Invoke rest call:[url=http://10.51.12.28:7010/ES/SIF/Contract/v1/Get,method=POST
+ 2121 **** debug      Tue Jun 27 12:43:25 UTC 2017    1498567405967   /entel/integration/logging/Logger       [GetContract]:The response from the real service: {
+ 2122 **** debug      Tue Jun 27 12:43:25 UTC 2017    1498567405967   /entel/integration/logging/Logger         "ResponseHeader" : {
+ 2123 **** debug      Tue Jun 27 12:43:25 UTC 2017    1498567405967   /entel/integration/logging/Logger           "Consumer" : {
+ 2124 **** debug      Tue Jun 27 12:43:25 UTC 2017    1498567405967   /entel/integration/logging/Logger             "sysCode" : "CHL-ATG",
+ 2125 **** debug      Tue Jun 27 12:43:25 UTC 2017    1498567405967   /entel/integration/logging/Logger             "enterpriseCode" : "ENTEL-CHL",
+ 2126 **** debug      Tue Jun 27 12:43:25 UTC 2017    1498567405967   /entel/integration/logging/Logger             "countryCode" : "CHL"
+ 2127 **** debug      Tue Jun 27 12:43:25 UTC 2017    1498567405967   /entel/integration/logging/Logger           },
+ 2128 **** debug      Tue Jun 27 12:43:25 UTC 2017    1498567405967   /entel/integration/logging/Logger           "Trace" : {
+ 2129 **** debug      Tue Jun 27 12:43:25 UTC 2017    1498567405967   /entel/integration/logging/Logger             "clientReqTimestamp" : "2017-06-27T12:43:25.194Z",
+ 2130 **** debug      Tue Jun 27 12:43:25 UTC 2017    1498567405967   /entel/integration/logging/Logger             "reqTimestamp" : "2017-06-27T12:43:24.42-04:00",
+ 2131 **** debug      Tue Jun 27 12:43:25 UTC 2017    1498567405967   /entel/integration/logging/Logger             "rspTimestamp" : "2017-06-27T12:43:24.964-04:00",
+ 2132 **** debug      Tue Jun 27 12:43:25 UTC 2017    1498567405967   /entel/integration/logging/Logger             "processID" : "ec464fa6-126f-421a-834c-cfe34281f79f",
+ 2133 **** debug      Tue Jun 27 12:43:25 UTC 2017    1498567405967   /entel/integration/logging/Logger             "eventID" : "0008string20170627124325204b70e950e54297b8e000",
+ 2134 **** debug      Tue Jun 27 12:43:25 UTC 2017    1498567405967   /entel/integration/logging/Logger             "sourceID" : "UNK",
+ 2135 **** debug      Tue Jun 27 12:43:25 UTC 2017    1498567405967   /entel/integration/logging/Logger             "correlationEventID" : null,
+ 2136 **** debug      Tue Jun 27 12:43:25 UTC 2017    1498567405967   /entel/integration/logging/Logger             "conversationID" : "09c7c0c3-984a-4eff-9660-9271d0f2db5c",
+ 2137 **** debug      Tue Jun 27 12:43:25 UTC 2017    1498567405967   /entel/integration/logging/Logger             "correlationID" : null,
+ 2138 **** debug      Tue Jun 27 12:43:25 UTC 2017    1498567405967   /entel/integration/logging/Logger             "Service" : {
+ 2139 **** debug      Tue Jun 27 12:43:25 UTC 2017    1498567405967   /entel/integration/logging/Logger               "code" : "CM025",
+ 2140 **** debug      Tue Jun 27 12:43:25 UTC 2017    1498567405967   /entel/integration/logging/Logger               "name" : "Contract",
+ 2141 **** debug      Tue Jun 27 12:43:25 UTC 2017    1498567405967   /entel/integration/logging/Logger               "operation" : "Get"
+ 2142 **** debug      Tue Jun 27 12:43:25 UTC 2017    1498567405967   /entel/integration/logging/Logger             }
+ 2143 **** debug      Tue Jun 27 12:43:25 UTC 2017    1498567405967   /entel/integration/logging/Logger           },
+ 2144 **** debug      Tue Jun 27 12:43:25 UTC 2017    1498567405967   /entel/integration/logging/Logger           "Channel" : {
+ 2145 **** debug      Tue Jun 27 12:43:25 UTC 2017    1498567405967   /entel/integration/logging/Logger             "name" : "WEB",
+ 2146 **** debug      Tue Jun 27 12:43:25 UTC 2017    1498567405967   /entel/integration/logging/Logger             "mode" : "NO PRESENCIAL"
+ 2147 **** debug      Tue Jun 27 12:43:25 UTC 2017    1498567405967   /entel/integration/logging/Logger           },
+ 2148 **** debug      Tue Jun 27 12:43:25 UTC 2017    1498567405967   /entel/integration/logging/Logger           "Result" : {
+ 2149 **** debug      Tue Jun 27 12:43:25 UTC 2017    1498567405967   /entel/integration/logging/Logger             "status" : "OK",
+ 2150 **** debug      Tue Jun 27 12:43:25 UTC 2017    1498567405967   /entel/integration/logging/Logger             "description" : "Ejecuci?n Exitosa"
+ 2151 **** debug      Tue Jun 27 12:43:25 UTC 2017    1498567405967   /entel/integration/logging/Logger           }
+ 2152 **** debug      Tue Jun 27 12:43:25 UTC 2017    1498567405967   /entel/integration/logging/Logger         },
+ 2153 **** debug      Tue Jun 27 12:43:25 UTC 2017    1498567405967   /entel/integration/logging/Logger         "Body" : {
+ 2154 **** debug      Tue Jun 27 12:43:25 UTC 2017    1498567405967   /entel/integration/logging/Logger           "Contract" : {
+ 2155 **** debug      Tue Jun 27 12:43:25 UTC 2017    1498567405967   /entel/integration/logging/Logger             "ID" : "10471708",
+ 2156 **** debug      Tue Jun 27 12:43:25 UTC 2017    1498567405967   /entel/integration/logging/Logger             "status" : "2",
+ 2157 **** debug      Tue Jun 27 12:43:25 UTC 2017    1498567405967   /entel/integration/logging/Logger             "BillingAccount" : {
+ 2158 **** debug      Tue Jun 27 12:43:25 UTC 2017    1498567405967   /entel/integration/logging/Logger               "externalID" : "10136854"
+ 2159 **** debug      Tue Jun 27 12:43:25 UTC 2017    1498567405967   /entel/integration/logging/Logger             },
+ 2160 **** debug      Tue Jun 27 12:43:25 UTC 2017    1498567405967   /entel/integration/logging/Logger             "MSISDN" : {
+ 2161 **** debug      Tue Jun 27 12:43:25 UTC 2017    1498567405967   /entel/integration/logging/Logger               "SN" : null,
+ 2162 **** debug      Tue Jun 27 12:43:25 UTC 2017    1498567405967   /entel/integration/logging/Logger               "IMSI" : {
+ 2163 **** debug      Tue Jun 27 12:43:25 UTC 2017    1498567405967   /entel/integration/logging/Logger                 "SN" : "730011545139899"
+ 2164 **** debug      Tue Jun 27 12:43:25 UTC 2017    1498567405967   /entel/integration/logging/Logger               },
+ 2165 **** debug      Tue Jun 27 12:43:25 UTC 2017    1498567405967   /entel/integration/logging/Logger               "INRoutingDevice" : {
+ 2166 **** debug      Tue Jun 27 12:43:25 UTC 2017    1498567405967   /entel/integration/logging/Logger                 "ID" : "100",
+ 2167 **** debug      Tue Jun 27 12:43:25 UTC 2017    1498567405967   /entel/integration/logging/Logger                 "Operator" : {
+ 2168 **** debug      Tue Jun 27 12:43:25 UTC 2017    1498567405967   /entel/integration/logging/Logger                   "plmnCode" : "1032",
+ 2169 **** debug      Tue Jun 27 12:43:25 UTC 2017    1498567405967   /entel/integration/logging/Logger                   "submarketID" : "25"
+ 2170 **** debug      Tue Jun 27 12:43:25 UTC 2017    1498567405967   /entel/integration/logging/Logger                 }
+ 2171 **** debug      Tue Jun 27 12:43:25 UTC 2017    1498567405967   /entel/integration/logging/Logger               },
+ 2172 **** debug      Tue Jun 27 12:43:25 UTC 2017    1498567405967   /entel/integration/logging/Logger               "SIMCard" : {
+ 2173 **** debug      Tue Jun 27 12:43:25 UTC 2017    1498567405967   /entel/integration/logging/Logger                 "ICCID" : "89560100000773613993"
+ 2174 **** debug      Tue Jun 27 12:43:25 UTC 2017    1498567405967   /entel/integration/logging/Logger               }
+ 2175 **** debug      Tue Jun 27 12:43:25 UTC 2017    1498567405967   /entel/integration/logging/Logger             }
+ 2176 **** debug      Tue Jun 27 12:43:25 UTC 2017    1498567405967   /entel/integration/logging/Logger           }
+ 2177 **** debug      Tue Jun 27 12:43:25 UTC 2017    1498567405967   /entel/integration/logging/Logger         }
+ 2178 **** debug      Tue Jun 27 12:43:25 UTC 2017    1498567405967   /entel/integration/logging/Logger       }
+ 2179 **** info       Tue Jun 27 12:43:25 UTC 2017    1498567405978   /entel/integration/simactivation/GetContractResponseFormatter   current dynamic template folder: /project/modules/ENIntegrationService/resources/com/entel      /integration/processor/templates
+
+=================================================================================================================================================================
+=================================================================      server four      =========================================================================
+=================================================================================================================================================================
+
+/oracle/domains/oraclecommerce/servers/PageServerFour/tmp/_WL_user/storefront/4iorxr/atglib/_ACS.ENIntegrationService_slib_sclasses.jar!/com/entel/integration/processor/templates/RequestHeader-local-to-remote.ftl hasn'      t changed.
+ 2302 **** debug      Tue Jun 27 12:45:04 UTC 2017    1498567504770   /entel/integration/logging/Logger       [GetContract]:The request sent to the real service: ^M
+ 2303 **** debug      Tue Jun 27 12:45:04 UTC 2017    1498567504770   /entel/integration/logging/Logger       {^M
+ 2304 **** debug      Tue Jun 27 12:45:04 UTC 2017    1498567504770   /entel/integration/logging/Logger          "RequestHeader":{^M
+ 2305 **** debug      Tue Jun 27 12:45:04 UTC 2017    1498567504770   /entel/integration/logging/Logger           "Consumer":{^M
+ 2306 **** debug      Tue Jun 27 12:45:04 UTC 2017    1498567504770   /entel/integration/logging/Logger             "countryCode":"CHL",^M
+ 2307 **** debug      Tue Jun 27 12:45:04 UTC 2017    1498567504770   /entel/integration/logging/Logger             "enterpriseCode":"ENTEL-CHL",^M
+ 2308 **** debug      Tue Jun 27 12:45:04 UTC 2017    1498567504770   /entel/integration/logging/Logger             "sysCode":"CHL-ATG"^M
+ 2309 **** debug      Tue Jun 27 12:45:04 UTC 2017    1498567504770   /entel/integration/logging/Logger           },^M
+ 2310 **** debug      Tue Jun 27 12:45:04 UTC 2017    1498567504770   /entel/integration/logging/Logger           "Trace":{^M
+ 2311 **** debug      Tue Jun 27 12:45:04 UTC 2017    1498567504770   /entel/integration/logging/Logger             "clientReqTimestamp":"2017-06-27T12:45:04.760Z",^M
+ 2312 **** debug      Tue Jun 27 12:45:04 UTC 2017    1498567504770   /entel/integration/logging/Logger             "eventID":"0008string20170627124504769b77774cdd4da49dd000",^M
+ 2313 **** debug      Tue Jun 27 12:45:04 UTC 2017    1498567504770   /entel/integration/logging/Logger             "processID":"1807c39e-837f-4556-a272-8480bfd82c1a",^M
+ 2314 **** debug      Tue Jun 27 12:45:04 UTC 2017    1498567504770   /entel/integration/logging/Logger             "sourceID":"UNK",^M
+ 2315 **** debug      Tue Jun 27 12:45:04 UTC 2017    1498567504770   /entel/integration/logging/Logger             "Service":{^M
+ 2316 **** debug      Tue Jun 27 12:45:04 UTC 2017    1498567504770   /entel/integration/logging/Logger               "code":"CSM_0013",^M
+ 2317 **** debug      Tue Jun 27 12:45:04 UTC 2017    1498567504770   /entel/integration/logging/Logger               "name":"Contract",^M
+ 2318 **** debug      Tue Jun 27 12:45:04 UTC 2017    1498567504770   /entel/integration/logging/Logger               "operation":"Get"^M
+ 2319 **** debug      Tue Jun 27 12:45:04 UTC 2017    1498567504770   /entel/integration/logging/Logger             }^M
+ 2320 **** debug      Tue Jun 27 12:45:04 UTC 2017    1498567504770   /entel/integration/logging/Logger           },^M
+ 2321 **** debug      Tue Jun 27 12:45:04 UTC 2017    1498567504770   /entel/integration/logging/Logger           "Channel":{^M
+ 2322 **** debug      Tue Jun 27 12:45:04 UTC 2017    1498567504770   /entel/integration/logging/Logger             "mode":"NO PRESENCIAL",^M
+ 2323 **** debug      Tue Jun 27 12:45:04 UTC 2017    1498567504770   /entel/integration/logging/Logger             "name":"WEB"^M
+ 2324 **** debug      Tue Jun 27 12:45:04 UTC 2017    1498567504770   /entel/integration/logging/Logger           }^M
+ 2325 **** debug      Tue Jun 27 12:45:04 UTC 2017    1498567504770   /entel/integration/logging/Logger         },^M
+ 2326 **** debug      Tue Jun 27 12:45:04 UTC 2017    1498567504770   /entel/integration/logging/Logger          "Body":{^M
+ 2327 **** debug      Tue Jun 27 12:45:04 UTC 2017    1498567504770   /entel/integration/logging/Logger             "MSISDN":{^M
+ 2328 **** debug      Tue Jun 27 12:45:04 UTC 2017    1498567504770   /entel/integration/logging/Logger                "SN":"",^M
+ 2329 **** debug      Tue Jun 27 12:45:04 UTC 2017    1498567504770   /entel/integration/logging/Logger                "SIMCard":{^M
+ 2330 **** debug      Tue Jun 27 12:45:04 UTC 2017    1498567504770   /entel/integration/logging/Logger                   "ICCID":"89560100000806131468"^M
+ 2331 **** debug      Tue Jun 27 12:45:04 UTC 2017    1498567504770   /entel/integration/logging/Logger                },^M
+ 2332 **** debug      Tue Jun 27 12:45:04 UTC 2017    1498567504770   /entel/integration/logging/Logger                "Session":{^M
+ 2333 **** debug      Tue Jun 27 12:45:04 UTC 2017    1498567504770   /entel/integration/logging/Logger                   "key":"BU_ID",^M
+ 2334 **** debug      Tue Jun 27 12:45:04 UTC 2017    1498567504770   /entel/integration/logging/Logger                   "value":2^M
+ 2335 **** debug      Tue Jun 27 12:45:04 UTC 2017    1498567504770   /entel/integration/logging/Logger                }^M
+ 2336 **** debug      Tue Jun 27 12:45:04 UTC 2017    1498567504770   /entel/integration/logging/Logger             }^M
+ 2337 **** debug      Tue Jun 27 12:45:04 UTC 2017    1498567504770   /entel/integration/logging/Logger          }^M
+ 2338 **** debug      Tue Jun 27 12:45:04 UTC 2017    1498567504770   /entel/integration/logging/Logger       }
+ 2339 **** debug      Tue Jun 27 12:45:04 UTC 2017    1498567504777   /entel/integration/logging/Logger       [GetContract]:Invoke rest call:[url=http://10.51.12.28:7010/ES/SIF/Contract/v1/Get,method=POST
+ 2340 **** debug      Tue Jun 27 12:45:05 UTC 2017    1498567505366   /entel/integration/logging/Logger       [GetContract]:The response from the real service: {
+ 2341 **** debug      Tue Jun 27 12:45:05 UTC 2017    1498567505366   /entel/integration/logging/Logger         "ResponseHeader" : {
+ 2342 **** debug      Tue Jun 27 12:45:05 UTC 2017    1498567505366   /entel/integration/logging/Logger           "Consumer" : {
+ 2343 **** debug      Tue Jun 27 12:45:05 UTC 2017    1498567505366   /entel/integration/logging/Logger             "sysCode" : "CHL-ATG",
+ 2344 **** debug      Tue Jun 27 12:45:05 UTC 2017    1498567505366   /entel/integration/logging/Logger             "enterpriseCode" : "ENTEL-CHL",
+ 2345 **** debug      Tue Jun 27 12:45:05 UTC 2017    1498567505366   /entel/integration/logging/Logger             "countryCode" : "CHL"
+ 2346 **** debug      Tue Jun 27 12:45:05 UTC 2017    1498567505366   /entel/integration/logging/Logger           },
+ 2347 **** debug      Tue Jun 27 12:45:05 UTC 2017    1498567505366   /entel/integration/logging/Logger           "Trace" : {
+ 2348 **** debug      Tue Jun 27 12:45:05 UTC 2017    1498567505366   /entel/integration/logging/Logger             "clientReqTimestamp" : "2017-06-27T12:45:04.760Z",
+ 2349 **** debug      Tue Jun 27 12:45:05 UTC 2017    1498567505366   /entel/integration/logging/Logger             "reqTimestamp" : "2017-06-27T12:45:04.02-04:00",
+ 2350 **** debug      Tue Jun 27 12:45:05 UTC 2017    1498567505366   /entel/integration/logging/Logger             "rspTimestamp" : "2017-06-27T12:45:04.4-04:00",
+ 2351 **** debug      Tue Jun 27 12:45:05 UTC 2017    1498567505366   /entel/integration/logging/Logger             "processID" : "1807c39e-837f-4556-a272-8480bfd82c1a",
+ 2352 **** debug      Tue Jun 27 12:45:05 UTC 2017    1498567505366   /entel/integration/logging/Logger             "eventID" : "0008string20170627124504769b77774cdd4da49dd000",
+ 2353 **** debug      Tue Jun 27 12:45:05 UTC 2017    1498567505366   /entel/integration/logging/Logger             "sourceID" : "UNK",
+ 2354 **** debug      Tue Jun 27 12:45:05 UTC 2017    1498567505366   /entel/integration/logging/Logger             "correlationEventID" : null,
+ 2355 **** debug      Tue Jun 27 12:45:05 UTC 2017    1498567505366   /entel/integration/logging/Logger             "conversationID" : "8fa70c5a-e041-49df-a7ed-a71c18123b27",
+ 2356 **** debug      Tue Jun 27 12:45:05 UTC 2017    1498567505366   /entel/integration/logging/Logger             "correlationID" : null,
+ 2357 **** debug      Tue Jun 27 12:45:05 UTC 2017    1498567505366   /entel/integration/logging/Logger             "Service" : {
+ 2358 **** debug      Tue Jun 27 12:45:05 UTC 2017    1498567505366   /entel/integration/logging/Logger               "code" : "CM025",
+ 2359 **** debug      Tue Jun 27 12:45:05 UTC 2017    1498567505366   /entel/integration/logging/Logger               "name" : "Contract",
+ 2360 **** debug      Tue Jun 27 12:45:05 UTC 2017    1498567505366   /entel/integration/logging/Logger               "operation" : "Get"
+ 2361 **** debug      Tue Jun 27 12:45:05 UTC 2017    1498567505366   /entel/integration/logging/Logger             }
+ 2362 **** debug      Tue Jun 27 12:45:05 UTC 2017    1498567505366   /entel/integration/logging/Logger           },
+ 2363 **** debug      Tue Jun 27 12:45:05 UTC 2017    1498567505366   /entel/integration/logging/Logger           "Channel" : {
+ 2364 **** debug      Tue Jun 27 12:45:05 UTC 2017    1498567505366   /entel/integration/logging/Logger             "name" : "WEB",
+ 2365 **** debug      Tue Jun 27 12:45:05 UTC 2017    1498567505366   /entel/integration/logging/Logger             "mode" : "NO PRESENCIAL"
+ 2366 **** debug      Tue Jun 27 12:45:05 UTC 2017    1498567505366   /entel/integration/logging/Logger           },
+ 2367 **** debug      Tue Jun 27 12:45:05 UTC 2017    1498567505366   /entel/integration/logging/Logger           "Result" : {
+ 2368 **** debug      Tue Jun 27 12:45:05 UTC 2017    1498567505366   /entel/integration/logging/Logger             "status" : "WARNING",
+ 2369 **** debug      Tue Jun 27 12:45:05 UTC 2017    1498567505366   /entel/integration/logging/Logger             "description" : "Transaccion que finaliza con advertencias",
+ 2370 **** debug      Tue Jun 27 12:45:05 UTC 2017    1498567505366   /entel/integration/logging/Logger             "CanonicalError" : {
+ 2371 **** debug      Tue Jun 27 12:45:05 UTC 2017    1498567505366   /entel/integration/logging/Logger               "type" : "NEG",
+ 2372 **** debug      Tue Jun 27 12:45:05 UTC 2017    1498567505366   /entel/integration/logging/Logger               "code" : "10009",
+ 2373 **** debug      Tue Jun 27 12:45:05 UTC 2017    1498567505366   /entel/integration/logging/Logger               "description" : "Validacion rechazada por tipo de cuenta asociado al movil bloqueada"
+ 2374 **** debug      Tue Jun 27 12:45:05 UTC 2017    1498567505366   /entel/integration/logging/Logger             },
+ 2375 **** debug      Tue Jun 27 12:45:05 UTC 2017    1498567505366   /entel/integration/logging/Logger             "SourceError" : {
+ 2376 **** debug      Tue Jun 27 12:45:05 UTC 2017    1498567505366   /entel/integration/logging/Logger               "code" : "CM025E001",
+ 2377 **** debug      Tue Jun 27 12:45:05 UTC 2017    1498567505366   /entel/integration/logging/Logger               "description" : "Sin contratos para los parametros ingresados",
+ 2378 **** debug      Tue Jun 27 12:45:05 UTC 2017    1498567505366   /entel/integration/logging/Logger               "ErrorSourceDetails" : {
+ 2379 **** debug      Tue Jun 27 12:45:05 UTC 2017    1498567505366   /entel/integration/logging/Logger                 "source" : "FRW",
+ 2380 **** debug      Tue Jun 27 12:45:05 UTC 2017    1498567505366   /entel/integration/logging/Logger                 "details" : null
+ 2381 **** debug      Tue Jun 27 12:45:05 UTC 2017    1498567505366   /entel/integration/logging/Logger               },
+ 2382 **** debug      Tue Jun 27 12:45:05 UTC 2017    1498567505366   /entel/integration/logging/Logger               "SourceFault" : "<ns3:SourceFault xmlns:ns12=\"http://www.entel.cl/SC/ErrorManager/handle/v1\" xmlns:ns2=\      "http://www.entel.cl/ESO/Tracer/v1\" xmlns:ns3=\"http://www.entel.cl/ESO/Error/v1\" xmlns:ns1=\"http://www.entel.cl/SC/CacheManager/put/v1\" xmlns=\"http://schemas.xmlsoap.org/soap/envelope/\"><ns1:Result xmlns:ns2=\"h      ttp://www.entel.cl/CSM/LegacyWrapper/v1\" xmlns:ns1=\"http://www.entel.cl/ESO/Result/v2\" xmlns:ns3=\"http://www.entel.cl/CSM/RA/CHL-BSC-BSC/contractsSearch/v1\" status=\"OK\" description=\"Ejecuci?n Exitosa\"/></ns3:S      ourceFault>"
+ 2383 **** debug      Tue Jun 27 12:45:05 UTC 2017    1498567505366   /entel/integration/logging/Logger             }
+ 2384 **** debug      Tue Jun 27 12:45:05 UTC 2017    1498567505366   /entel/integration/logging/Logger           }
+ 2385 **** debug      Tue Jun 27 12:45:05 UTC 2017    1498567505366   /entel/integration/logging/Logger         },
+ 2386 **** debug      Tue Jun 27 12:45:05 UTC 2017    1498567505366   /entel/integration/logging/Logger         "Body" : null
+ 2387 **** debug      Tue Jun 27 12:45:05 UTC 2017    1498567505366   /entel/integration/logging/Logger       }
+
+=================================================================================================================================================================
+=================================================================      server four      =========================================================================
+=================================================================================================================================================================
+
+ 2609 2017-06-27 12:58:55,566 [[ACTIVE] ExecuteThread: '7' for queue: 'weblogic.kernel.Default (self-tuning)'] DEBUG freemarker.cache - TemplateLoader.findTemplateSource("RequestHeader-local-to-remote.ftl"): Found
+ 2610 2017-06-27 12:58:55,566 [[ACTIVE] ExecuteThread: '7' for queue: 'weblogic.kernel.Default (self-tuning)'] DEBUG freemarker.cache - "RequestHeader-local-to-remote.ftl"("en_US", UTF-8, parsed): using cached since zip:/u01      /oracle/domains/oraclecommerce/servers/PageServerFour/tmp/_WL_user/storefront/4iorxr/atglib/_ACS.ENIntegrationService_slib_sclasses.jar!/com/entel/integration/processor/templates/RequestHeader-local-to-remote.ftl hasn'      t changed.
+ 2611 **** debug      Tue Jun 27 12:58:55 UTC 2017    1498568335567   /entel/integration/logging/Logger       [GetContract]:The request sent to the real service: ^M
+ 2612 **** debug      Tue Jun 27 12:58:55 UTC 2017    1498568335567   /entel/integration/logging/Logger       {^M
+ 2613 **** debug      Tue Jun 27 12:58:55 UTC 2017    1498568335567   /entel/integration/logging/Logger          "RequestHeader":{^M
+ 2614 **** debug      Tue Jun 27 12:58:55 UTC 2017    1498568335567   /entel/integration/logging/Logger           "Consumer":{^M
+ 2615 **** debug      Tue Jun 27 12:58:55 UTC 2017    1498568335567   /entel/integration/logging/Logger             "countryCode":"CHL",^M
+ 2616 **** debug      Tue Jun 27 12:58:55 UTC 2017    1498568335567   /entel/integration/logging/Logger             "enterpriseCode":"ENTEL-CHL",^M
+ 2617 **** debug      Tue Jun 27 12:58:55 UTC 2017    1498568335567   /entel/integration/logging/Logger             "sysCode":"CHL-ATG"^M
+ 2618 **** debug      Tue Jun 27 12:58:55 UTC 2017    1498568335567   /entel/integration/logging/Logger           },^M
+ 2619 **** debug      Tue Jun 27 12:58:55 UTC 2017    1498568335567   /entel/integration/logging/Logger           "Trace":{^M
+ 2620 **** debug      Tue Jun 27 12:58:55 UTC 2017    1498568335567   /entel/integration/logging/Logger             "clientReqTimestamp":"2017-06-27T12:58:55.556Z",^M
+ 2621 **** debug      Tue Jun 27 12:58:55 UTC 2017    1498568335567   /entel/integration/logging/Logger             "eventID":"0008string20170627125855566ab3c7e229d23d98e000",^M
+ 2622 **** debug      Tue Jun 27 12:58:55 UTC 2017    1498568335567   /entel/integration/logging/Logger             "processID":"2a04c48e-cc34-4974-b052-8a3154eac522",^M
+ 2623 **** debug      Tue Jun 27 12:58:55 UTC 2017    1498568335567   /entel/integration/logging/Logger             "sourceID":"UNK",^M
+ 2624 **** debug      Tue Jun 27 12:58:55 UTC 2017    1498568335567   /entel/integration/logging/Logger             "Service":{^M
+ 2625 **** debug      Tue Jun 27 12:58:55 UTC 2017    1498568335567   /entel/integration/logging/Logger               "code":"CSM_0013",^M
+ 2626 **** debug      Tue Jun 27 12:58:55 UTC 2017    1498568335567   /entel/integration/logging/Logger               "name":"Contract",^M
+ 2627 **** debug      Tue Jun 27 12:58:55 UTC 2017    1498568335567   /entel/integration/logging/Logger               "operation":"Get"^M
+ 2628 **** debug      Tue Jun 27 12:58:55 UTC 2017    1498568335567   /entel/integration/logging/Logger             }^M
+ 2629 **** debug      Tue Jun 27 12:58:55 UTC 2017    1498568335567   /entel/integration/logging/Logger           },^M
+ 2630 **** debug      Tue Jun 27 12:58:55 UTC 2017    1498568335567   /entel/integration/logging/Logger           "Channel":{^M
+ 2631 **** debug      Tue Jun 27 12:58:55 UTC 2017    1498568335567   /entel/integration/logging/Logger             "mode":"NO PRESENCIAL",^M
+ 2632 **** debug      Tue Jun 27 12:58:55 UTC 2017    1498568335567   /entel/integration/logging/Logger             "name":"WEB"^M
+ 2633 **** debug      Tue Jun 27 12:58:55 UTC 2017    1498568335567   /entel/integration/logging/Logger           }^M
+ 2634 **** debug      Tue Jun 27 12:58:55 UTC 2017    1498568335567   /entel/integration/logging/Logger         },^M
+ 2635 **** debug      Tue Jun 27 12:58:55 UTC 2017    1498568335567   /entel/integration/logging/Logger          "Body":{^M
+ 2636 **** debug      Tue Jun 27 12:58:55 UTC 2017    1498568335567   /entel/integration/logging/Logger             "MSISDN":{^M
+ 2637 **** debug      Tue Jun 27 12:58:55 UTC 2017    1498568335567   /entel/integration/logging/Logger                "SN":"",^M
+ 2638 **** debug      Tue Jun 27 12:58:55 UTC 2017    1498568335567   /entel/integration/logging/Logger                "SIMCard":{^M
+ 2639 **** debug      Tue Jun 27 12:58:55 UTC 2017    1498568335567   /entel/integration/logging/Logger                   "ICCID":"89560100000773613993"^M
+ 2640 **** debug      Tue Jun 27 12:58:55 UTC 2017    1498568335567   /entel/integration/logging/Logger                },^M
+ 2641 **** debug      Tue Jun 27 12:58:55 UTC 2017    1498568335567   /entel/integration/logging/Logger                "Session":{^M
+ 2642 **** debug      Tue Jun 27 12:58:55 UTC 2017    1498568335567   /entel/integration/logging/Logger                   "key":"BU_ID",^M
+ 2643 **** debug      Tue Jun 27 12:58:55 UTC 2017    1498568335567   /entel/integration/logging/Logger                   "value":2^M
+ 2644 **** debug      Tue Jun 27 12:58:55 UTC 2017    1498568335567   /entel/integration/logging/Logger                }^M
+ 2645 **** debug      Tue Jun 27 12:58:55 UTC 2017    1498568335567   /entel/integration/logging/Logger             }^M
+ 2646 **** debug      Tue Jun 27 12:58:55 UTC 2017    1498568335567   /entel/integration/logging/Logger          }^M
+ 2647 **** debug      Tue Jun 27 12:58:55 UTC 2017    1498568335567   /entel/integration/logging/Logger       }
+ 2648 **** debug      Tue Jun 27 12:58:55 UTC 2017    1498568335574   /entel/integration/logging/Logger       [GetContract]:Invoke rest call:[url=http://10.51.12.28:7010/ES/SIF/Contract/v1/Get,method=POST
+ 2649 **** debug      Tue Jun 27 12:58:56 UTC 2017    1498568336353   /entel/integration/logging/Logger       [GetContract]:The response from the real service: {
+ 2650 **** debug      Tue Jun 27 12:58:56 UTC 2017    1498568336353   /entel/integration/logging/Logger         "ResponseHeader" : {
+ 2651 **** debug      Tue Jun 27 12:58:56 UTC 2017    1498568336353   /entel/integration/logging/Logger           "Consumer" : {
+ 2652 **** debug      Tue Jun 27 12:58:56 UTC 2017    1498568336353   /entel/integration/logging/Logger             "sysCode" : "CHL-ATG",
+ 2653 **** debug      Tue Jun 27 12:58:56 UTC 2017    1498568336353   /entel/integration/logging/Logger             "enterpriseCode" : "ENTEL-CHL",
+ 2654 **** debug      Tue Jun 27 12:58:56 UTC 2017    1498568336353   /entel/integration/logging/Logger             "countryCode" : "CHL"
+ 2655 **** debug      Tue Jun 27 12:58:56 UTC 2017    1498568336353   /entel/integration/logging/Logger           },
+ 2656 **** debug      Tue Jun 27 12:58:56 UTC 2017    1498568336353   /entel/integration/logging/Logger           "Trace" : {
+ 2657 **** debug      Tue Jun 27 12:58:56 UTC 2017    1498568336353   /entel/integration/logging/Logger             "clientReqTimestamp" : "2017-06-27T12:58:55.556Z",
+ 2658 **** debug      Tue Jun 27 12:58:56 UTC 2017    1498568336353   /entel/integration/logging/Logger             "reqTimestamp" : "2017-06-27T12:58:54.794-04:00",
+ 2659 **** debug      Tue Jun 27 12:58:56 UTC 2017    1498568336353   /entel/integration/logging/Logger             "rspTimestamp" : "2017-06-27T12:58:55.415-04:00",
+ 2660 **** debug      Tue Jun 27 12:58:56 UTC 2017    1498568336353   /entel/integration/logging/Logger             "processID" : "2a04c48e-cc34-4974-b052-8a3154eac522",
+ 2661 **** debug      Tue Jun 27 12:58:56 UTC 2017    1498568336353   /entel/integration/logging/Logger             "eventID" : "0008string20170627125855566ab3c7e229d23d98e000",
+ 2662 **** debug      Tue Jun 27 12:58:56 UTC 2017    1498568336353   /entel/integration/logging/Logger             "sourceID" : "UNK",
+ 2663 **** debug      Tue Jun 27 12:58:56 UTC 2017    1498568336353   /entel/integration/logging/Logger             "correlationEventID" : null,
+ 2664 **** debug      Tue Jun 27 12:58:56 UTC 2017    1498568336353   /entel/integration/logging/Logger             "conversationID" : "e4cbdc7a-9414-4ee8-bf07-ad754760d8d0",
+ 2665 **** debug      Tue Jun 27 12:58:56 UTC 2017    1498568336353   /entel/integration/logging/Logger             "correlationID" : null,
+ 2666 **** debug      Tue Jun 27 12:58:56 UTC 2017    1498568336353   /entel/integration/logging/Logger             "Service" : {
+ 2667 **** debug      Tue Jun 27 12:58:56 UTC 2017    1498568336353   /entel/integration/logging/Logger               "code" : "CM025",
+ 2668 **** debug      Tue Jun 27 12:58:56 UTC 2017    1498568336353   /entel/integration/logging/Logger               "name" : "Contract",
+ 2669 **** debug      Tue Jun 27 12:58:56 UTC 2017    1498568336353   /entel/integration/logging/Logger               "operation" : "Get"
+ 2670 **** debug      Tue Jun 27 12:58:56 UTC 2017    1498568336353   /entel/integration/logging/Logger             }
+ 2671 **** debug      Tue Jun 27 12:58:56 UTC 2017    1498568336353   /entel/integration/logging/Logger           },
+ 2672 **** debug      Tue Jun 27 12:58:56 UTC 2017    1498568336353   /entel/integration/logging/Logger           "Channel" : {
+ 2673 **** debug      Tue Jun 27 12:58:56 UTC 2017    1498568336353   /entel/integration/logging/Logger             "name" : "WEB",
+ 2674 **** debug      Tue Jun 27 12:58:56 UTC 2017    1498568336353   /entel/integration/logging/Logger             "mode" : "NO PRESENCIAL"
+ 2675 **** debug      Tue Jun 27 12:58:56 UTC 2017    1498568336353   /entel/integration/logging/Logger           },
+ 2676 **** debug      Tue Jun 27 12:58:56 UTC 2017    1498568336353   /entel/integration/logging/Logger           "Result" : {
+ 2677 **** debug      Tue Jun 27 12:58:56 UTC 2017    1498568336353   /entel/integration/logging/Logger             "status" : "OK",
+ 2678 **** debug      Tue Jun 27 12:58:56 UTC 2017    1498568336353   /entel/integration/logging/Logger             "description" : "Ejecuci?n Exitosa"
+ 2679 **** debug      Tue Jun 27 12:58:56 UTC 2017    1498568336353   /entel/integration/logging/Logger           }
+ 2680 **** debug      Tue Jun 27 12:58:56 UTC 2017    1498568336353   /entel/integration/logging/Logger         },
+ 2681 **** debug      Tue Jun 27 12:58:56 UTC 2017    1498568336353   /entel/integration/logging/Logger         "Body" : {
+ 2682 **** debug      Tue Jun 27 12:58:56 UTC 2017    1498568336353   /entel/integration/logging/Logger           "Contract" : {
+ 2683 **** debug      Tue Jun 27 12:58:56 UTC 2017    1498568336353   /entel/integration/logging/Logger             "ID" : "10471708",
+ 2684 **** debug      Tue Jun 27 12:58:56 UTC 2017    1498568336353   /entel/integration/logging/Logger             "status" : "2",
+ 2685 **** debug      Tue Jun 27 12:58:56 UTC 2017    1498568336353   /entel/integration/logging/Logger             "BillingAccount" : {
+ 2686 **** debug      Tue Jun 27 12:58:56 UTC 2017    1498568336353   /entel/integration/logging/Logger               "externalID" : "10136854"
+ 2687 **** debug      Tue Jun 27 12:58:56 UTC 2017    1498568336353   /entel/integration/logging/Logger             },
+ 2688 **** debug      Tue Jun 27 12:58:56 UTC 2017    1498568336353   /entel/integration/logging/Logger             "MSISDN" : {
+ 2689 **** debug      Tue Jun 27 12:58:56 UTC 2017    1498568336353   /entel/integration/logging/Logger               "SN" : null,
+ 2690 **** debug      Tue Jun 27 12:58:56 UTC 2017    1498568336353   /entel/integration/logging/Logger               "IMSI" : {
+ 2691 **** debug      Tue Jun 27 12:58:56 UTC 2017    1498568336353   /entel/integration/logging/Logger                 "SN" : "730011545139899"
+ 2692 **** debug      Tue Jun 27 12:58:56 UTC 2017    1498568336353   /entel/integration/logging/Logger               },
+ 2693 **** debug      Tue Jun 27 12:58:56 UTC 2017    1498568336353   /entel/integration/logging/Logger               "INRoutingDevice" : {
+ 2694 **** debug      Tue Jun 27 12:58:56 UTC 2017    1498568336353   /entel/integration/logging/Logger                 "ID" : "100",
+ 2695 **** debug      Tue Jun 27 12:58:56 UTC 2017    1498568336353   /entel/integration/logging/Logger                 "Operator" : {
+ 2696 **** debug      Tue Jun 27 12:58:56 UTC 2017    1498568336353   /entel/integration/logging/Logger                   "plmnCode" : "1032",
+ 2697 **** debug      Tue Jun 27 12:58:56 UTC 2017    1498568336353   /entel/integration/logging/Logger                   "submarketID" : "25"
+ 2698 **** debug      Tue Jun 27 12:58:56 UTC 2017    1498568336353   /entel/integration/logging/Logger                 }
+ 2699 **** debug      Tue Jun 27 12:58:56 UTC 2017    1498568336353   /entel/integration/logging/Logger               },
+ 2700 **** debug      Tue Jun 27 12:58:56 UTC 2017    1498568336353   /entel/integration/logging/Logger               "SIMCard" : {
+ 2701 **** debug      Tue Jun 27 12:58:56 UTC 2017    1498568336353   /entel/integration/logging/Logger                 "ICCID" : "89560100000773613993"
+ 2702 **** debug      Tue Jun 27 12:58:56 UTC 2017    1498568336353   /entel/integration/logging/Logger               }
+ 2703 **** debug      Tue Jun 27 12:58:56 UTC 2017    1498568336353   /entel/integration/logging/Logger             }
+ 2704 **** debug      Tue Jun 27 12:58:56 UTC 2017    1498568336353   /entel/integration/logging/Logger           }
+ 2705 **** debug      Tue Jun 27 12:58:56 UTC 2017    1498568336353   /entel/integration/logging/Logger         }
+ 2706 **** debug      Tue Jun 27 12:58:56 UTC 2017    1498568336353   /entel/integration/logging/Logger       }
+ 2707 **** info       Tue Jun 27 12:58:56 UTC 2017    1498568336364   /entel/integration/simactivation/GetContractResponseFormatter   current dynamic template folder: /project/modules/ENIntegrationService/resources/com/entel      /integration/processor/templates
+
+=================================================================================================================================================================
+=================================================================      server four      =========================================================================
+=================================================================================================================================================================
+
+
+/oracle/domains/oraclecommerce/servers/PageServerFour/tmp/_WL_user/storefront/4iorxr/atglib/_ACS.ENIntegrationService_slib_sclasses.jar!/com/entel/integration/processor/templates/RequestHeader-local-to-remote.ftl hasn'      t changed.
+ 2842 **** debug      Tue Jun 27 12:59:06 UTC 2017    1498568346764   /entel/integration/logging/Logger       [GetContract]:The request sent to the real service: ^M
+ 2843 **** debug      Tue Jun 27 12:59:06 UTC 2017    1498568346764   /entel/integration/logging/Logger       {^M
+ 2844 **** debug      Tue Jun 27 12:59:06 UTC 2017    1498568346764   /entel/integration/logging/Logger          "RequestHeader":{^M
+ 2845 **** debug      Tue Jun 27 12:59:06 UTC 2017    1498568346764   /entel/integration/logging/Logger           "Consumer":{^M
+ 2846 **** debug      Tue Jun 27 12:59:06 UTC 2017    1498568346764   /entel/integration/logging/Logger             "countryCode":"CHL",^M
+ 2847 **** debug      Tue Jun 27 12:59:06 UTC 2017    1498568346764   /entel/integration/logging/Logger             "enterpriseCode":"ENTEL-CHL",^M
+ 2848 **** debug      Tue Jun 27 12:59:06 UTC 2017    1498568346764   /entel/integration/logging/Logger             "sysCode":"CHL-ATG"^M
+ 2849 **** debug      Tue Jun 27 12:59:06 UTC 2017    1498568346764   /entel/integration/logging/Logger           },^M
+ 2850 **** debug      Tue Jun 27 12:59:06 UTC 2017    1498568346764   /entel/integration/logging/Logger           "Trace":{^M
+ 2851 **** debug      Tue Jun 27 12:59:06 UTC 2017    1498568346764   /entel/integration/logging/Logger             "clientReqTimestamp":"2017-06-27T12:59:06.754Z",^M
+ 2852 **** debug      Tue Jun 27 12:59:06 UTC 2017    1498568346764   /entel/integration/logging/Logger             "eventID":"0008string2017062712590676499cef85abbc26bf7000",^M
+ 2853 **** debug      Tue Jun 27 12:59:06 UTC 2017    1498568346764   /entel/integration/logging/Logger             "processID":"f27bb7e0-4e5f-480a-a24e-b35ce5127eff",^M
+ 2854 **** debug      Tue Jun 27 12:59:06 UTC 2017    1498568346764   /entel/integration/logging/Logger             "sourceID":"UNK",^M
+ 2855 **** debug      Tue Jun 27 12:59:06 UTC 2017    1498568346764   /entel/integration/logging/Logger             "Service":{^M
+ 2856 **** debug      Tue Jun 27 12:59:06 UTC 2017    1498568346764   /entel/integration/logging/Logger               "code":"CSM_0013",^M
+ 2857 **** debug      Tue Jun 27 12:59:06 UTC 2017    1498568346764   /entel/integration/logging/Logger               "name":"Contract",^M
+ 2858 **** debug      Tue Jun 27 12:59:06 UTC 2017    1498568346764   /entel/integration/logging/Logger               "operation":"Get"^M
+ 2859 **** debug      Tue Jun 27 12:59:06 UTC 2017    1498568346764   /entel/integration/logging/Logger             }^M
+ 2860 **** debug      Tue Jun 27 12:59:06 UTC 2017    1498568346764   /entel/integration/logging/Logger           },^M
+ 2861 **** debug      Tue Jun 27 12:59:06 UTC 2017    1498568346764   /entel/integration/logging/Logger           "Channel":{^M
+ 2862 **** debug      Tue Jun 27 12:59:06 UTC 2017    1498568346764   /entel/integration/logging/Logger             "mode":"NO PRESENCIAL",^M
+ 2863 **** debug      Tue Jun 27 12:59:06 UTC 2017    1498568346764   /entel/integration/logging/Logger             "name":"WEB"^M
+ 2864 **** debug      Tue Jun 27 12:59:06 UTC 2017    1498568346764   /entel/integration/logging/Logger           }^M
+ 2865 **** debug      Tue Jun 27 12:59:06 UTC 2017    1498568346764   /entel/integration/logging/Logger         },^M
+ 2866 **** debug      Tue Jun 27 12:59:06 UTC 2017    1498568346764   /entel/integration/logging/Logger          "Body":{^M
+ 2867 **** debug      Tue Jun 27 12:59:06 UTC 2017    1498568346764   /entel/integration/logging/Logger             "MSISDN":{^M
+ 2868 **** debug      Tue Jun 27 12:59:06 UTC 2017    1498568346764   /entel/integration/logging/Logger                "SN":"",^M
+ 2869 **** debug      Tue Jun 27 12:59:06 UTC 2017    1498568346764   /entel/integration/logging/Logger                "SIMCard":{^M
+ 2870 **** debug      Tue Jun 27 12:59:06 UTC 2017    1498568346764   /entel/integration/logging/Logger                   "ICCID":"89560100000773613993"^M
+ 2871 **** debug      Tue Jun 27 12:59:06 UTC 2017    1498568346764   /entel/integration/logging/Logger                },^M
+ 2872 **** debug      Tue Jun 27 12:59:06 UTC 2017    1498568346764   /entel/integration/logging/Logger                "Session":{^M
+ 2873 **** debug      Tue Jun 27 12:59:06 UTC 2017    1498568346764   /entel/integration/logging/Logger                   "key":"BU_ID",^M
+ 2874 **** debug      Tue Jun 27 12:59:06 UTC 2017    1498568346764   /entel/integration/logging/Logger                   "value":2^M
+ 2875 **** debug      Tue Jun 27 12:59:06 UTC 2017    1498568346764   /entel/integration/logging/Logger                }^M
+ 2876 **** debug      Tue Jun 27 12:59:06 UTC 2017    1498568346764   /entel/integration/logging/Logger             }^M
+ 2877 **** debug      Tue Jun 27 12:59:06 UTC 2017    1498568346764   /entel/integration/logging/Logger          }^M
+ 2878 **** debug      Tue Jun 27 12:59:06 UTC 2017    1498568346764   /entel/integration/logging/Logger       }
+ 2879 **** debug      Tue Jun 27 12:59:06 UTC 2017    1498568346771   /entel/integration/logging/Logger       [GetContract]:Invoke rest call:[url=http://10.51.12.28:7010/ES/SIF/Contract/v1/Get,method=POST
+ 2880 **** debug      Tue Jun 27 12:59:09 UTC 2017    1498568349440   /entel/integration/logging/Logger       [GetContract]:The response from the real service: {
+ 2881 **** debug      Tue Jun 27 12:59:09 UTC 2017    1498568349440   /entel/integration/logging/Logger         "ResponseHeader" : {
+ 2882 **** debug      Tue Jun 27 12:59:09 UTC 2017    1498568349440   /entel/integration/logging/Logger           "Consumer" : {
+ 2883 **** debug      Tue Jun 27 12:59:09 UTC 2017    1498568349440   /entel/integration/logging/Logger             "sysCode" : "CHL-ATG",
+ 2884 **** debug      Tue Jun 27 12:59:09 UTC 2017    1498568349440   /entel/integration/logging/Logger             "enterpriseCode" : "ENTEL-CHL",
+ 2885 **** debug      Tue Jun 27 12:59:09 UTC 2017    1498568349440   /entel/integration/logging/Logger             "countryCode" : "CHL"
+ 2886 **** debug      Tue Jun 27 12:59:09 UTC 2017    1498568349440   /entel/integration/logging/Logger           },
+ 2887 **** debug      Tue Jun 27 12:59:09 UTC 2017    1498568349440   /entel/integration/logging/Logger           "Trace" : {
+ 2888 **** debug      Tue Jun 27 12:59:09 UTC 2017    1498568349440   /entel/integration/logging/Logger             "clientReqTimestamp" : "2017-06-27T12:59:06.754Z",
+ 2889 **** debug      Tue Jun 27 12:59:09 UTC 2017    1498568349440   /entel/integration/logging/Logger             "reqTimestamp" : "2017-06-27T12:59:06.157-04:00",
+ 2890 **** debug      Tue Jun 27 12:59:09 UTC 2017    1498568349440   /entel/integration/logging/Logger             "rspTimestamp" : "2017-06-27T12:59:08.433-04:00",
+ 2891 **** debug      Tue Jun 27 12:59:09 UTC 2017    1498568349440   /entel/integration/logging/Logger             "processID" : "f27bb7e0-4e5f-480a-a24e-b35ce5127eff",
+ 2892 **** debug      Tue Jun 27 12:59:09 UTC 2017    1498568349440   /entel/integration/logging/Logger             "eventID" : "0008string2017062712590676499cef85abbc26bf7000",
+ 2893 **** debug      Tue Jun 27 12:59:09 UTC 2017    1498568349440   /entel/integration/logging/Logger             "sourceID" : "UNK",
+ 2894 **** debug      Tue Jun 27 12:59:09 UTC 2017    1498568349440   /entel/integration/logging/Logger             "correlationEventID" : null,
+ 2895 **** debug      Tue Jun 27 12:59:09 UTC 2017    1498568349440   /entel/integration/logging/Logger             "conversationID" : "29a91cc6-001e-41e9-a48c-591d7ad66833",
+ 2896 **** debug      Tue Jun 27 12:59:09 UTC 2017    1498568349440   /entel/integration/logging/Logger             "correlationID" : null,
+ 2897 **** debug      Tue Jun 27 12:59:09 UTC 2017    1498568349440   /entel/integration/logging/Logger             "Service" : {
+ 2898 **** debug      Tue Jun 27 12:59:09 UTC 2017    1498568349440   /entel/integration/logging/Logger               "code" : "CM025",
+ 2899 **** debug      Tue Jun 27 12:59:09 UTC 2017    1498568349440   /entel/integration/logging/Logger               "name" : "Contract",
+ 2900 **** debug      Tue Jun 27 12:59:09 UTC 2017    1498568349440   /entel/integration/logging/Logger               "operation" : "Get"
+ 2901 **** debug      Tue Jun 27 12:59:09 UTC 2017    1498568349440   /entel/integration/logging/Logger             }
+ 2902 **** debug      Tue Jun 27 12:59:09 UTC 2017    1498568349440   /entel/integration/logging/Logger           },
+ 2903 **** debug      Tue Jun 27 12:59:09 UTC 2017    1498568349440   /entel/integration/logging/Logger           "Channel" : {
+ 2904 **** debug      Tue Jun 27 12:59:09 UTC 2017    1498568349440   /entel/integration/logging/Logger             "name" : "WEB",
+ 2905 **** debug      Tue Jun 27 12:59:09 UTC 2017    1498568349440   /entel/integration/logging/Logger             "mode" : "NO PRESENCIAL"
+ 2906 **** debug      Tue Jun 27 12:59:09 UTC 2017    1498568349440   /entel/integration/logging/Logger           },
+ 2907 **** debug      Tue Jun 27 12:59:09 UTC 2017    1498568349440   /entel/integration/logging/Logger           "Result" : {
+ 2908 **** debug      Tue Jun 27 12:59:09 UTC 2017    1498568349440   /entel/integration/logging/Logger             "status" : "OK",
+ 2909 **** debug      Tue Jun 27 12:59:09 UTC 2017    1498568349440   /entel/integration/logging/Logger             "description" : "Ejecuci?n Exitosa"
+ 2910 **** debug      Tue Jun 27 12:59:09 UTC 2017    1498568349440   /entel/integration/logging/Logger           }
+ 2911 **** debug      Tue Jun 27 12:59:09 UTC 2017    1498568349440   /entel/integration/logging/Logger         },
+ 2912 **** debug      Tue Jun 27 12:59:09 UTC 2017    1498568349440   /entel/integration/logging/Logger         "Body" : {
+ 2913 **** debug      Tue Jun 27 12:59:09 UTC 2017    1498568349440   /entel/integration/logging/Logger           "Contract" : {
+ 2914 **** debug      Tue Jun 27 12:59:09 UTC 2017    1498568349440   /entel/integration/logging/Logger             "ID" : "10471708",
+ 2915 **** debug      Tue Jun 27 12:59:09 UTC 2017    1498568349440   /entel/integration/logging/Logger             "status" : "2",
+ 2916 **** debug      Tue Jun 27 12:59:09 UTC 2017    1498568349440   /entel/integration/logging/Logger             "BillingAccount" : {
+ 2917 **** debug      Tue Jun 27 12:59:09 UTC 2017    1498568349440   /entel/integration/logging/Logger               "externalID" : "10136854"
+ 2918 **** debug      Tue Jun 27 12:59:09 UTC 2017    1498568349440   /entel/integration/logging/Logger             },
+ 2919 **** debug      Tue Jun 27 12:59:09 UTC 2017    1498568349440   /entel/integration/logging/Logger             "MSISDN" : {
+ 2920 **** debug      Tue Jun 27 12:59:09 UTC 2017    1498568349440   /entel/integration/logging/Logger               "SN" : null,
+ 2921 **** debug      Tue Jun 27 12:59:09 UTC 2017    1498568349440   /entel/integration/logging/Logger               "IMSI" : {
+ 2922 **** debug      Tue Jun 27 12:59:09 UTC 2017    1498568349440   /entel/integration/logging/Logger                 "SN" : "730011545139899"
+ 2923 **** debug      Tue Jun 27 12:59:09 UTC 2017    1498568349440   /entel/integration/logging/Logger               },
+ 2924 **** debug      Tue Jun 27 12:59:09 UTC 2017    1498568349440   /entel/integration/logging/Logger               "INRoutingDevice" : {
+ 2925 **** debug      Tue Jun 27 12:59:09 UTC 2017    1498568349440   /entel/integration/logging/Logger                 "ID" : "100",
+ 2926 **** debug      Tue Jun 27 12:59:09 UTC 2017    1498568349440   /entel/integration/logging/Logger                 "Operator" : {
+ 2927 **** debug      Tue Jun 27 12:59:09 UTC 2017    1498568349440   /entel/integration/logging/Logger                   "plmnCode" : "1032",
+ 2928 **** debug      Tue Jun 27 12:59:09 UTC 2017    1498568349440   /entel/integration/logging/Logger                   "submarketID" : "25"
+ 2929 **** debug      Tue Jun 27 12:59:09 UTC 2017    1498568349440   /entel/integration/logging/Logger                 }
+ 2930 **** debug      Tue Jun 27 12:59:09 UTC 2017    1498568349440   /entel/integration/logging/Logger               },
+ 2931 **** debug      Tue Jun 27 12:59:09 UTC 2017    1498568349440   /entel/integration/logging/Logger               "SIMCard" : {
+ 2932 **** debug      Tue Jun 27 12:59:09 UTC 2017    1498568349440   /entel/integration/logging/Logger                 "ICCID" : "89560100000773613993"
+ 2933 **** debug      Tue Jun 27 12:59:09 UTC 2017    1498568349440   /entel/integration/logging/Logger               }
+ 2934 **** debug      Tue Jun 27 12:59:09 UTC 2017    1498568349440   /entel/integration/logging/Logger             }
+ 2935 **** debug      Tue Jun 27 12:59:09 UTC 2017    1498568349440   /entel/integration/logging/Logger           }
+ 2936 **** debug      Tue Jun 27 12:59:09 UTC 2017    1498568349440   /entel/integration/logging/Logger         }
+ 2937 **** debug      Tue Jun 27 12:59:09 UTC 2017    1498568349440   /entel/integration/logging/Logger       }
+ 2938 **** info       Tue Jun 27 12:59:09 UTC 2017    1498568349452   /entel/integration/simactivation/GetContractResponseFormatter   current dynamic template folder: /project/modules/ENIntegrationService/resources/com/entel      /integration/processor/templates
+
+=================================================================================================================================================================
+=================================================================      server four      =========================================================================
+=================================================================================================================================================================
+
+3254 2017-06-27 13:01:34,704 [[ACTIVE] ExecuteThread: '7' for queue: 'weblogic.kernel.Default (self-tuning)'] DEBUG freemarker.cache - TemplateLoader.findTemplateSource("RequestHeader-local-to-remote.ftl"): Found
+ 3255 2017-06-27 13:01:34,704 [[ACTIVE] ExecuteThread: '7' for queue: 'weblogic.kernel.Default (self-tuning)'] DEBUG freemarker.cache - "RequestHeader-local-to-remote.ftl"("en_US", UTF-8, parsed): using cached since zip:/u01      /oracle/domains/oraclecommerce/servers/PageServerFour/tmp/_WL_user/storefront/4iorxr/atglib/_ACS.ENIntegrationService_slib_sclasses.jar!/com/entel/integration/processor/templates/RequestHeader-local-to-remote.ftl hasn'      t changed.
+ 3256 **** debug      Tue Jun 27 13:01:34 UTC 2017    1498568494705   /entel/integration/logging/Logger       [GetContract]:The request sent to the real service: ^M
+ 3257 **** debug      Tue Jun 27 13:01:34 UTC 2017    1498568494705   /entel/integration/logging/Logger       {^M
+ 3258 **** debug      Tue Jun 27 13:01:34 UTC 2017    1498568494705   /entel/integration/logging/Logger          "RequestHeader":{^M
+ 3259 **** debug      Tue Jun 27 13:01:34 UTC 2017    1498568494705   /entel/integration/logging/Logger           "Consumer":{^M
+ 3260 **** debug      Tue Jun 27 13:01:34 UTC 2017    1498568494705   /entel/integration/logging/Logger             "countryCode":"CHL",^M
+ 3261 **** debug      Tue Jun 27 13:01:34 UTC 2017    1498568494705   /entel/integration/logging/Logger             "enterpriseCode":"ENTEL-CHL",^M
+ 3262 **** debug      Tue Jun 27 13:01:34 UTC 2017    1498568494705   /entel/integration/logging/Logger             "sysCode":"CHL-ATG"^M
+ 3263 **** debug      Tue Jun 27 13:01:34 UTC 2017    1498568494705   /entel/integration/logging/Logger           },^M
+ 3264 **** debug      Tue Jun 27 13:01:34 UTC 2017    1498568494705   /entel/integration/logging/Logger           "Trace":{^M
+ 3265 **** debug      Tue Jun 27 13:01:34 UTC 2017    1498568494705   /entel/integration/logging/Logger             "clientReqTimestamp":"2017-06-27T13:01:34.695Z",^M
+ 3266 **** debug      Tue Jun 27 13:01:34 UTC 2017    1498568494705   /entel/integration/logging/Logger             "eventID":"0008string20170627130134704834e739d66c71dfc000",^M
+ 3267 **** debug      Tue Jun 27 13:01:34 UTC 2017    1498568494705   /entel/integration/logging/Logger             "processID":"14579e57-9171-45fe-932d-b2e58c34e73f",^M
+ 3268 **** debug      Tue Jun 27 13:01:34 UTC 2017    1498568494705   /entel/integration/logging/Logger             "sourceID":"UNK",^M
+ 3269 **** debug      Tue Jun 27 13:01:34 UTC 2017    1498568494705   /entel/integration/logging/Logger             "Service":{^M
+ 3270 **** debug      Tue Jun 27 13:01:34 UTC 2017    1498568494705   /entel/integration/logging/Logger               "code":"CSM_0013",^M
+ 3271 **** debug      Tue Jun 27 13:01:34 UTC 2017    1498568494705   /entel/integration/logging/Logger               "name":"Contract",^M
+ 3272 **** debug      Tue Jun 27 13:01:34 UTC 2017    1498568494705   /entel/integration/logging/Logger               "operation":"Get"^M
+ 3273 **** debug      Tue Jun 27 13:01:34 UTC 2017    1498568494705   /entel/integration/logging/Logger             }^M
+ 3274 **** debug      Tue Jun 27 13:01:34 UTC 2017    1498568494705   /entel/integration/logging/Logger           },^M
+ 3275 **** debug      Tue Jun 27 13:01:34 UTC 2017    1498568494705   /entel/integration/logging/Logger           "Channel":{^M
+ 3276 **** debug      Tue Jun 27 13:01:34 UTC 2017    1498568494705   /entel/integration/logging/Logger             "mode":"NO PRESENCIAL",^M
+ 3277 **** debug      Tue Jun 27 13:01:34 UTC 2017    1498568494705   /entel/integration/logging/Logger             "name":"WEB"^M
+ 3278 **** debug      Tue Jun 27 13:01:34 UTC 2017    1498568494705   /entel/integration/logging/Logger           }^M
+ 3279 **** debug      Tue Jun 27 13:01:34 UTC 2017    1498568494705   /entel/integration/logging/Logger         },^M
+ 3280 **** debug      Tue Jun 27 13:01:34 UTC 2017    1498568494705   /entel/integration/logging/Logger          "Body":{^M
+ 3281 **** debug      Tue Jun 27 13:01:34 UTC 2017    1498568494705   /entel/integration/logging/Logger             "MSISDN":{^M
+ 3282 **** debug      Tue Jun 27 13:01:34 UTC 2017    1498568494705   /entel/integration/logging/Logger                "SN":"",^M
+ 3283 **** debug      Tue Jun 27 13:01:34 UTC 2017    1498568494705   /entel/integration/logging/Logger                "SIMCard":{^M
+ 3284 **** debug      Tue Jun 27 13:01:34 UTC 2017    1498568494705   /entel/integration/logging/Logger                   "ICCID":"89560100000773613993"^M
+ 3285 **** debug      Tue Jun 27 13:01:34 UTC 2017    1498568494705   /entel/integration/logging/Logger                },^M
+ 3286 **** debug      Tue Jun 27 13:01:34 UTC 2017    1498568494705   /entel/integration/logging/Logger                "Session":{^M
+ 3287 **** debug      Tue Jun 27 13:01:34 UTC 2017    1498568494705   /entel/integration/logging/Logger                   "key":"BU_ID",^M
+ 3288 **** debug      Tue Jun 27 13:01:34 UTC 2017    1498568494705   /entel/integration/logging/Logger                   "value":2^M
+ 3289 **** debug      Tue Jun 27 13:01:34 UTC 2017    1498568494705   /entel/integration/logging/Logger                }^M
+ 3290 **** debug      Tue Jun 27 13:01:34 UTC 2017    1498568494705   /entel/integration/logging/Logger             }^M
+ 3291 **** debug      Tue Jun 27 13:01:34 UTC 2017    1498568494705   /entel/integration/logging/Logger          }^M
+ 3292 **** debug      Tue Jun 27 13:01:34 UTC 2017    1498568494705   /entel/integration/logging/Logger       }
+ 3293 **** debug      Tue Jun 27 13:01:34 UTC 2017    1498568494712   /entel/integration/logging/Logger       [GetContract]:Invoke rest call:[url=http://10.51.12.28:7010/ES/SIF/Contract/v1/Get,method=POST
+ 3294 **** debug      Tue Jun 27 13:01:36 UTC 2017    1498568496760   /entel/integration/logging/Logger       [GetContract]:The response from the real service: {
+ 3295 **** debug      Tue Jun 27 13:01:36 UTC 2017    1498568496760   /entel/integration/logging/Logger         "ResponseHeader" : {
+ 3296 **** debug      Tue Jun 27 13:01:36 UTC 2017    1498568496760   /entel/integration/logging/Logger           "Consumer" : {
+ 3297 **** debug      Tue Jun 27 13:01:36 UTC 2017    1498568496760   /entel/integration/logging/Logger             "sysCode" : "CHL-ATG",
+ 3298 **** debug      Tue Jun 27 13:01:36 UTC 2017    1498568496760   /entel/integration/logging/Logger             "enterpriseCode" : "ENTEL-CHL",
+ 3299 **** debug      Tue Jun 27 13:01:36 UTC 2017    1498568496760   /entel/integration/logging/Logger             "countryCode" : "CHL"
+ 3300 **** debug      Tue Jun 27 13:01:36 UTC 2017    1498568496760   /entel/integration/logging/Logger           },
+ 3301 **** debug      Tue Jun 27 13:01:36 UTC 2017    1498568496760   /entel/integration/logging/Logger           "Trace" : {
+ 3302 **** debug      Tue Jun 27 13:01:36 UTC 2017    1498568496760   /entel/integration/logging/Logger             "clientReqTimestamp" : "2017-06-27T13:01:34.695Z",
+ 3303 **** debug      Tue Jun 27 13:01:36 UTC 2017    1498568496760   /entel/integration/logging/Logger             "reqTimestamp" : "2017-06-27T13:01:35.116-04:00",
+ 3304 **** debug      Tue Jun 27 13:01:36 UTC 2017    1498568496760   /entel/integration/logging/Logger             "rspTimestamp" : "2017-06-27T13:01:35.797-04:00",
+ 3305 **** debug      Tue Jun 27 13:01:36 UTC 2017    1498568496760   /entel/integration/logging/Logger             "processID" : "14579e57-9171-45fe-932d-b2e58c34e73f",
+ 3306 **** debug      Tue Jun 27 13:01:36 UTC 2017    1498568496760   /entel/integration/logging/Logger             "eventID" : "0008string20170627130134704834e739d66c71dfc000",
+ 3307 **** debug      Tue Jun 27 13:01:36 UTC 2017    1498568496760   /entel/integration/logging/Logger             "sourceID" : "UNK",
+ 3308 **** debug      Tue Jun 27 13:01:36 UTC 2017    1498568496760   /entel/integration/logging/Logger             "correlationEventID" : null,
+ 3309 **** debug      Tue Jun 27 13:01:36 UTC 2017    1498568496760   /entel/integration/logging/Logger             "conversationID" : "e31f3f52-2039-46c1-9f9f-929b3404e1b5",
+ 3310 **** debug      Tue Jun 27 13:01:36 UTC 2017    1498568496760   /entel/integration/logging/Logger             "correlationID" : null,
+ 3311 **** debug      Tue Jun 27 13:01:36 UTC 2017    1498568496760   /entel/integration/logging/Logger             "Service" : {
+ 3312 **** debug      Tue Jun 27 13:01:36 UTC 2017    1498568496760   /entel/integration/logging/Logger               "code" : "CM025",
+ 3313 **** debug      Tue Jun 27 13:01:36 UTC 2017    1498568496760   /entel/integration/logging/Logger               "name" : "Contract",
+ 3314 **** debug      Tue Jun 27 13:01:36 UTC 2017    1498568496760   /entel/integration/logging/Logger               "operation" : "Get"
+ 3315 **** debug      Tue Jun 27 13:01:36 UTC 2017    1498568496760   /entel/integration/logging/Logger             }
+ 3316 **** debug      Tue Jun 27 13:01:36 UTC 2017    1498568496760   /entel/integration/logging/Logger           },
+ 3317 **** debug      Tue Jun 27 13:01:36 UTC 2017    1498568496760   /entel/integration/logging/Logger           "Channel" : {
+ 3318 **** debug      Tue Jun 27 13:01:36 UTC 2017    1498568496760   /entel/integration/logging/Logger             "name" : "WEB",
+ 3319 **** debug      Tue Jun 27 13:01:36 UTC 2017    1498568496760   /entel/integration/logging/Logger             "mode" : "NO PRESENCIAL"
+ 3320 **** debug      Tue Jun 27 13:01:36 UTC 2017    1498568496760   /entel/integration/logging/Logger           },
+ 3321 **** debug      Tue Jun 27 13:01:36 UTC 2017    1498568496760   /entel/integration/logging/Logger           "Result" : {
+ 3322 **** debug      Tue Jun 27 13:01:36 UTC 2017    1498568496760   /entel/integration/logging/Logger             "status" : "OK",
+ 3323 **** debug      Tue Jun 27 13:01:36 UTC 2017    1498568496760   /entel/integration/logging/Logger             "description" : "Ejecuci?n Exitosa"
+ 3324 **** debug      Tue Jun 27 13:01:36 UTC 2017    1498568496760   /entel/integration/logging/Logger           }
+ 3325 **** debug      Tue Jun 27 13:01:36 UTC 2017    1498568496760   /entel/integration/logging/Logger         },
+ 3326 **** debug      Tue Jun 27 13:01:36 UTC 2017    1498568496760   /entel/integration/logging/Logger         "Body" : {
+ 3327 **** debug      Tue Jun 27 13:01:36 UTC 2017    1498568496760   /entel/integration/logging/Logger           "Contract" : {
+ 3328 **** debug      Tue Jun 27 13:01:36 UTC 2017    1498568496760   /entel/integration/logging/Logger             "ID" : "10471708",
+ 3329 **** debug      Tue Jun 27 13:01:36 UTC 2017    1498568496760   /entel/integration/logging/Logger             "status" : "2",
+ 3330 **** debug      Tue Jun 27 13:01:36 UTC 2017    1498568496760   /entel/integration/logging/Logger             "BillingAccount" : {
+ 3331 **** debug      Tue Jun 27 13:01:36 UTC 2017    1498568496760   /entel/integration/logging/Logger               "externalID" : "10136854"
+ 3332 **** debug      Tue Jun 27 13:01:36 UTC 2017    1498568496760   /entel/integration/logging/Logger             },
+ 3333 **** debug      Tue Jun 27 13:01:36 UTC 2017    1498568496760   /entel/integration/logging/Logger             "MSISDN" : {
+ 3334 **** debug      Tue Jun 27 13:01:36 UTC 2017    1498568496760   /entel/integration/logging/Logger               "SN" : null,
+ 3335 **** debug      Tue Jun 27 13:01:36 UTC 2017    1498568496760   /entel/integration/logging/Logger               "IMSI" : {
+ 3336 **** debug      Tue Jun 27 13:01:36 UTC 2017    1498568496760   /entel/integration/logging/Logger                 "SN" : "730011545139899"
+ 3337 **** debug      Tue Jun 27 13:01:36 UTC 2017    1498568496760   /entel/integration/logging/Logger               },
+ 3338 **** debug      Tue Jun 27 13:01:36 UTC 2017    1498568496760   /entel/integration/logging/Logger               "INRoutingDevice" : {
+ 3339 **** debug      Tue Jun 27 13:01:36 UTC 2017    1498568496760   /entel/integration/logging/Logger                 "ID" : "100",
+ 3340 **** debug      Tue Jun 27 13:01:36 UTC 2017    1498568496760   /entel/integration/logging/Logger                 "Operator" : {
+ 3341 **** debug      Tue Jun 27 13:01:36 UTC 2017    1498568496760   /entel/integration/logging/Logger                   "plmnCode" : "1032",
+ 3342 **** debug      Tue Jun 27 13:01:36 UTC 2017    1498568496760   /entel/integration/logging/Logger                   "submarketID" : "25"
+ 3343 **** debug      Tue Jun 27 13:01:36 UTC 2017    1498568496760   /entel/integration/logging/Logger                 }
+ 3344 **** debug      Tue Jun 27 13:01:36 UTC 2017    1498568496760   /entel/integration/logging/Logger               },
+ 3345 **** debug      Tue Jun 27 13:01:36 UTC 2017    1498568496760   /entel/integration/logging/Logger               "SIMCard" : {
+ 3346 **** debug      Tue Jun 27 13:01:36 UTC 2017    1498568496760   /entel/integration/logging/Logger                 "ICCID" : "89560100000773613993"
+ 3347 **** debug      Tue Jun 27 13:01:36 UTC 2017    1498568496760   /entel/integration/logging/Logger               }
+ 3348 **** debug      Tue Jun 27 13:01:36 UTC 2017    1498568496760   /entel/integration/logging/Logger             }
+ 3349 **** debug      Tue Jun 27 13:01:36 UTC 2017    1498568496760   /entel/integration/logging/Logger           }
+ 3350 **** debug      Tue Jun 27 13:01:36 UTC 2017    1498568496760   /entel/integration/logging/Logger         }
+ 3351 **** debug      Tue Jun 27 13:01:36 UTC 2017    1498568496760   /entel/integration/logging/Logger       }
+ 3352 **** info       Tue Jun 27 13:01:36 UTC 2017    1498568496772   /entel/integration/simactivation/GetContractResponseFormatter   current dynamic template folder: /project/modules/ENIntegrationService/resources/com/entel      /integration/processor/templates
+
+=================================================================================================================================================================
+=================================================================      server four      =========================================================================
+=================================================================================================================================================================
+
+
+
+
+
+
+
+=================================================================================================================================================================
+=================================================================      server one       =========================================================================
+=================================================================================================================================================================
+
+2017-06-27 13:18:18,342 [[ACTIVE] ExecuteThread: '2' for queue: 'weblogic.kernel.Default (self-tuning)'] DEBUG freemarker.cache - TemplateLoader.findTemplateSource("RequestHeader-local-to-remote_en.ftl"): Not found
+2017-06-27 13:18:18,342 [[ACTIVE] ExecuteThread: '2' for queue: 'weblogic.kernel.Default (self-tuning)'] DEBUG freemarker.cache - TemplateLoader.findTemplateSource("RequestHeader-local-to-remote.ftl"): Found
+2017-06-27 13:18:18,342 [[ACTIVE] ExecuteThread: '2' for queue: 'weblogic.kernel.Default (self-tuning)'] DEBUG freemarker.cache - Loading template for "RequestHeader-local-to-remote.ftl"("en_US", UTF-8, parsed) from "zip:/u01/oracle/domains/oraclecommerce/servers/PageServerOne/tmp/_WL_user/storefront/ra5ijx/atglib/_ACS.ENIntegrationService_slib_sclasses.jar!/com/entel/integration/processor/templates/RequestHeader-local-to-remote.ftl"
+**** debug      Tue Jun 27 13:18:18 UTC 2017    1498569498344   /entel/integration/logging/Logger       [GetContract]:The request sent to the real service: ^M
+**** debug      Tue Jun 27 13:18:18 UTC 2017    1498569498344   /entel/integration/logging/Logger       {^M
+**** debug      Tue Jun 27 13:18:18 UTC 2017    1498569498344   /entel/integration/logging/Logger          "RequestHeader":{^M
+**** debug      Tue Jun 27 13:18:18 UTC 2017    1498569498344   /entel/integration/logging/Logger           "Consumer":{^M
+**** debug      Tue Jun 27 13:18:18 UTC 2017    1498569498344   /entel/integration/logging/Logger             "countryCode":"CHL",^M
+**** debug      Tue Jun 27 13:18:18 UTC 2017    1498569498344   /entel/integration/logging/Logger             "enterpriseCode":"ENTEL-CHL",^M
+**** debug      Tue Jun 27 13:18:18 UTC 2017    1498569498344   /entel/integration/logging/Logger             "sysCode":"CHL-ATG"^M
+**** debug      Tue Jun 27 13:18:18 UTC 2017    1498569498344   /entel/integration/logging/Logger           },^M
+**** debug      Tue Jun 27 13:18:18 UTC 2017    1498569498344   /entel/integration/logging/Logger           "Trace":{^M
+**** debug      Tue Jun 27 13:18:18 UTC 2017    1498569498344   /entel/integration/logging/Logger             "clientReqTimestamp":"2017-06-27T13:18:18.330Z",^M
+**** debug      Tue Jun 27 13:18:18 UTC 2017    1498569498344   /entel/integration/logging/Logger             "eventID":"0008string20170627131818344ba856eecf3049072000",^M
+**** debug      Tue Jun 27 13:18:18 UTC 2017    1498569498344   /entel/integration/logging/Logger             "processID":"e40a630e-706f-4064-9a47-d388453e08a4",^M
+**** debug      Tue Jun 27 13:18:18 UTC 2017    1498569498344   /entel/integration/logging/Logger             "sourceID":"UNK",^M
+**** debug      Tue Jun 27 13:18:18 UTC 2017    1498569498344   /entel/integration/logging/Logger             "Service":{^M
+**** debug      Tue Jun 27 13:18:18 UTC 2017    1498569498344   /entel/integration/logging/Logger               "code":"CSM_0013",^M
+**** debug      Tue Jun 27 13:18:18 UTC 2017    1498569498344   /entel/integration/logging/Logger               "name":"Contract",^M
+**** debug      Tue Jun 27 13:18:18 UTC 2017    1498569498344   /entel/integration/logging/Logger               "operation":"Get"^M
+**** debug      Tue Jun 27 13:18:18 UTC 2017    1498569498344   /entel/integration/logging/Logger             }^M
+**** debug      Tue Jun 27 13:18:18 UTC 2017    1498569498344   /entel/integration/logging/Logger           },^M
+**** debug      Tue Jun 27 13:18:18 UTC 2017    1498569498344   /entel/integration/logging/Logger           "Channel":{^M
+**** debug      Tue Jun 27 13:18:18 UTC 2017    1498569498344   /entel/integration/logging/Logger             "mode":"NO PRESENCIAL",^M
+**** debug      Tue Jun 27 13:18:18 UTC 2017    1498569498344   /entel/integration/logging/Logger             "name":"WEB"^M
+**** debug      Tue Jun 27 13:18:18 UTC 2017    1498569498344   /entel/integration/logging/Logger           }^M
+**** debug      Tue Jun 27 13:18:18 UTC 2017    1498569498344   /entel/integration/logging/Logger         },^M
+**** debug      Tue Jun 27 13:18:18 UTC 2017    1498569498344   /entel/integration/logging/Logger          "Body":{^M
+**** debug      Tue Jun 27 13:18:18 UTC 2017    1498569498344   /entel/integration/logging/Logger             "MSISDN":{^M
+**** debug      Tue Jun 27 13:18:18 UTC 2017    1498569498344   /entel/integration/logging/Logger                "SN":"",^M
+**** debug      Tue Jun 27 13:18:18 UTC 2017    1498569498344   /entel/integration/logging/Logger                "SIMCard":{^M
+**** debug      Tue Jun 27 13:18:18 UTC 2017    1498569498344   /entel/integration/logging/Logger                   "ICCID":"89560100000786740197"^M
+**** debug      Tue Jun 27 13:18:18 UTC 2017    1498569498344   /entel/integration/logging/Logger                },^M
+**** debug      Tue Jun 27 13:18:18 UTC 2017    1498569498344   /entel/integration/logging/Logger                "Session":{^M
+**** debug      Tue Jun 27 13:18:18 UTC 2017    1498569498344   /entel/integration/logging/Logger                   "key":"BU_ID",^M
+**** debug      Tue Jun 27 13:18:18 UTC 2017    1498569498344   /entel/integration/logging/Logger                   "value":2^M
+**** debug      Tue Jun 27 13:18:18 UTC 2017    1498569498344   /entel/integration/logging/Logger                }^M
+**** debug      Tue Jun 27 13:18:18 UTC 2017    1498569498344   /entel/integration/logging/Logger             }^M
+**** debug      Tue Jun 27 13:18:18 UTC 2017    1498569498344   /entel/integration/logging/Logger          }^M
+**** debug      Tue Jun 27 13:18:18 UTC 2017    1498569498344   /entel/integration/logging/Logger       }
+**** debug      Tue Jun 27 13:18:18 UTC 2017    1498569498350   /entel/integration/logging/Logger       [GetContract]:Invoke rest call:[url=http://10.51.12.28:7010/ES/SIF/Contract/v1/Get,method=POST
+**** debug      Tue Jun 27 13:18:20 UTC 2017    1498569500828   /entel/integration/logging/Logger       [GetContract]:The response from the real service: {
+**** debug      Tue Jun 27 13:18:20 UTC 2017    1498569500828   /entel/integration/logging/Logger         "ResponseHeader" : {
+**** debug      Tue Jun 27 13:18:20 UTC 2017    1498569500828   /entel/integration/logging/Logger           "Consumer" : {
+**** debug      Tue Jun 27 13:18:20 UTC 2017    1498569500828   /entel/integration/logging/Logger             "sysCode" : "CHL-ATG",
+**** debug      Tue Jun 27 13:18:20 UTC 2017    1498569500828   /entel/integration/logging/Logger             "enterpriseCode" : "ENTEL-CHL",
+**** debug      Tue Jun 27 13:18:20 UTC 2017    1498569500828   /entel/integration/logging/Logger             "countryCode" : "CHL"
+**** debug      Tue Jun 27 13:18:20 UTC 2017    1498569500828   /entel/integration/logging/Logger           },
+**** debug      Tue Jun 27 13:18:20 UTC 2017    1498569500828   /entel/integration/logging/Logger           "Trace" : {
+**** debug      Tue Jun 27 13:18:20 UTC 2017    1498569500828   /entel/integration/logging/Logger             "clientReqTimestamp" : "2017-06-27T13:18:18.330Z",
+**** debug      Tue Jun 27 13:18:20 UTC 2017    1498569500828   /entel/integration/logging/Logger             "reqTimestamp" : "2017-06-27T13:18:19.734-04:00",
+**** debug      Tue Jun 27 13:18:20 UTC 2017    1498569500828   /entel/integration/logging/Logger             "rspTimestamp" : "2017-06-27T13:18:20.121-04:00",
+**** debug      Tue Jun 27 13:18:20 UTC 2017    1498569500828   /entel/integration/logging/Logger             "processID" : "e40a630e-706f-4064-9a47-d388453e08a4",
+**** debug      Tue Jun 27 13:18:20 UTC 2017    1498569500828   /entel/integration/logging/Logger             "eventID" : "0008string20170627131818344ba856eecf3049072000",
+**** debug      Tue Jun 27 13:18:20 UTC 2017    1498569500828   /entel/integration/logging/Logger             "sourceID" : "UNK",
+**** debug      Tue Jun 27 13:18:20 UTC 2017    1498569500828   /entel/integration/logging/Logger             "correlationEventID" : null,
+**** debug      Tue Jun 27 13:18:20 UTC 2017    1498569500828   /entel/integration/logging/Logger             "conversationID" : "a35282c9-8e3f-45fb-b647-ba01472bffc2",
+**** debug      Tue Jun 27 13:18:20 UTC 2017    1498569500828   /entel/integration/logging/Logger             "correlationID" : null,
+**** debug      Tue Jun 27 13:18:20 UTC 2017    1498569500828   /entel/integration/logging/Logger             "Service" : {
+**** debug      Tue Jun 27 13:18:20 UTC 2017    1498569500828   /entel/integration/logging/Logger               "code" : "CM025",
+**** debug      Tue Jun 27 13:18:20 UTC 2017    1498569500828   /entel/integration/logging/Logger               "name" : "Contract",
+**** debug      Tue Jun 27 13:18:20 UTC 2017    1498569500828   /entel/integration/logging/Logger               "operation" : "Get"
+**** debug      Tue Jun 27 13:18:20 UTC 2017    1498569500828   /entel/integration/logging/Logger             }
+**** debug      Tue Jun 27 13:18:20 UTC 2017    1498569500828   /entel/integration/logging/Logger           },
+**** debug      Tue Jun 27 13:18:20 UTC 2017    1498569500828   /entel/integration/logging/Logger           "Channel" : {
+**** debug      Tue Jun 27 13:18:20 UTC 2017    1498569500828   /entel/integration/logging/Logger             "name" : "WEB",
+**** debug      Tue Jun 27 13:18:20 UTC 2017    1498569500828   /entel/integration/logging/Logger             "mode" : "NO PRESENCIAL"
+**** debug      Tue Jun 27 13:18:20 UTC 2017    1498569500828   /entel/integration/logging/Logger           },
+**** debug      Tue Jun 27 13:18:20 UTC 2017    1498569500828   /entel/integration/logging/Logger           "Result" : {
+**** debug      Tue Jun 27 13:18:20 UTC 2017    1498569500828   /entel/integration/logging/Logger             "status" : "OK",
+**** debug      Tue Jun 27 13:18:20 UTC 2017    1498569500828   /entel/integration/logging/Logger             "description" : "Ejecuci?n Exitosa"
+**** debug      Tue Jun 27 13:18:20 UTC 2017    1498569500828   /entel/integration/logging/Logger           }
+**** debug      Tue Jun 27 13:18:20 UTC 2017    1498569500828   /entel/integration/logging/Logger         },
+**** debug      Tue Jun 27 13:18:20 UTC 2017    1498569500828   /entel/integration/logging/Logger         "Body" : {
+**** debug      Tue Jun 27 13:18:20 UTC 2017    1498569500828   /entel/integration/logging/Logger           "Contract" : {
+**** debug      Tue Jun 27 13:18:20 UTC 2017    1498569500828   /entel/integration/logging/Logger             "ID" : "10482329",
+**** debug      Tue Jun 27 13:18:20 UTC 2017    1498569500828   /entel/integration/logging/Logger             "status" : "2",
+**** debug      Tue Jun 27 13:18:20 UTC 2017    1498569500828   /entel/integration/logging/Logger             "BillingAccount" : {
+**** debug      Tue Jun 27 13:18:20 UTC 2017    1498569500828   /entel/integration/logging/Logger               "externalID" : "10147427"
+**** debug      Tue Jun 27 13:18:20 UTC 2017    1498569500828   /entel/integration/logging/Logger             },
+**** debug      Tue Jun 27 13:18:20 UTC 2017    1498569500828   /entel/integration/logging/Logger             "MSISDN" : {
+**** debug      Tue Jun 27 13:18:20 UTC 2017    1498569500828   /entel/integration/logging/Logger               "SN" : null,
+**** debug      Tue Jun 27 13:18:20 UTC 2017    1498569500828   /entel/integration/logging/Logger               "IMSI" : {
+**** debug      Tue Jun 27 13:18:20 UTC 2017    1498569500828   /entel/integration/logging/Logger                 "SN" : "730011517358019"
+**** debug      Tue Jun 27 13:18:20 UTC 2017    1498569500828   /entel/integration/logging/Logger               },
+**** debug      Tue Jun 27 13:18:20 UTC 2017    1498569500828   /entel/integration/logging/Logger               "INRoutingDevice" : {
+**** debug      Tue Jun 27 13:18:20 UTC 2017    1498569500828   /entel/integration/logging/Logger                 "ID" : "100",
+**** debug      Tue Jun 27 13:18:20 UTC 2017    1498569500828   /entel/integration/logging/Logger                 "Operator" : {
+**** debug      Tue Jun 27 13:18:20 UTC 2017    1498569500828   /entel/integration/logging/Logger                   "plmnCode" : "1032",
+**** debug      Tue Jun 27 13:18:20 UTC 2017    1498569500828   /entel/integration/logging/Logger                   "submarketID" : "25"
+**** debug      Tue Jun 27 13:18:20 UTC 2017    1498569500828   /entel/integration/logging/Logger                 }
+**** debug      Tue Jun 27 13:18:20 UTC 2017    1498569500828   /entel/integration/logging/Logger               },
+**** debug      Tue Jun 27 13:18:20 UTC 2017    1498569500828   /entel/integration/logging/Logger               "SIMCard" : {
+**** debug      Tue Jun 27 13:18:20 UTC 2017    1498569500828   /entel/integration/logging/Logger                 "ICCID" : "89560100000786740197"
+**** debug      Tue Jun 27 13:18:20 UTC 2017    1498569500828   /entel/integration/logging/Logger               }
+**** debug      Tue Jun 27 13:18:20 UTC 2017    1498569500828   /entel/integration/logging/Logger             }
+**** debug      Tue Jun 27 13:18:20 UTC 2017    1498569500828   /entel/integration/logging/Logger           }
+**** debug      Tue Jun 27 13:18:20 UTC 2017    1498569500828   /entel/integration/logging/Logger         }
+**** debug      Tue Jun 27 13:18:20 UTC 2017    1498569500828   /entel/integration/logging/Logger       }
+
+
+=================================================================================================================================================================
+=================================================================      server one       =========================================================================
+=================================================================================================================================================================
+
+1/oracle/domains/oraclecommerce/servers/PageServerOne/tmp/_WL_user/storefront/ra5ijx/atglib/_ACS.ENIntegrationService_slib_sclasses.jar!/com/entel/integration/processor/templates/RequestHeader-local-to-remote.ftl hasn       't changed.
+154751 **** debug      Tue Jun 27 13:18:32 UTC 2017    1498569512321   /entel/integration/logging/Logger       [GetContract]:The request sent to the real service: ^M
+154752 **** debug      Tue Jun 27 13:18:32 UTC 2017    1498569512321   /entel/integration/logging/Logger       {^M
+154753 **** debug      Tue Jun 27 13:18:32 UTC 2017    1498569512321   /entel/integration/logging/Logger          "RequestHeader":{^M
+154754 **** debug      Tue Jun 27 13:18:32 UTC 2017    1498569512321   /entel/integration/logging/Logger           "Consumer":{^M
+154755 **** debug      Tue Jun 27 13:18:32 UTC 2017    1498569512321   /entel/integration/logging/Logger             "countryCode":"CHL",^M
+154756 **** debug      Tue Jun 27 13:18:32 UTC 2017    1498569512321   /entel/integration/logging/Logger             "enterpriseCode":"ENTEL-CHL",^M
+154757 **** debug      Tue Jun 27 13:18:32 UTC 2017    1498569512321   /entel/integration/logging/Logger             "sysCode":"CHL-ATG"^M
+154758 **** debug      Tue Jun 27 13:18:32 UTC 2017    1498569512321   /entel/integration/logging/Logger           },^M
+154759 **** debug      Tue Jun 27 13:18:32 UTC 2017    1498569512321   /entel/integration/logging/Logger           "Trace":{^M
+154760 **** debug      Tue Jun 27 13:18:32 UTC 2017    1498569512321   /entel/integration/logging/Logger             "clientReqTimestamp":"2017-06-27T13:18:32.313Z",^M
+154761 **** debug      Tue Jun 27 13:18:32 UTC 2017    1498569512321   /entel/integration/logging/Logger             "eventID":"0008string20170627131832321afd3386fd7fbe661000",^M
+154762 **** debug      Tue Jun 27 13:18:32 UTC 2017    1498569512321   /entel/integration/logging/Logger             "processID":"7c0b5983-fd01-4a16-b53b-b7aad02c52b5",^M
+154763 **** debug      Tue Jun 27 13:18:32 UTC 2017    1498569512321   /entel/integration/logging/Logger             "sourceID":"UNK",^M
+154764 **** debug      Tue Jun 27 13:18:32 UTC 2017    1498569512321   /entel/integration/logging/Logger             "Service":{^M
+154765 **** debug      Tue Jun 27 13:18:32 UTC 2017    1498569512321   /entel/integration/logging/Logger               "code":"CSM_0013",^M
+154766 **** debug      Tue Jun 27 13:18:32 UTC 2017    1498569512321   /entel/integration/logging/Logger               "name":"Contract",^M
+154767 **** debug      Tue Jun 27 13:18:32 UTC 2017    1498569512321   /entel/integration/logging/Logger               "operation":"Get"^M
+154768 **** debug      Tue Jun 27 13:18:32 UTC 2017    1498569512321   /entel/integration/logging/Logger             }^M
+154769 **** debug      Tue Jun 27 13:18:32 UTC 2017    1498569512321   /entel/integration/logging/Logger           },^M
+154770 **** debug      Tue Jun 27 13:18:32 UTC 2017    1498569512321   /entel/integration/logging/Logger           "Channel":{^M
+154771 **** debug      Tue Jun 27 13:18:32 UTC 2017    1498569512321   /entel/integration/logging/Logger             "mode":"NO PRESENCIAL",^M
+154772 **** debug      Tue Jun 27 13:18:32 UTC 2017    1498569512321   /entel/integration/logging/Logger             "name":"WEB"^M
+154773 **** debug      Tue Jun 27 13:18:32 UTC 2017    1498569512321   /entel/integration/logging/Logger           }^M
+154774 **** debug      Tue Jun 27 13:18:32 UTC 2017    1498569512321   /entel/integration/logging/Logger         },^M
+154775 **** debug      Tue Jun 27 13:18:32 UTC 2017    1498569512321   /entel/integration/logging/Logger          "Body":{^M
+154776 **** debug      Tue Jun 27 13:18:32 UTC 2017    1498569512321   /entel/integration/logging/Logger             "MSISDN":{^M
+154777 **** debug      Tue Jun 27 13:18:32 UTC 2017    1498569512321   /entel/integration/logging/Logger                "SN":"",^M
+154778 **** debug      Tue Jun 27 13:18:32 UTC 2017    1498569512321   /entel/integration/logging/Logger                "SIMCard":{^M
+154779 **** debug      Tue Jun 27 13:18:32 UTC 2017    1498569512321   /entel/integration/logging/Logger                   "ICCID":"89560100000786740197"^M
+154780 **** debug      Tue Jun 27 13:18:32 UTC 2017    1498569512321   /entel/integration/logging/Logger                },^M
+154781 **** debug      Tue Jun 27 13:18:32 UTC 2017    1498569512321   /entel/integration/logging/Logger                "Session":{^M
+154782 **** debug      Tue Jun 27 13:18:32 UTC 2017    1498569512321   /entel/integration/logging/Logger                   "key":"BU_ID",^M
+154783 **** debug      Tue Jun 27 13:18:32 UTC 2017    1498569512321   /entel/integration/logging/Logger                   "value":2^M
+154784 **** debug      Tue Jun 27 13:18:32 UTC 2017    1498569512321   /entel/integration/logging/Logger                }^M
+154785 **** debug      Tue Jun 27 13:18:32 UTC 2017    1498569512321   /entel/integration/logging/Logger             }^M
+154786 **** debug      Tue Jun 27 13:18:32 UTC 2017    1498569512321   /entel/integration/logging/Logger          }^M
+154787 **** debug      Tue Jun 27 13:18:32 UTC 2017    1498569512321   /entel/integration/logging/Logger       }
+154788 **** debug      Tue Jun 27 13:18:32 UTC 2017    1498569512327   /entel/integration/logging/Logger       [GetContract]:Invoke rest call:[url=http://10.51.12.28:7010/ES/SIF/Contract/v1/Get,method=POST
+154789 **** debug      Tue Jun 27 13:18:32 UTC 2017    1498569512823   /entel/integration/logging/Logger       [GetContract]:The response from the real service: {
+154790 **** debug      Tue Jun 27 13:18:32 UTC 2017    1498569512823   /entel/integration/logging/Logger         "ResponseHeader" : {
+154791 **** debug      Tue Jun 27 13:18:32 UTC 2017    1498569512823   /entel/integration/logging/Logger           "Consumer" : {
+154792 **** debug      Tue Jun 27 13:18:32 UTC 2017    1498569512823   /entel/integration/logging/Logger             "sysCode" : "CHL-ATG",
+154793 **** debug      Tue Jun 27 13:18:32 UTC 2017    1498569512823   /entel/integration/logging/Logger             "enterpriseCode" : "ENTEL-CHL",
+154794 **** debug      Tue Jun 27 13:18:32 UTC 2017    1498569512823   /entel/integration/logging/Logger             "countryCode" : "CHL"
+154795 **** debug      Tue Jun 27 13:18:32 UTC 2017    1498569512823   /entel/integration/logging/Logger           },
+154796 **** debug      Tue Jun 27 13:18:32 UTC 2017    1498569512823   /entel/integration/logging/Logger           "Trace" : {
+154797 **** debug      Tue Jun 27 13:18:32 UTC 2017    1498569512823   /entel/integration/logging/Logger             "clientReqTimestamp" : "2017-06-27T13:18:32.313Z",
+154798 **** debug      Tue Jun 27 13:18:32 UTC 2017    1498569512823   /entel/integration/logging/Logger             "reqTimestamp" : "2017-06-27T13:18:31.752-04:00",
+154799 **** debug      Tue Jun 27 13:18:32 UTC 2017    1498569512823   /entel/integration/logging/Logger             "rspTimestamp" : "2017-06-27T13:18:32.132-04:00",
+154800 **** debug      Tue Jun 27 13:18:32 UTC 2017    1498569512823   /entel/integration/logging/Logger             "processID" : "7c0b5983-fd01-4a16-b53b-b7aad02c52b5",
+154801 **** debug      Tue Jun 27 13:18:32 UTC 2017    1498569512823   /entel/integration/logging/Logger             "eventID" : "0008string20170627131832321afd3386fd7fbe661000",
+154802 **** debug      Tue Jun 27 13:18:32 UTC 2017    1498569512823   /entel/integration/logging/Logger             "sourceID" : "UNK",
+154803 **** debug      Tue Jun 27 13:18:32 UTC 2017    1498569512823   /entel/integration/logging/Logger             "correlationEventID" : null,
+154804 **** debug      Tue Jun 27 13:18:32 UTC 2017    1498569512823   /entel/integration/logging/Logger             "conversationID" : "3684d573-81ed-44e7-9e8a-ca8dae7f43e0",
+154805 **** debug      Tue Jun 27 13:18:32 UTC 2017    1498569512823   /entel/integration/logging/Logger             "correlationID" : null,
+154806 **** debug      Tue Jun 27 13:18:32 UTC 2017    1498569512823   /entel/integration/logging/Logger             "Service" : {
+154807 **** debug      Tue Jun 27 13:18:32 UTC 2017    1498569512823   /entel/integration/logging/Logger               "code" : "CM025",
+154808 **** debug      Tue Jun 27 13:18:32 UTC 2017    1498569512823   /entel/integration/logging/Logger               "name" : "Contract",
+154809 **** debug      Tue Jun 27 13:18:32 UTC 2017    1498569512823   /entel/integration/logging/Logger               "operation" : "Get"
+154810 **** debug      Tue Jun 27 13:18:32 UTC 2017    1498569512823   /entel/integration/logging/Logger             }
+154811 **** debug      Tue Jun 27 13:18:32 UTC 2017    1498569512823   /entel/integration/logging/Logger           },
+154812 **** debug      Tue Jun 27 13:18:32 UTC 2017    1498569512823   /entel/integration/logging/Logger           "Channel" : {
+154813 **** debug      Tue Jun 27 13:18:32 UTC 2017    1498569512823   /entel/integration/logging/Logger             "name" : "WEB",
+154814 **** debug      Tue Jun 27 13:18:32 UTC 2017    1498569512823   /entel/integration/logging/Logger             "mode" : "NO PRESENCIAL"
+154815 **** debug      Tue Jun 27 13:18:32 UTC 2017    1498569512823   /entel/integration/logging/Logger           },
+154816 **** debug      Tue Jun 27 13:18:32 UTC 2017    1498569512823   /entel/integration/logging/Logger           "Result" : {
+154817 **** debug      Tue Jun 27 13:18:32 UTC 2017    1498569512823   /entel/integration/logging/Logger             "status" : "OK",
+154818 **** debug      Tue Jun 27 13:18:32 UTC 2017    1498569512823   /entel/integration/logging/Logger             "description" : "Ejecuci?n Exitosa"
+154819 **** debug      Tue Jun 27 13:18:32 UTC 2017    1498569512823   /entel/integration/logging/Logger           }
+154820 **** debug      Tue Jun 27 13:18:32 UTC 2017    1498569512823   /entel/integration/logging/Logger         },
+154821 **** debug      Tue Jun 27 13:18:32 UTC 2017    1498569512823   /entel/integration/logging/Logger         "Body" : {
+154822 **** debug      Tue Jun 27 13:18:32 UTC 2017    1498569512823   /entel/integration/logging/Logger           "Contract" : {
+154823 **** debug      Tue Jun 27 13:18:32 UTC 2017    1498569512823   /entel/integration/logging/Logger             "ID" : "10482329",
+154824 **** debug      Tue Jun 27 13:18:32 UTC 2017    1498569512823   /entel/integration/logging/Logger             "status" : "2",
+154825 **** debug      Tue Jun 27 13:18:32 UTC 2017    1498569512823   /entel/integration/logging/Logger             "BillingAccount" : {
+154826 **** debug      Tue Jun 27 13:18:32 UTC 2017    1498569512823   /entel/integration/logging/Logger               "externalID" : "10147427"
+154827 **** debug      Tue Jun 27 13:18:32 UTC 2017    1498569512823   /entel/integration/logging/Logger             },
+154828 **** debug      Tue Jun 27 13:18:32 UTC 2017    1498569512823   /entel/integration/logging/Logger             "MSISDN" : {
+154829 **** debug      Tue Jun 27 13:18:32 UTC 2017    1498569512823   /entel/integration/logging/Logger               "SN" : null,
+154830 **** debug      Tue Jun 27 13:18:32 UTC 2017    1498569512823   /entel/integration/logging/Logger               "IMSI" : {
+154831 **** debug      Tue Jun 27 13:18:32 UTC 2017    1498569512823   /entel/integration/logging/Logger                 "SN" : "730011517358019"
+154832 **** debug      Tue Jun 27 13:18:32 UTC 2017    1498569512823   /entel/integration/logging/Logger               },
+154833 **** debug      Tue Jun 27 13:18:32 UTC 2017    1498569512823   /entel/integration/logging/Logger               "INRoutingDevice" : {
+154834 **** debug      Tue Jun 27 13:18:32 UTC 2017    1498569512823   /entel/integration/logging/Logger                 "ID" : "100",
+154835 **** debug      Tue Jun 27 13:18:32 UTC 2017    1498569512823   /entel/integration/logging/Logger                 "Operator" : {
+154836 **** debug      Tue Jun 27 13:18:32 UTC 2017    1498569512823   /entel/integration/logging/Logger                   "plmnCode" : "1032",
+154837 **** debug      Tue Jun 27 13:18:32 UTC 2017    1498569512823   /entel/integration/logging/Logger                   "submarketID" : "25"
+154838 **** debug      Tue Jun 27 13:18:32 UTC 2017    1498569512823   /entel/integration/logging/Logger                 }
+154839 **** debug      Tue Jun 27 13:18:32 UTC 2017    1498569512823   /entel/integration/logging/Logger               },
+154840 **** debug      Tue Jun 27 13:18:32 UTC 2017    1498569512823   /entel/integration/logging/Logger               "SIMCard" : {
+154841 **** debug      Tue Jun 27 13:18:32 UTC 2017    1498569512823   /entel/integration/logging/Logger                 "ICCID" : "89560100000786740197"
+154842 **** debug      Tue Jun 27 13:18:32 UTC 2017    1498569512823   /entel/integration/logging/Logger               }
+154843 **** debug      Tue Jun 27 13:18:32 UTC 2017    1498569512823   /entel/integration/logging/Logger             }
+154844 **** debug      Tue Jun 27 13:18:32 UTC 2017    1498569512823   /entel/integration/logging/Logger           }
+154845 **** debug      Tue Jun 27 13:18:32 UTC 2017    1498569512823   /entel/integration/logging/Logger         }
+154846 **** debug      Tue Jun 27 13:18:32 UTC 2017    1498569512823   /entel/integration/logging/Logger       }
+
+
+=================================================================================================================================================================
+=================================================================      server one       =========================================================================
+=================================================================================================================================================================
+
+
+
