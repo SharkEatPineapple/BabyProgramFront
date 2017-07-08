@@ -1,0 +1,45 @@
+EN-3724 Enable Cache for GetFrequentNumber
+EN-3718 PRD_Search engine (support brand/model device and type ahead feature)
+EN-3657 Missing store info on order confirmation page for pick up in store.
+EN-3643 Shipping info issue for pickup in store on order review page.
+EN-3515 IE Checkout flow Anonymous Blank
+EN-2683 [ChangePlan] Should not tigger interface when no current plan displays in change plan flow.
+EN-2452 [CapitalPortal-BAM] Display the phone number of current user on welcome page if no name for current user
+EC-356 ALM 2108 - After consumed 100% of data, can't continue next step of "siempre conectado" to navigate OD
+EC-308 ALM 1738 - Changes in Change Plan checkout page
+EC-112 UI Change - 7
+EN-3760 [PRD 383] - Remove both buttons from “bam activation captive portal”
+EN-3757 On 1280px breakpoint, the whole site has an offset at the left side.
+EN-3754 [Checkout] Pages down when turn on deInternal Review on the "EnablePaymentTool" in dyn/admin
+EN-3747 [BCC]Cannot edit "Description" of deliverySLAStatus.
+EN-3745 Should display phone number on header if current account don't have user name.
+EN-3744 Phone number format issue on bam activation page.
+EN-3743 CreateNotification itmes price and payment method are not right
+EN-3719 Error update email in personal info - logged customer
+EN-3670 Checkout is blocked when user use a new address to do home delivery and meet Siebel error.
+EC-360  Consumption of data bags, incorrectly displayed
+EN-3789 CreateRequestPayment Response Change
+EN-3784	Issue releated to GetAsset cache
+EN-3782	Webpay issue
+EN-3781	500 error about TicketMetaRepository_staging component
+EN-3777	[Topup] Redirect to top up page after finish topup
+EN-3773	Obtener CAP button should be available again after user close the error popup.
+EN-3749	[BCC] User should be able to configure shipping method and shipping price
+EN-3739	Improvement to New Right Now Support Page
+EN-3737	[PRD] destination url is wrong for Captival Portal
+EN-3723	More types of image should be supported.
+EN-3683	[Personal Info Page] The format of prefer phone number should be XXX XXX XXX.
+EN-3677	Design miss in Safari browser
+EN-3660	Breadcrumb issue on topup confirmation page.
+EN-2627	[MyTicket] Should show a message when no result match with value selected in my ticket page.
+EN-2095	[Checkout]No plan product name display in corresponding plan description section on compare pop-up layer.
+EN-1155	[SearchPage] The clear button should be displayed when once input keyword.
+EN-688	[MyAccount] The session time out can not trigger after 15 mins.
+EC-366	ALM 2285 - Change Text and Value. Home Delivery Shipping
+EC-365	ALM 2158 - New fields in Create ServiceRequest to register portability in Siebel
+EC-364	ALM 2272 - Pick up in store date
+EC-361	Voice bags capacity, displayed incorrectly
+EC-356	ALM 2108 - After consumed 100% of data, can't continue next step of "siempre conectado" to navigate OD
+EC-298	Improvement in PDP for Bundle PO
+EC-291	ALM 1992 - Improvement bag's section (old name MIS OFERTAS / new name MIS BOLSAS) in header logged user
+EC-277	ALM 1942 - Fields are required in step 1 checkout
